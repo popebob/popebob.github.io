@@ -19,7 +19,9 @@ Day-to-day team administration, project plan creation and report out, operationa
 #### Cloud and DevOps Consultant
 > September 2015 - November 2018
 
-##### Project-Driven:
+Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organziation with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
+
+##### Project-Driven Organization:
 
 - Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
@@ -42,7 +44,7 @@ Day-to-day team administration, project plan creation and report out, operationa
    - Agile Coaching
    - DevOps: git-ops
 
-#### Product-Driven 
+##### Product-Driven Organiztion
 
 - DevOps Architect - Microsoft SQL Platform as a Service Release 1
 - DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
