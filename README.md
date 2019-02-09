@@ -15,10 +15,11 @@
 Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership
 
 ### Ford Motor Company
+
 #### Cloud and DevOps Consultant
 > September 2015 - November 2018
 
-Project-based work:
+##### Project-Driven:
 
 - Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
@@ -40,6 +41,9 @@ Project-based work:
    - Cloud Architect
    - Agile Coaching
    - DevOps: git-ops
+
+#### Product-Driven 
+
 - DevOps Architect - Microsoft SQL Platform as a Service Release 1
 - DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
   - Team Incubation
@@ -48,6 +52,8 @@ Project-based work:
 - DevOps Architect - Next Generation Release 3
 - Agile Coach - Next Generation Release 3
 - DevOps Architect - NetApp NAS Storage Platform as a Service Release 1
+- DevOps Architect - Infrastructure as a Service Release 1
+
 
 ### Plex Systems
 #### Data Center Administrator
