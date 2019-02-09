@@ -24,9 +24,29 @@ Project-based work:
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
   - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
+   - Deployed Stack
+   - Did Agile
+   - ???
+   - Profit!
 - Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
   - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
   - Manager - Project Delivery: responsible for requirements development across multiple workstreams
+ - Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
+   - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
+   - DevOps Consultant - Infrastructure Automation and Orchestration: Chef, git
+   - Delivery Manager - Collected data for Agile
+ - DevOps Architect - Next Generation Release 2
+   - Lean Process Coaching
+   - Cloud Architect
+   - Agile Coaching
+   - DevOps: git-ops
+- DevOps Architect - Microsoft SQL Platform as a Service Release 1
+- DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
+  - Team Incubation
+- DevOps Architect - IBM API-Connect API Platform as a Service Release 1
+- DevOps Architect - F5 iWorkflow Network Orchestration Platform as a Service Release 1
+- DevOps Architect - Next Generation Release 3
+- Agile Coach - Next Generation Release 3
 
 ### Plex Systems
 #### Data Center Administrator
