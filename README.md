@@ -61,6 +61,20 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 #### Data Center Administrator
 > March 2012 – September 2015
 
+Started with:
+
+Windows Servers
+Active Directory
+Exchange
+Tape Backups
+Rack and Stack
+Preventative and Routine Maintenance
+
+Evolved to:
+
+
+Source/Build
+
 ### Brose North America
 #### System Administrator
 > July 2008 - March 2012
