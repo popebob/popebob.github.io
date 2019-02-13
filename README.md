@@ -12,7 +12,9 @@
 #### DevOps Manager
 > November 2018 - Present
 
-Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership
+Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
+
+Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, CloudFormations/heat
 
 ### Ford Motor Company
 
@@ -25,7 +27,8 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 
 - Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
-  - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
+  - Consultant - Compute
+  , Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
    - Deployed Stack
    - Did Agile
@@ -61,23 +64,38 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 #### Data Center Administrator
 > March 2012 – September 2015
 
+Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
+
 Started with:
 
-Windows Servers
-Active Directory
-Exchange
-Tape Backups
-Rack and Stack
-Preventative and Routine Maintenance
+- Windows Servers
+- Active Directory
+- Exchange
+- Tape Backups
+- Rack and Stack
+- Preventative and Routine Maintenance
 
 Evolved to:
 
+- Automation Team Lead
+- Cisco UCS Blades
+- Windoww Server Failover Cluster
+- VMware 5.5 Stack
+- Source/Build
 
-Source/Build
 
 ### Brose North America
 #### System Administrator
 > July 2008 - March 2012
+
+Helped restore IT department within North American Headquarters and grow from local branch only to regional leadership and participation in Global IT Projects.
+
+Started on the helpdesk
+
+evolved to boutique scripting and application development
+telecom
+network
+trainer
 
 ### Certifcations
 
