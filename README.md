@@ -27,8 +27,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 
 - Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
-  - Consultant - Compute
-  , Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
+  - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
    - Deployed Stack
    - Did Agile
@@ -83,19 +82,23 @@ Evolved to:
 - VMware 5.5 Stack
 - Source/Build
 
+Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%.
 
 ### Brose North America
 #### System Administrator
 > July 2008 - March 2012
 
-Helped restore IT department within North American Headquarters and grow from local branch only to regional leadership and participation in Global IT Projects.
+Led transformation of IT department within North American Headquarters and grew from local branch only to regional leadership and participation in Global IT Projects.
 
 Started on the helpdesk
+face of it
 
 evolved to boutique scripting and application development
+white glove
 telecom
 network
 trainer
+regional travel
 
 ### Certifcations
 
