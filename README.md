@@ -14,7 +14,7 @@
 
 Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
 
-Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, CloudFormations/heat
+Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 ### Ford Motor Company
 
@@ -43,6 +43,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
    - DevOps Consultant - Infrastructure Automation and Orchestration: Chef, git
    - Delivery Manager - Collected data for Agile transformation
  - DevOps Architect - Next Generation Release 2
+   - Lead Tools Team
    - Lean Process Coaching
    - Cloud Architect
    - Agile Coaching
@@ -50,16 +51,35 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 
 ##### Product-Driven Organiztion
 
+- Consulting Architect - Containers as a Services (Kubernetes Platform)
+  - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
 - DevOps Architect - Microsoft SQL Platform as a Service Release 1
+  - Product Owner Coach
+  - Team Incubation
 - DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
+  - Product Owner Coach
   - Team Incubation
 - DevOps Architect - IBM API-Connect API Platform as a Service Release 1
-- DevOps Architect - F5 iWorkflow Network Orchestration Platform as a Service Release 1
+  - Product Owner Coach
+  - Vision Setting
+  - Team Incubation
+- Consulting Architect - F5 iWorkflow Network Orchestration Platform as a Service Release 1
+  - Consultant: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
 - DevOps Architect - Next Generation Release 3
+  - Program-level Vision Setting
 - Agile Coach - Next Generation Release 3
+  - Lead Project Managers and Scrum Masters as new Agile organization rapidly scaled up
 - DevOps Architect - NetApp NAS Storage Platform as a Service Release 1
+  - Product Owner Coach
+  - Team Incubation
+  - 
 - DevOps Architect - Infrastructure as a Service Release 1
-
+- DevOps Architect - Next Generation Release Engineering
+  - Product Owner Coach
+  - Vision Setting
+  - Process Architect
+  - Established new Data Center infrastructure release process
+  - Intensive 1:1 pairing with new Team Lead to prepare for Release Manager role
 
 ### Plex Systems
 #### Data Center Administrator
