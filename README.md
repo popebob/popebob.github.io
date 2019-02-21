@@ -23,7 +23,7 @@ Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organziation with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
 
-##### Project-Driven Organization:
+##### Project-Driven Organization (2015-2017):
 
 - Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
@@ -40,7 +40,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Manager - Project Delivery: responsible for requirements development across multiple workstreams
 - Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
    - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
-   - DevOps Consultant - Infrastructure Automation and Orchestration: Chef, git
+   - Lead Architect: Infrastructure-as-Code
    - Delivery Manager - Collected data for Agile transformation
  - DevOps Architect - Next Generation Release 2
    - Lead Tools Team
@@ -49,7 +49,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
    - Agile Coaching
    - DevOps: git-ops
 
-##### Product-Driven Organiztion
+##### Product-Driven Organiztion (2017-2018):
 
 - Consulting Architect - Containers as a Services (Kubernetes Platform)
   - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
@@ -72,8 +72,11 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 - DevOps Architect - NetApp NAS Storage Platform as a Service Release 1
   - Product Owner Coach
   - Team Incubation
-  - 
+  - Consulting Architect: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
 - DevOps Architect - Infrastructure as a Service Release 1
+  - Product Owner Coach
+  - Team Incubation
+  - Lead Architect
 - DevOps Architect - Next Generation Release Engineering
   - Product Owner Coach
   - Vision Setting
