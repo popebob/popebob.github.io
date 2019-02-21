@@ -40,7 +40,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Manager - Project Delivery: responsible for requirements development across multiple workstreams
 - Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
    - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
-   - Lead Architect: Infrastructure-as-Code
+   - Infrastructure Orchestration Design Lead - Work closely with vendor professional services
    - Delivery Manager - Collected data for Agile transformation
  - DevOps Architect - Next Generation Release 2
    - Lead Tools Team
@@ -107,7 +107,7 @@ Evolved to:
 - VMware 5.5 Stack
 - Source/Build
 
-Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%.
+Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
 ### Brose North America
 #### System Administrator
