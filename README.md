@@ -32,16 +32,16 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
    - Successfully delivered mulitple projects, from proofs of conecepts and pilots to final trsting environment prior to daya cenrter deployment
    - Responsible for all assets, service delivery, process creation, and coordination
    - Successfully employed extensive and detail-oriented vendor management to establish nrw precedents for service delivery times and quality levels
-   - Self-organized Agile approach within very highly visible organizational initiatives to establish new precednts for projrct / feature delivery times and quality levels
-   - 
-   - Profit!
+   - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precednts for projrct / feature delivery times and quality levels
+   - Leveraged grassroots approach to establish and sustain results-oriented "customer success" culture
+   - Scaled up and handed off multiple initiatives, including eventually the lab itself
 - Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
   - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
   - Manager - Project Delivery: responsible for requirements development across multiple workstreams
- - Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
+- Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
    - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
    - DevOps Consultant - Infrastructure Automation and Orchestration: Chef, git
-   - Delivery Manager - Collected data for Agile
+   - Delivery Manager - Collected data for Agile transformation
  - DevOps Architect - Next Generation Release 2
    - Lean Process Coaching
    - Cloud Architect
