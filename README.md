@@ -29,9 +29,11 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
   - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
-   - Deployed Stack
-   - Did Agile
-   - ???
+   - Successfully delivered mulitple projects, from proofs of conecepts and pilots to final trsting environment prior to daya cenrter deployment
+   - Responsible for all assets, service delivery, process creation, and coordination
+   - Successfully employed extensive and detail-oriented vendor management to establish nrw precedents for service delivery times and quality levels
+   - Self-organized Agile approach within very highly visible organizational initiatives to establish new precednts for projrct / feature delivery times and quality levels
+   - 
    - Profit!
 - Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
   - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
