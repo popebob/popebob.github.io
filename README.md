@@ -3,8 +3,6 @@
 ## Contact Me!
 
 - [LinkedIn](https://www.linkedin.com/in/cody-adams-659a121a/)
-- [coadams@umflint.edu](mailto:coadams@umflint.edu)
-- +1.248.420.0032
 
 ## Professional History
 
@@ -114,6 +112,23 @@ Quarterly "Impact Award" winner for server provisioning automation and process i
 > July 2008 - March 2012
 
 Led transformation of IT department within North American Headquarters and grew from local branch only to regional leadership and participation in Global IT Projects.
+
+> Significant Accomplishments
+
+Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
+- Increased Client PC VirusScan compliance to 99%+; only site in regioon to achieve, pattern was copied by Central IT for Global application
+- Grew into US PBX expert, adapting to German system deployed in Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
+- Grew into Regional IT Trainer, including training Microsoft Project to well-experienced Project Managers in North American Headquarters
+
+> Major Projects Delivered
+
+- Multiple road shows: NAIAS, Multiple Tier 1 OEM Client Site visits
+- Stood up multiple sites: Warren, Harmon Rd
+- Successfully delivered multiple PC refresh programs for 450+ office size, including white glove Executive delivery and conferences rooms
+
+
+
+- Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; hepling to define service delivery model, training all North American resources
 
 Started on the helpdesk
 face of it
