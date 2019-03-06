@@ -116,9 +116,16 @@ Led transformation of IT department within North American Headquarters and grew 
 > Significant Accomplishments
 
 Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
+
 - Increased Client PC VirusScan compliance to 99%+; only site in regioon to achieve, pattern was copied by Central IT for Global application
 - Grew into US PBX expert, adapting to German system deployed in USA: Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
 - Grew into Regional IT Trainer, including training Microsoft Project to well-experienced Project Managers in North American Headquarters
+- Software Compliance metrics
+- Automated Reporting
+- Regional lead for SAP workflow automation
+- Developed and sustained 'key user' community within engineering, testing, tooling, prototyping, and manufacturing facilities to ensure compliance and increase workstation efficiency
+- Detected and remediated several malware incidents
+- Developed and maintained complex executive call routing trees according to customer-specific workflow and notification preferences
 
 > Major Projects Delivered
 
@@ -126,15 +133,29 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Stood up multiple sites: Warren, Harmon Rd
 - Successfully delivered multiple PC refresh programs for 450+ office size, including white glove Executive delivery and conferences rooms
 - Successfully delivered WLAN deployment
-
-
+- Visual Basic for Applications and Access-based Materials Resource Planning (MRP) Software, developed to force Central IT to deploy SAP where previously refused
+- Local lead for ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
+- Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
 - Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; hepling to define service delivery model, training all North American resources
+
+Tech Stack (local or regional, no Central responsibilites)
+
+Windows Server and Client
+Microsoft Office
+Active Directory
+Cisco IOS switches (regional sites desktop, closet, and core)
+Exchange Server
+VMware ESX 4
+Innovaphone PBX
+Powershell and Windows Shell Scripting
+SAP Clients
+Tape Backup Systems
+HP x86 DL Rack-Mount Servers
 
 Started on the helpdesk
 face of it
 
 evolved to boutique scripting and application development
-white glove
 telecom
 network
 trainer
