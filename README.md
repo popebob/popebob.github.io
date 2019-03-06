@@ -125,7 +125,7 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Multiple road shows: NAIAS, Multiple Tier 1 OEM Client Site visits
 - Stood up multiple sites: Warren, Harmon Rd
 - Successfully delivered multiple PC refresh programs for 450+ office size, including white glove Executive delivery and conferences rooms
-
+- Successfully delivered WLAN deployment
 
 
 - Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; hepling to define service delivery model, training all North American resources
