@@ -140,17 +140,17 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 
 > Tech Stack (local or regional, no Central responsibilites)
 
-Windows Server and Client
-Microsoft Office
-Active Directory
-Cisco IOS switches (regional sites desktop, closet, and core)
-Exchange Server
-VMware ESX 4
-Innovaphone PBX
-Powershell and Windows Shell Scripting
-SAP Clients
-Tape Backup Systems
-HP x86 DL Rack-Mount Servers
+- Windows Server and Client
+- Microsoft Office
+- Active Directory
+- Cisco IOS switches (regional sites desktop, closet, and core)
+- Exchange Server
+- VMware ESX 4
+- Innovaphone PBX
+- Powershell and Windows Shell Scripting
+- SAP Clients
+- Tape Backup Systems
+- HP x86 DL Rack-Mount Servers
 
 Started on the helpdesk
 face of it
