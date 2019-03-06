@@ -138,7 +138,7 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
 - Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; hepling to define service delivery model, training all North American resources
 
-Tech Stack (local or regional, no Central responsibilites)
+> Tech Stack (local or regional, no Central responsibilites)
 
 Windows Server and Client
 Microsoft Office
