@@ -145,9 +145,11 @@ regional travel
 ### University of Michigan - Flint
 #### Bachelor's of Science: Computer Science
 > December 2010
+
 C++/C# Programming, Operating Systems, Networks, Computer Hardware, Software Project Management, Database
 
 ### Scrum.org
 #### Professional Scrum Master 1
 > March 2017
+
 I believe in Scrum and KanBan, I have seen them accelerate value, increase quality, and improve clarity of dialogue
