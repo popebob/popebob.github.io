@@ -117,7 +117,7 @@ Led transformation of IT department within North American Headquarters and grew 
 
 Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
 - Increased Client PC VirusScan compliance to 99%+; only site in regioon to achieve, pattern was copied by Central IT for Global application
-- Grew into US PBX expert, adapting to German system deployed in Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
+- Grew into US PBX expert, adapting to German system deployed in USA: Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
 - Grew into Regional IT Trainer, including training Microsoft Project to well-experienced Project Managers in North American Headquarters
 
 > Major Projects Delivered
