@@ -8,7 +8,7 @@
 
 ### Delta Dental of Michigan
 
-**Participated in Partners in Leadership: Accountability Training**
+***Participated in Partners in Leadership: Accountability Training***
 
 #### DevOps Manager
 > November 2018 - Present
@@ -19,7 +19,7 @@ Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 ### Ford Motor Company
 
-**Participated in Partners in Leadership: Accountability Training**
+***Participated in Partners in Leadership: Accountability Training***
 
 #### Cloud and DevOps Consultant
 > September 2015 - November 2018
