@@ -7,10 +7,11 @@
 ## Professional History
 
 ### Delta Dental of Michigan
-#### DevOps Manager
-> November 2018 - Present
 
 **Participated in Partners in Leadership: Accountability Training**
+
+#### DevOps Manager
+> November 2018 - Present
 
 Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
 
@@ -18,10 +19,10 @@ Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 ### Ford Motor Company
 
+**Participated in Partners in Leadership: Accountability Training**
+
 #### Cloud and DevOps Consultant
 > September 2015 - November 2018
-
-**Participated in Partners in Leadership: Accountability Training**
 
 Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organziation with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
 
