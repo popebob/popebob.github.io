@@ -8,11 +8,8 @@
 
 ### Delta Dental of Michigan
 
-<<<<<<< HEAD
-=======
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
->>>>>>> 36217cd004410b7244a0e231e89c1567eb08f148
 #### DevOps Manager
 
 > November 2018 - Present
