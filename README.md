@@ -91,9 +91,21 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 #### Data Center Administrator
 > March 2012 – September 2015
 
+##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
+
+Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
+
 Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
 
-Started with:
+###### Evolved to:
+
+- Automation Team Lead
+- Cisco UCS Blades
+- Windoww Server Failover Cluster
+- VMware 5.5 Stack
+- Source/Build
+
+###### Reponsibilities included
 
 - Windows Servers
 - Active Directory
@@ -102,15 +114,6 @@ Started with:
 - Rack and Stack
 - Preventative and Routine Maintenance
 
-Evolved to:
-
-- Automation Team Lead
-- Cisco UCS Blades
-- Windoww Server Failover Cluster
-- VMware 5.5 Stack
-- Source/Build
-
-Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
 ### Brose North America
 #### System Administrator
