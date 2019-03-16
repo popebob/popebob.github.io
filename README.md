@@ -6,12 +6,25 @@
 
 ## Professional History
 
-### Ford Motor Company
-#### DevOps Architect
-> March 2017 - Present
+### Delta Dental of Michigan
 
-#### Project Delivery Manager
-> September 2015-March 2017
+##### ***Participated in Partners in Leadership: Accountability Training***
+
+#### DevOps Manager
+> November 2018 - Present
+
+Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
+
+Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
+
+### Ford Motor Company
+
+##### ***Participated in Partners in Leadership: Accountability Training***
+
+#### Cloud and DevOps Consultant
+> September 2015 - November 2018
+
+Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organziation with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
 
 ### Plex Systems
 #### Data Center Administrator
