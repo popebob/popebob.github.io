@@ -3,8 +3,6 @@
 ## Contact Me!
 
 - [LinkedIn](https://www.linkedin.com/in/cody-adams-659a121a/)
-- [coadams@umflint.edu](mailto:coadams@umflint.edu)
-- +1.248.420.0032
 
 ## Professional History
 
