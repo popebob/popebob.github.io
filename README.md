@@ -8,6 +8,11 @@
 
 ### Delta Dental of Michigan
 
+<<<<<<< HEAD
+=======
+##### ***Participated in Partners in Leadership: Accountability Training***
+
+>>>>>>> 36217cd004410b7244a0e231e89c1567eb08f148
 #### DevOps Manager
 
 > November 2018 - Present
@@ -17,6 +22,8 @@ Day-to-day team administration, project plan creation and report out, operationa
 Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 ### Ford Motor Company
+
+##### ***Participated in Partners in Leadership: Accountability Training***
 
 #### Cloud and DevOps Consultant
 
@@ -91,9 +98,21 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 
 > March 2012 – September 2015
 
+##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
+
+Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
+
 Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
 
-Started with:
+###### Evolved to:
+
+- Automation Team Lead
+- Cisco UCS Blades
+- Windoww Server Failover Cluster
+- VMware 5.5 Stack
+- Source/Build
+
+###### Reponsibilities included
 
 - Windows Servers
 - Active Directory
@@ -102,15 +121,6 @@ Started with:
 - Rack and Stack
 - Preventative and Routine Maintenance
 
-Evolved to:
-
-- Automation Team Lead
-- Cisco UCS Blades
-- Windoww Server Failover Cluster
-- VMware 5.5 Stack
-- Source/Build
-
-Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
 ### Brose North America
 
