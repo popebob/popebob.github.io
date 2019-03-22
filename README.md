@@ -1,9 +1,5 @@
 # Cody Adams
 
-## Contact Me!
-
-- [LinkedIn](https://www.linkedin.com/in/cody-adams-659a121a/)
-
 ## Professional History
 
 ### Delta Dental of Michigan
