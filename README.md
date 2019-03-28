@@ -6,13 +6,13 @@
 
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
-#### DevOps Manager
+#### DevOps Manager, Product Owner, Architect
 
-> November 2018 - Present
+Lead young DevOps team to deploy brand new private cloud application hosting environment built on OpenStack using Canonical managed services and technologies and Kubernetes
 
-Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
+We're using HEAT to deploy juju-based Kubernetes clusters, integrating Aqua, and writing various bits of automation to containerize and migrate legacy applications.
 
-Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
+As we work to create a basis for broad DevOps transformation, we're delivering incremental value, demonstrating the need to move from an evolutionary shift to a revolutionary shift.
 
 ### Ford Motor Company
 
@@ -22,7 +22,7 @@ Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
 
 > September 2015 - November 2018
 
-Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organziation with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
+Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
 
 ##### Project-Driven Organization (2015-2017):
 
@@ -30,10 +30,10 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
   - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
-    - Successfully delivered mulitple projects, from proofs of conecepts and pilots to final trsting environment prior to daya cenrter deployment
+    - Successfully delivered multiple projects, from proofs of concepts and pilots to final testing environment prior to daya center deployment
     - Responsible for all assets, service delivery, process creation, and coordination
     - Successfully employed extensive and detail-oriented vendor management to establish nrw precedents for service delivery times and quality levels
-    - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precednts for projrct / feature delivery times and quality levels
+    - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precedents for project / feature delivery times and quality levels
     - Leveraged grassroots approach to establish and sustain results-oriented "customer success" culture
     - Scaled up and handed off multiple initiatives, including eventually the lab itself
 - Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
@@ -50,7 +50,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Agile Coaching
   - DevOps: git-ops
 
-##### Product-Driven Organiztion (2017-2018):
+##### Product-Driven Organization (2017-2018):
 
 - Consulting Architect - Containers as a Services (Kubernetes Platform)
   - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
@@ -105,7 +105,7 @@ Full lifecycle and complete ownership of any system.  Planning, Acquisition, Ins
 - VMware 5.5 Stack
 - Source/Build
 
-###### Reponsibilities included
+###### Responsibilities included
 
 - Windows Servers
 - Active Directory
@@ -127,7 +127,7 @@ Led transformation of IT department within North American Headquarters and grew 
 
 Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
 
-- Increased Client PC VirusScan compliance to 99%+; only site in regioon to achieve, pattern was copied by Central IT for Global application
+- Increased Client PC VirusScan compliance to 99%+; only site in region to achieve, pattern was copied by Central IT for Global application
 - Grew into US PBX expert, adapting to German system deployed in USA: Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
 - Grew into Regional IT Trainer, including training Microsoft Project to well-experienced Project Managers in North American Headquarters
 - Software Compliance metrics
@@ -146,9 +146,9 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Visual Basic for Applications and Access-based Materials Resource Planning (MRP) Software, developed to force Central IT to deploy SAP where previously refused
 - Local lead for ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
 - Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
-- Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; hepling to define service delivery model, training all North American resources
+- Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; helping to define service delivery model, training all North American resources
 
-> Tech Stack (local or regional, no Central responsibilites)
+> Tech Stack (local or regional, no Central responsibilities)
 
 - Windows Server and Client
 - Microsoft Office
@@ -162,16 +162,7 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Tape Backup Systems
 - HP x86 DL Rack-Mount Servers
 
-Started on the helpdesk
-face of it
-
-evolved to boutique scripting and application development
-telecom
-network
-trainer
-regional travel
-
-### Certifcations
+### Certifications
 
 ### University of Michigan - Flint
 
