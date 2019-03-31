@@ -8,6 +8,9 @@
 
 #### DevOps Manager, Product Owner, Architect
 
+
+Re-establishing IT as a trusted buddies partner.  increasing cost visibility 
+
 Lead young DevOps team to deploy brand new private cloud application hosting environment built on OpenStack using Canonical managed services and technologies and Kubernetes
 
 We're using HEAT to deploy juju-based Kubernetes clusters, integrating Aqua, and writing various bits of automation to containerize and migrate legacy applications.
