@@ -96,6 +96,27 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 
 ##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
+- Backup Tape Automation Project
+  - Development and Operation of automated tape backup scheduling and tape lifecycle system to reduce manual effort by 90%
+- Data Center Upgrade Program
+  - Planning, Acquisition, Installation, and Maintenance of Structured Cabling
+  - Planning, Acquisition, Installation, and Maintenance of Data Center Power upgrade
+    - Deployed new UPS and migrated equipment to 30A 3Phase PDUs and to A/B/C redundant power 
+    - Deployed new Portable Generator Connection and Gen-to-Gen Transfer Switch
+    - Investigated and disproved feasability of Tier IV upgrade
+- Disaster Recovery Site Migration Project
+  - Worked with Remote Hands and Feet to prepare site for migration
+  - Led onsite team to re-label and tear-down existing site to facilitate quick service restoration at new site
+  - Led remote team to restore service at new site
+  - Completed move of existing equipment from Asheville, NC to Denver, CO with 36 hours
+- Next Generation Compute Project
+  - Requirements gathering, vendor selection, equipment POCs to select future-state vendor-of-choice
+  - Led Evalutation, Selection, and Deployment process
+- 'F5' UI/UX and Developer Toolchain Refresh
+  - Embed with and supported fast-moving experimental development team exploring early DevOps and CI/CD technologies and processes
+    - Leveraged: TeamCity, Bamboo, TFS, git, OctopusDeploy
+  - Planning, Acquisition, Installation, and Maintenance of Azure-based development environment for off-shore development team
+
 Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
 
 Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
