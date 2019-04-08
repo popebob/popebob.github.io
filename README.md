@@ -97,7 +97,8 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 ##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
 - Backup Tape Automation Project
-  - Development and Operation of automated tape backup scheduling and tape lifecycle system to reduce manual effort by 90%
+  - Development and Operation of automated tape backup scheduling and tape lifecycle system to reduce manual effort and eliminate error
+  - Used PowerShell and custom integrations to reduce support burden to less than one FTW
 - Data Center Upgrade Program
   - Planning, Acquisition, Installation, and Maintenance of Structured Cabling
   - Planning, Acquisition, Installation, and Maintenance of Data Center Power upgrade
@@ -116,6 +117,31 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Embed with and supported fast-moving experimental development team exploring early DevOps and CI/CD technologies and processes
     - Leveraged: TeamCity, Bamboo, TFS, git, OctopusDeploy
   - Planning, Acquisition, Installation, and Maintenance of Azure-based development environment for off-shore development team
+  - Day-to-day development team and team member support, dev tool creation to 'Shift Left'
+- Server Provisioning Automation Project
+  - Used vRealize Orchestrator, Active Directory Group Policy, and PowerShell to fully automate SOX-II server compliance and hardening configuration 
+  - This was by far the most time consuming and error prone step in the workflow, automation eliminated re-work and audit violations
+  - Production Server delivery time reduced by 90%
+- VMware vCenter 5.x Migration Leads
+  - Planning, Acquisition, Installation, and Maintenance of VMware 5.x product line
+  - Migrated from 
+- Hosted Exchange Lead
+  - In these activities, I served as primary Exchange administrator for roughly 30 small and medium sized manufacturing customers
+  - Used PowerShell, Active Directory, and custom integrations to reduce support burden to less than one FTW
+- Disaster Recovery Test Lead
+  - Planning, Acquistion, Installation, and Maintenance of any and all required equipment, support, and processes for recovery of any systems under responsbilities
+  - Led activities to implement more frequent and higher success disaster recovery tests, enabling developer promotion to DR on-demand
+- DevOps Lead Activities
+  - In these activities, I leveraged my unique perspective as a Computer Science major in the Data Center infrastructure team to work side-by-side with developers to read their code and the server logs together to skill share and problem solve collaboratively.  DevOps was not defined, it was just what we practicioners decided was needed at the time
+    - Active Directory Extensbility
+    - .NET Application Support
+    - Collaborative Architectures to emulate Immutable Infrastructure
+    - Developed development pathway to deploy to Production by delivering improvements to Infrastructre processes
+      - Built tools and processes to support deployment to all environment with robust portability and test-based confidence
+      - Enabled on-demand disaster recovery deployment and testing
+      - Enablied on-demand deployment to Production based on lower environment and DR test confidence
+      - Greatly reduced infrastructure maintenance window constraints with fewer low-risk code deploys
+    - Custom ITSM integrations to Plex ERP for Data Center automation
 
 Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
 
