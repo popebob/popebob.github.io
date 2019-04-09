@@ -116,6 +116,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 - 'F5' UI/UX and Developer Toolchain Refresh
   - Embed with and supported fast-moving experimental development team exploring early DevOps and CI/CD technologies and processes
     - Leveraged: TeamCity, Bamboo, TFS, git, OctopusDeploy
+    - PoC'd: ChatOps, CI/CD, ephemeral/elastic infrastructure
   - Planning, Acquisition, Installation, and Maintenance of Azure-based development environment for off-shore development team
   - Day-to-day development team and team member support, dev tool creation to 'Shift Left'
 - Server Provisioning Automation Project
@@ -145,28 +146,11 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
     - Cross-functional codification and partial automation of multiple infrastructure processes
       - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely interoperate with manual and ad-hoc activities
         - Don't hire me to do this.  Hire me to prevent this from happening.
+    - Semi-Automated Blue/Green: Database, Web Server, Application Servers, Support Services
 
 Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
 
 Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
-
-###### Evolved to:
-
-- Automation Team Lead
-- Cisco UCS Blades
-- Windoww Server Failover Cluster
-- VMware 5.5 Stack
-- Source/Build
-
-###### Responsibilities included
-
-- Windows Servers
-- Active Directory
-- Exchange
-- Tape Backups
-- Rack and Stack
-- Preventative and Routine Maintenance
-
 
 ### Brose North America
 
