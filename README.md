@@ -160,7 +160,7 @@ Full lifecycle and complete ownership of any system.  Planning, Acquisition, Ins
 
 Led transformation of IT department within North American Headquarters and grew from local branch only to regional leadership and participation in Global IT Projects.
 
-> Significant Accomplishments
+##### Significant Accomplishments
 
 Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
 
@@ -174,7 +174,7 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Detected and remediated several malware incidents
 - Developed and maintained complex executive call routing trees according to customer-specific workflow and notification preferences
 
-> Major Projects Delivered
+##### Major Projects Delivered
 
 - Multiple road shows: NAIAS, Multiple Tier 1 OEM Client Site visits
 - Stood up multiple sites: Warren, Harmon Rd
@@ -185,7 +185,7 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
 - Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; helping to define service delivery model, training all North American resources
 
-> Tech Stack (local or regional, no Central responsibilities)
+##### Tech Stack (local or regional, no global responsibilities)
 
 - Windows Server and Client
 - Microsoft Office
