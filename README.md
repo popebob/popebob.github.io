@@ -143,7 +143,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
       - Greatly reduced infrastructure maintenance window constraints with fewer low-risk code deploys
     - Custom ITSM integrations to Plex ERP for Data Center automation
     - Cross-functional codification and partial automation of multiple infrastructure processes
-      - Some functions were still heavily manual, so what bits I couldn't automated I codifed in process, allowing automation to safely interoperate with manual and ad-hoc activities
+      - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely interoperate with manual and ad-hoc activities
         - Don't hire me to do this.  Hire me to prevent this from happening.
 
 Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
