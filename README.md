@@ -124,13 +124,23 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Production Server delivery time reduced by 90%
 - VMware vCenter 5.x Migration Leads
   - Planning, Acquisition, Installation, and Maintenance of VMware 5.x product line
-  - Migrated from 
+  - Migrated from Windows-based vCenter to Virtual Appliance
+  - Created extensive custom automation for ESXi lifecycle management using PowerShell and vRealize Orchestrator
 - Hosted Exchange Lead
   - In these activities, I served as primary Exchange administrator for roughly 30 small and medium sized manufacturing customers
   - Used PowerShell, Active Directory, and custom integrations to reduce support burden to less than one FTW
 - Disaster Recovery Test Lead
-  - Planning, Acquistion, Installation, and Maintenance of any and all required equipment, support, and processes for recovery of any systems under responsbilities
+  - Planning, Acquisition, Installation, and Maintenance of any and all required equipment, support, and processes for recovery of any systems under responsibilities
   - Led activities to implement more frequent and higher success disaster recovery tests, enabling developer promotion to DR on-demand
+- Production Support Lead Activities
+  - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology 
+    - MS SQL Windows Server Fail-over Clusters (2003/2008/2012/2016)
+    - All Data Center Electrical and Cooling Systems
+    - Physical Compute (HP DL360/380/785/980 G7/8/9, Cisco B-series, C-series)
+    - Microsoft Active Directory, Exchange, Azure IaaS
+    - IIS Web Server Farm, F5 Load Balancers
+    - VMware ESXi, vCenter, and VMs
+    - Source/Build/Deploy: Custom in-house, TFS, Bamboo, git, SourceGear Vault
 - IT Services Ramp-Down Activities
   - As Plex matured, the business desired to ramp-down the legacy IT services revenue stream in favor of SaaS partnerships as bundled services to customers
   - In these activities, I was responsible for providing direction, leadership, oversight, and operational support
@@ -139,20 +149,20 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
     - Lead Exchange to O365 Migration for Hosted Exchange customers
       - Responsible for customer data integrity and security
 - DevOps Lead Activities
-  - In these activities, I leveraged my unique perspective as a Computer Science major in the Data Center infrastructure team to work side-by-side with developers to read their code and the server logs together to skill share and problem solve collaboratively.  DevOps was not defined, it was just what we practicioners decided was needed at the time
-    - Active Directory Extensbility
+  - In these activities, I leveraged my unique perspective as a Computer Science major in the Data Center infrastructure team to work side-by-side with developers to read their code and the server logs together to skill share and problem solve collaboratively.  DevOps was not defined, it was just what we practitioners decided was needed at the time
+    - Active Directory Extensibility
     - .NET Application Support
     - Collaborative Architectures to emulate Immutable Infrastructure
     - Developed development pathway to deploy to Production by delivering improvements to Infrastructre processes
       - Built tools and processes to support deployment to all environment with robust portability and test-based confidence
       - Enabled on-demand disaster recovery deployment and testing
-      - Enablied on-demand deployment to Production based on lower environment and DR test confidence
+      - Enabled on-demand deployment to Production based on lower environment and DR test confidence
       - Greatly reduced infrastructure maintenance window constraints with fewer low-risk code deploys
     - Custom ITSM integrations to Plex ERP for Data Center automation
       - Integration of automation scripts to change logs raised visibility of successful standard changes
       - Business-facing KPIs/metrics for successful change rate significantly impacted by new visibility, providing additional business justification for Automation
     - Cross-functional codification and partial automation of multiple infrastructure processes
-      - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely interoperate with manual and ad-hoc activities
+      - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely inter-operate with manual and ad-hoc activities
         - Don't hire me to do this.  Hire me to prevent this from happening.
     - Semi-Automated Blue/Green: Database, Web Server, Application Servers, Support Services
 
