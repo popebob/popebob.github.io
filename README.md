@@ -103,7 +103,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Planning, Acquisition, Installation, and Maintenance of Data Center Power upgrade
     - Deployed new UPS and migrated equipment to 30A 3Phase PDUs and to A/B/C redundant power 
     - Deployed new Portable Generator Connection and Gen-to-Gen Transfer Switch
-    - Investigated and disproved feasability of Tier IV upgrade
+    - Investigated and disproved feasibility of Tier IV upgrade
 - Disaster Recovery Site Migration Project
   - Worked with Remote Hands and Feet to prepare site for migration
   - Led onsite team to re-label and tear-down existing site to facilitate quick service restoration at new site
