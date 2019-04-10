@@ -131,6 +131,13 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
 - Disaster Recovery Test Lead
   - Planning, Acquistion, Installation, and Maintenance of any and all required equipment, support, and processes for recovery of any systems under responsbilities
   - Led activities to implement more frequent and higher success disaster recovery tests, enabling developer promotion to DR on-demand
+- IT Services Ramp-Down Activities
+  - As Plex matured, the business desired to ramp-down the legacy IT services revenue stream in favor of SaaS partnerships as bundled services to customers
+  - In these activities, I was responsible for providing direction, leadership, oversight, and operational support
+    - Led Active Directory Migration to separate Corporate Entity from Product Back-End
+      - Fully accountable for security and audit
+    - Lead Exchange to O365 Migration for Hosted Exchange customers
+      - Responsible for customer data integrity and security
 - DevOps Lead Activities
   - In these activities, I leveraged my unique perspective as a Computer Science major in the Data Center infrastructure team to work side-by-side with developers to read their code and the server logs together to skill share and problem solve collaboratively.  DevOps was not defined, it was just what we practicioners decided was needed at the time
     - Active Directory Extensbility
@@ -142,6 +149,8 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
       - Enablied on-demand deployment to Production based on lower environment and DR test confidence
       - Greatly reduced infrastructure maintenance window constraints with fewer low-risk code deploys
     - Custom ITSM integrations to Plex ERP for Data Center automation
+      - Integration of automation scripts to change logs raised visibility of successful standard changes
+      - Business-facing KPIs/metrics for successful change rate significantly impacted by new visibility, providing additional business justification for Automation
     - Cross-functional codification and partial automation of multiple infrastructure processes
       - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely interoperate with manual and ad-hoc activities
         - Don't hire me to do this.  Hire me to prevent this from happening.
