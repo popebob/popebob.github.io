@@ -24,7 +24,7 @@ As we work to create a basis for broad DevOps transformation, we're delivering i
 
 > September 2015 - November 2018
 
-Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedbacks loops via more rapid project deliveries and less rigid organizational structure
+Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
 
 ##### Project-Driven Organization (2015-2017):
 
@@ -32,12 +32,12 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
   - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
   - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
-    - Successfully delivered multiple projects, from proofs of concepts and pilots to final testing environment prior to daya center deployment
+    - Successfully delivered multiple projects, from proofs of concepts and pilots to final testing environment prior to data center deployment
     - Responsible for all assets, service delivery, process creation, and coordination
-    - Successfully employed extensive and detail-oriented vendor management to establish nrw precedents for service delivery times and quality levels
+    - Successfully employed extensive and detail-oriented vendor management to establish new precedents for service delivery times and quality levels
     - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precedents for project / feature delivery times and quality levels
     - Leveraged grassroots approach to establish and sustain results-oriented "customer success" culture
-    - Scaled up and handed off multiple initiatives, including eventually the lab itself
+    - Scaled up and handed off multiple initiatives, eventually including the lab itself
 - Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
   - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
   - Manager - Project Delivery: responsible for requirements development across multiple workstreams
@@ -108,7 +108,7 @@ Helped Ford transition IT Operations department from heavily siloed, waterfall-b
   - Worked with Remote Hands and Feet to prepare site for migration
   - Led onsite team to re-label and tear-down existing site to facilitate quick service restoration at new site
   - Led remote team to restore service at new site
-  - Completed move of existing equipment from Asheville, NC to Denver, CO with 36 hours
+  - Completed move of existing equipment from Asheville, NC to Denver, CO within 36 hours
 - Next Generation Compute Project
   - Requirements gathering, vendor selection, equipment POCs to select future-state vendor-of-choice
   - Led Evalutation, Selection, and Deployment process
