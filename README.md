@@ -6,12 +6,11 @@
 
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
-#### DevOps Manager, Product Owner, Architect
+#### Cloud and DevOps Consultant
 
+Broad Organizational Goal: Re-establishing IT as a trusted business partner.  Increasing cost visibility.
 
-Re-establishing IT as a trusted buddies partner.  increasing cost visibility 
-
-Lead young DevOps team to deploy brand new private cloud application hosting environment built on OpenStack using Canonical managed services and technologies and Kubernetes
+Lead young DevOps team to deploy brand new private cloud application hosting environment built on OpenStack using Canonical managed services/technologies and Kubernetes.
 
 We're using HEAT to deploy juju-based Kubernetes clusters, integrating Aqua, and writing various bits of automation to containerize and migrate legacy applications.
 
