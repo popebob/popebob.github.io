@@ -17,17 +17,6 @@ We're using HEAT to deploy juju-based Kubernetes clusters, integrating Aqua, and
 
 As we work to create a basis for broad DevOps transformation, we're delivering incremental value, demonstrating the need to move from an evolutionary shift to a revolutionary shift.
 
-### Delta Dental of Michigan
-
-##### ***Participated in Partners in Leadership: Accountability Training***
-
-#### DevOps Manager
-> November 2018 - Present
-
-Day-to-day team administration, project plan creation and report out, operational support management, process creation and ownership.
-
-Tech Stack: Kubernetes, OpenStack, Jenkins, BitBucket, Heat, Consul, Vault, ELK
-
 ### Ford Motor Company
 
 ##### ***Participated in Partners in Leadership: Accountability Training***
