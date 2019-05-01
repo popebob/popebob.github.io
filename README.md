@@ -1,7 +1,9 @@
 # Cody Adams
 
-## Professional History
+- e. coadams@umflint.edu
+- c. 248.420.0032
 
+## Professional History
 
 ### Delta Dental of Michigan
 
