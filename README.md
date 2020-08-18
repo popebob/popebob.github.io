@@ -2,6 +2,27 @@
 
 ## Professional History
 
+### Coretek Services
+
+##### Cloud Architect
+
+Fully Billable Client-facing Consultant leading Agile, DevOps, and Cloud-Native implementation projects.  Excellent in leading projects as implementation lead as well as project and delivery management lead.
+
+Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automation, and Operational process development, Enterprise-Scaled Agile/DevOps Framework.
+
+Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  Proficient in Azure design, implementation, and operation.
+
+##### Tech Stack
+
+- Azure Cloud
+- Azure Kubernetes
+- Azure Serverless: Azure Functions, Azure Logic Apps
+- Azure DevOps/GitHub/git
+- PowerShell/Bash
+- YAML/JSON
+- vagrant/terraform
+- Azure Site Recovery
+- Microsoft Team Foundation Server (TFS)
 
 ### Delta Dental of Michigan
 
@@ -204,14 +225,14 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
 - Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; helping to define service delivery model, training all North American resources
 
-##### Tech Stack (local or regional, no global responsibilities)
+##### Tech Stack
 
 - Windows Server and Client
 - Microsoft Office
 - Active Directory
-- Cisco IOS switches (regional sites desktop, closet, and core)
+- Cisco IOS switches
 - Exchange Server
-- VMware ESX 4
+- VMware ESX
 - Innovaphone PBX
 - Powershell and Windows Shell Scripting
 - SAP Clients
