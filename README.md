@@ -6,6 +6,8 @@
 
 ##### Cloud Architect
 
+> May 2019 - August 2020
+
 Fully Billable Client-facing Consultant leading Agile, DevOps, and Cloud-Native implementation projects.  Excellent in leading projects as implementation lead as well as project and delivery management lead.
 
 Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automation, and Operational process development, Enterprise-Scaled Agile/DevOps Framework.
@@ -29,6 +31,8 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
 #### Cloud and DevOps Consultant
+
+> November 2018 - May 2019
 
 Broad Organizational Goal: Re-establishing IT as a trusted business partner.  Increasing cost visibility.
 
