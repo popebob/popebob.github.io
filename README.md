@@ -19,7 +19,7 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 - Azure Cloud
 - Azure Kubernetes Service
 - Azure PaaS Serverless: Azure Functions, Azure Logic Apps
-- Azure DevOps/GitHub/git
+- Azure DevOps/GitHub/git/GitOps
 - Azure DevOps Pipelines
 - PowerShell/Bash
 - ARM/YAML/JSON
@@ -42,6 +42,7 @@ Work alongside management and engineering peers as a Player/Coach to drive a sim
 - Developed multiple bash scripts and HEAT/CloudFormation Templates (IaC)
 - Kubernetes Architecture, including multiple integrations, Vault, Aqua, OpenStack
 - Served as Agile Product Owner and Agile Coach for Platform team
+- Platform Operational Incident Commander and Problem Report Owner
 
 ##### Technology Focus
 
@@ -51,6 +52,7 @@ Work alongside management and engineering peers as a Player/Coach to drive a sim
 - Juju/Salt
 - PowerShell/bash
 - Dynatrace/Zabbix
+- Bitbucket/Jenkins/GitOps
 
 ### Ford Motor Company
 
@@ -131,80 +133,31 @@ Drove Ford's internal IT Operations transformation department from heavily siloe
 
 ##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
 
-- Backup Tape Automation Project
-  - Development and Operation of automated tape backup scheduling and tape lifecycle system to reduce manual effort and eliminate error
-  - Used PowerShell and custom integrations to reduce support burden to less than one FTW
-- Data Center Upgrade Program
-  - Planning, Acquisition, Installation, and Maintenance of Structured Cabling
-  - Planning, Acquisition, Installation, and Maintenance of Data Center Power upgrade
-    - Deployed new UPS and migrated equipment to 30A 3Phase PDUs and to A/B/C redundant power 
-    - Deployed new Portable Generator Connection and Gen-to-Gen Transfer Switch
-    - Investigated and disproved feasibility of Tier IV upgrade
-- Disaster Recovery Site Migration Project
-  - Worked with Remote Hands and Feet to prepare site for migration
-  - Led onsite team to re-label and tear-down existing site to facilitate quick service restoration at new site
-  - Led remote team to restore service at new site
-  - Completed move of existing equipment from Asheville, NC to Denver, CO within 36 hours
-- Next Generation Compute Project
-  - Requirements gathering, vendor selection, equipment POCs to select future-state vendor-of-choice
-  - Led Evalutation, Selection, and Deployment process
-- 'F5' UI/UX and Developer Toolchain Refresh
-  - Embed with and supported fast-moving experimental development team exploring early DevOps and CI/CD technologies and processes
-    - Leveraged: TeamCity, Bamboo, TFS, git, OctopusDeploy
-    - PoC'd: ChatOps, CI/CD, ephemeral/elastic infrastructure
-  - Planning, Acquisition, Installation, and Maintenance of Azure-based development environment for off-shore development team
-  - Day-to-day development team and team member support, dev tool creation to 'Shift Left'
-- Server Provisioning Automation Project
-  - Used vRealize Orchestrator, Active Directory Group Policy, and PowerShell to fully automate SOX-II server compliance and hardening configuration 
-  - This was by far the most time consuming and error prone step in the workflow, automation eliminated re-work and audit violations
-  - Production Server delivery time reduced by 90%
-- VMware vCenter 5.x Migration Leads
-  - Planning, Acquisition, Installation, and Maintenance of VMware 5.x product line
-  - Migrated from Windows-based vCenter to Virtual Appliance
-  - Created extensive custom automation for ESXi lifecycle management using PowerShell and vRealize Orchestrator
-- Hosted Exchange Lead
-  - In these activities, I served as primary Exchange administrator for roughly 30 small and medium sized manufacturing customers
-  - Used PowerShell, Active Directory, and custom integrations to reduce support burden to less than one FTW
-- Disaster Recovery Test Lead
-  - Planning, Acquisition, Installation, and Maintenance of any and all required equipment, support, and processes for recovery of any systems under responsibilities
-  - Led activities to implement more frequent and higher success disaster recovery tests, enabling developer promotion to DR on-demand
-- Production Support Lead Activities
-  - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology 
-    - MS SQL Windows Server Fail-over Clusters (2003/2008/2012/2016)
-    - All Data Center Electrical and Cooling Systems
-    - Physical Compute (HP DL360/380/785/980 G7/8/9, Cisco B-series, C-series)
-    - Microsoft Active Directory, Exchange, Azure IaaS
-    - IIS Web Server Farm, F5 Load Balancers
-    - VMware ESXi, vCenter, and VMs
-    - Source/Build/Deploy: Custom in-house, TFS, Bamboo, git, SourceGear Vault
-- IT Services Ramp-Down Activities
-  - As Plex matured, the business desired to ramp-down the legacy IT services revenue stream in favor of SaaS partnerships as bundled services to customers
-  - In these activities, I was responsible for providing direction, leadership, oversight, and operational support
-    - Led Active Directory Migration to separate Corporate Entity from Product Back-End
-      - Fully accountable for security and audit
-    - Lead Exchange to O365 Migration for Hosted Exchange customers
-      - Responsible for customer data integrity and security
-- DevOps Lead Activities
-  - In these activities, I leveraged my unique perspective as a Computer Science major in the Data Center infrastructure team to work side-by-side with developers to read their code and the server logs together to skill share and problem solve collaboratively.  DevOps was not defined, it was just what we practitioners decided was needed at the time
-    - Active Directory Extensibility
-    - .NET Application Support
-    - Collaborative Architectures to emulate Immutable Infrastructure
-    - Developed development pathway to deploy to Production by delivering improvements to Infrastructre processes
-      - Built tools and processes to support deployment to all environment with robust portability and test-based confidence
-      - Enabled on-demand disaster recovery deployment and testing
-      - Enabled on-demand deployment to Production based on lower environment and DR test confidence
-      - Greatly reduced infrastructure maintenance window constraints with fewer low-risk code deploys
-    - Custom ITSM integrations to Plex ERP for Data Center automation
-      - Integration of automation scripts to change logs raised visibility of successful standard changes
-      - Business-facing KPIs/metrics for successful change rate significantly impacted by new visibility, providing additional business justification for Automation
-    - Cross-functional codification and partial automation of multiple infrastructure processes
-      - Some functions were still heavily manual, so what bits I couldn't automate I codifed in process, allowing automation to safely inter-operate with manual and ad-hoc activities
-        - Don't hire me to do this.  Hire me to prevent this from happening.
-    - Semi-Automated Blue/Green: Database, Web Server, Application Servers, Support Services
+Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.  Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX 404 Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
 
-Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.
-
-Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX-II Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
+- Automation Team Lead/DevOps Engineer
+  - Drastically increase deployment frequency to all Environments, including Blue/Green deployment and mid-day Production deployments
+  - .NET Application Support, AD and SQL Server .NET Extensibility
+  - Automate Server Build and Configuration: Windows Server, ESXi, SQL Server, IIS Server, App Servers
+  - Reduce VM build time by 90% with automation, additionally reducing SOX 404 audit burden
+  - Automate Backup Tape Management, including physical media lifecycle management
+- Data Center Management
+  - Rack/Stack/Manage all equipment in the Data Center, Document Best Practices
+  - Data Center Space and Power Planning, Data Center Expansion and Relocation Project execution
+- Enterprise Architecture
+  - Rationalize start-up business requirements to plan and implement Compute, Storage, and Network design for Data Center to support rapid business growth
+  - Develop, Implement, and Operate initial DevOps toolchain, git, CI/CD, Azure, ChatOps, Infrastructure-as-Code
+  - Maintenance Window Planning and Execution
+  - Planning and Implementation of Active Directory .NET extensibility to extend capabilities of Plex ERP SaaS
+  - Integrate Plex ERP to internal processes to implement ITIL practices
+  - Develop and Implement many developer tools to shift-left operations to .NET development teams
+  - Disaster Recovery and Business Continuity Planning and Execution
+- Infrastructure Engineer
+  - VMware vCenter Planning, Operation, Upgrades
+  - Microsoft Exchange, AD
+  - AD and O365 Migration Planning
+  - Production Support Lead Activities
+    - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology
 
 ### Brose North America
 
