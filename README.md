@@ -6,6 +6,8 @@
 
 ##### Cloud Architect
 
+> May 2019 - August 2020
+
 Fully Billable Client-facing Consultant leading Agile, DevOps, and Cloud-Native implementation projects.  Excellent in leading projects as implementation lead as well as project and delivery management lead.
 
 Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automation, and Operational process development, Enterprise-Scaled Agile/DevOps Framework.
@@ -29,6 +31,8 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
 #### Cloud and DevOps Consultant
+
+> November 2018 - May 2019
 
 Broad Organizational Goal: Re-establishing IT as a trusted business partner.  Increasing cost visibility.
 
@@ -227,17 +231,13 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 
 ##### Tech Stack
 
-- Windows Server and Client
-- Microsoft Office
-- Active Directory
-- Cisco IOS switches
-- Exchange Server
-- VMware ESX
-- Innovaphone PBX
+- Microsoft Enterprise Suite: Active Directory, Exchange, Windows Server and Client, End User Computing
+- Data Center Management: Rack and Stack, Install and Configure
+  - HPE Servers
+  - Cisco IOS switches
+  - VMware ESX
+- Telecommunications and Network Lead
 - Powershell and Windows Shell Scripting
-- SAP Clients
-- Tape Backup Systems
-- HP x86 DL Rack-Mount Servers
 
 ### Certifications
 
@@ -256,3 +256,11 @@ C++/C# Programming, Operating Systems, Networks, Computer Hardware, Software Pro
 > March 2017
 
 I believe in Scrum and KanBan, I have seen them accelerate value, increase quality, and improve clarity of dialogue
+
+### Microsoft
+
+#### AZ-900 Azure Fundamentals
+
+> July 2019
+
+Obtained Industry Certification to support Vendor Accreditation Level
