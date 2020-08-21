@@ -47,7 +47,7 @@ As we work to create a basis for broad DevOps transformation, we're delivering i
 #### Cloud and DevOps Consultant
 
 > September 2015 - November 2018
-> 
+
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
 Drove Ford's internal IT Operations transformation department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
