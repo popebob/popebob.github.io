@@ -14,33 +14,43 @@ Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automa
 
 Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  Proficient in Azure design, implementation, and operation.
 
-##### Tech Stack
+##### Technology Focus
 
 - Azure Cloud
-- Azure Kubernetes
-- Azure Serverless: Azure Functions, Azure Logic Apps
+- Azure Kubernetes Service
+- Azure PaaS Serverless: Azure Functions, Azure Logic Apps
 - Azure DevOps/GitHub/git
+- Azure DevOps Pipelines
 - PowerShell/Bash
-- YAML/JSON
+- ARM/YAML/JSON
 - vagrant/terraform
 - Azure Site Recovery
 - Microsoft Team Foundation Server (TFS)
 
 ### Delta Dental of Michigan
 
-#### Cloud and DevOps Consultant
+#### DevOps Platform Manager
 
 > November 2018 - May 2019
 
 ##### ***Participated in Partners in Leadership: Accountability Training***
 
-Broad Organizational Goal: Re-establishing IT as a trusted business partner.  Increasing cost visibility.
+Work alongside management and engineering peers as a Player/Coach to drive a simultaneous Agile and Technology transformation: from long-cycle planning to 12-week SAFe Program Increments, from monolithic Java on web server Farms to Docker-based micro-services running in Kubernetes.
 
-Lead young DevOps team to deploy brand new private cloud application hosting environment built on OpenStack using Canonical managed services/technologies and Kubernetes.
+- Led Platform PI Planning and Execution activities through two PIs
+- Developed Infrastructure-as-Code local development environment and initial DevOps process for new DevOps Platform team
+- Developed multiple bash scripts and HEAT/CloudFormation Templates (IaC)
+- Kubernetes Architecture, including multiple integrations, Vault, Aqua, OpenStack
+- Served as Agile Product Owner and Agile Coach for Platform team
 
-We're using HEAT to deploy juju-based Kubernetes clusters, integrating Aqua, and writing various bits of automation to containerize and migrate legacy applications.
+##### Technology Focus
 
-As we work to create a basis for broad DevOps transformation, we're delivering incremental value, demonstrating the need to move from an evolutionary shift to a revolutionary shift.
+- OpenStack Private Cloud
+- HEAT/CloudFormations
+- Canonical Kubernetes
+- Juju/Salt
+- PowerShell/bash
+- Dynatrace/Zabbix
 
 ### Ford Motor Company
 
@@ -211,23 +221,16 @@ Immediately delivered value; dramatically increasing the success rate of helpdes
 - Increased Client PC VirusScan compliance to 99%+; only site in region to achieve, pattern was copied by Central IT for Global application
 - Grew into US PBX expert, adapting to German system deployed in USA: Auburn Hills (Two sites), MI, Warren, MI, and Tuscaloosa, AL
 - Grew into Regional IT Trainer, including training Microsoft Project to well-experienced Project Managers in North American Headquarters
-- Software Compliance metrics
-- Automated Reporting
-- Regional lead for SAP workflow automation
-- Developed and sustained 'key user' community within engineering, testing, tooling, prototyping, and manufacturing facilities to ensure compliance and increase workstation efficiency
-- Detected and remediated several malware incidents
-- Developed and maintained complex executive call routing trees according to customer-specific workflow and notification preferences
+- Automated Departmental Reporting and developed multiple KPIs that drove efficiencies
+- Implement a grass-roots cross-functional 'key user' community among engineering and administrative personel in other departments to increase support effectiveness
 
 ##### Major Projects Delivered
 
-- Multiple road shows: NAIAS, Multiple Tier 1 OEM Client Site visits
-- Stood up multiple sites: Warren, Harmon Rd
-- Successfully delivered multiple PC refresh programs for 450+ office size, including white glove Executive delivery and conferences rooms
-- Successfully delivered WLAN deployment
-- Visual Basic for Applications and Access-based Materials Resource Planning (MRP) Software, developed to force Central IT to deploy SAP where previously refused
-- Local lead for ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
-- Returned 1 FTE headcount in a 4 FTE department due to helpdesk ticket reduction
-- Successfully delivered NAFTA PBX conversion from legacy system to managed service with local last mile; helping to define service delivery model, training all North American resources
+- 3 Annual PC refresh programs for 450+ staff, including white glove Executive delivery
+- Implemented NA HQ WLAN: Planning, Install, Configuration
+- Led ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
+- Delivered 20% local staff IT headcount reduction via automation
+- Led North America PBX migration to Managed Services, including training at 6 North America facilities
 
 ##### Tech Stack
 
