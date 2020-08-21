@@ -4,7 +4,7 @@
 
 ### Coretek Services
 
-##### Cloud Architect
+#### Cloud Architect
 
 > May 2019 - August 2020
 
@@ -28,11 +28,11 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 
 ### Delta Dental of Michigan
 
-##### ***Participated in Partners in Leadership: Accountability Training***
-
 #### Cloud and DevOps Consultant
 
 > November 2018 - May 2019
+
+##### ***Participated in Partners in Leadership: Accountability Training***
 
 Broad Organizational Goal: Re-establishing IT as a trusted business partner.  Increasing cost visibility.
 
@@ -44,13 +44,13 @@ As we work to create a basis for broad DevOps transformation, we're delivering i
 
 ### Ford Motor Company
 
-##### ***Participated in Partners in Leadership: Accountability Training***
-
 #### Cloud and DevOps Consultant
 
 > September 2015 - November 2018
+> 
+##### ***Participated in Partners in Leadership: Accountability Training***
 
-Helped Ford transition IT Operations department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
+Drove Ford's internal IT Operations transformation department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
 
 ##### Project-Driven Organization (2015-2017):
 
