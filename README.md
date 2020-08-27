@@ -95,6 +95,10 @@ Drove Ford's internal IT Operations transformation department from heavily siloe
 
 ##### Product-Driven Organization (2017-2018):
 
+- Product Owner, DevOps Architect - DevSecOps Enterprise Framework
+  - Docker-based pipeline-as-code to support DevSecOps Release Processes
+  - Using docker, grafana, vault, and other tools for fully automated delivery zero-trust CI/CD toolchains
+for development teams
 - Consulting Architect - Containers as a Services (Kubernetes Platform)
   - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
 - DevOps Architect - Microsoft SQL Platform as a Service Release 1
