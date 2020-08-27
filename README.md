@@ -18,7 +18,9 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 
 - Azure Cloud
 - Azure Kubernetes Service
+- Azure Active Directory
 - Azure PaaS Serverless: Azure Functions, Azure Logic Apps
+- Azure RBAC, Policy, KeyVault
 - Azure DevOps/GitHub/git/GitOps
 - Azure DevOps Pipelines
 - PowerShell/Bash
@@ -26,6 +28,7 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 - vagrant/terraform
 - Azure Site Recovery
 - Microsoft Team Foundation Server (TFS)
+- Windows / Linux Servers
 
 ### Delta Dental of Michigan
 
