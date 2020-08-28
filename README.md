@@ -166,6 +166,23 @@ Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environme
   - Production Support Lead Activities
     - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology
 
+##### Tech Stack
+
+- Microsoft Enterprise Suite: Active Directory, Exchange, Windows Server and Client, End User Computing
+- Data Center Management: Rack and Stack, Install and Configure
+  - Cisco UCS, Dell, and HPE Servers
+  - Network Appliances: Cisco Switches, Palo Alto Firewalls, F5 Load Balancers, UPS, Data Center Cabling
+  - VMware ESX
+  - Physical Layer: Power and Space, Cooling, Internet Carriers
+- Extensive Powershell and bash Scripting, Puppet infrastructure-as-code
+- VMware vSphere and vRealize Orchestrator
+- TFS/Git
+- Bamboo/OctopusDeploy
+- Windows and Linux Servers
+- IIS Deployment and Administration
+- 
+
+
 ### Brose North America
 
 #### System Administrator
