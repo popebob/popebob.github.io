@@ -6,6 +6,8 @@
 
 #### Senior DevOps Engineer
 
+> August 2020 - Present
+
 First dedicated DevOps/Platform Engineering hire for growing SaaS start-up.  Lead design, implementation, and ongoing operations for zero-trust IaC for all Hoylu hosting.  Lead FedRAMP Moderate compliance activites, obtained ISO 27001-2013 certificaton in 2022.
 
 Focus on building the platform in a way that minimizes operational headcount.  Developer Self-Service and inherent compliance are central tenants.  Extrememly thin organizational structure, direct interation with senior leadership with strategic direction setting.  DevSecOps and Agile leadership.  Establish and scale process: release engineering, technical and customer support, IT financial planning and reporting, product engineering organizational structure.
