@@ -201,14 +201,14 @@ Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environme
 
 At Brose NA, I led the evolution of IT capabilities at the North American Headquarters, aligning them with the region's growing business needs and global standards. Collaborating with IT and business leadership across the region and corporate headquarters, I spearheaded initiatives that enhanced autonomy, efficiency, and performance in a challenging economic climate.
 
-## Strategic Contributions  
+#### Strategic Contributions  
 
 - Partnered with NA and corporate leadership to align IT strategy with business growth, supporting critical functions like engineering, sales, and quality.  
 - Achieved 100% VirusScan compliance, setting a global benchmark adopted by corporate IT.  
 - Established NA HQ IT as a regional support hub under a "follow-the-sun" model, increasing efficiency across North America.  
 - Delivered a 20% IT headcount reduction at HQ through automation without compromising service quality.  
 
-## Key Projects & Metrics  
+#### Key Projects & Metrics  
 
 - Led three annual PC refresh programs for 450+ staff, including executive-level delivery.  
 - Implemented an ITIL-based ITSM tool, reducing response times and improving workflows across NA sites.  
