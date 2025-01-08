@@ -161,42 +161,29 @@ for development teams
 
 ### Plex Systems
 
-#### Data Center Administrator
+**Data Center Administrator**
+*March 2012 – September 2015*
 
-> March 2012 – September 2015
+At Plex Systems, I was a key contributor to addressing the challenge of meeting rapidly increasing business demands within tight budget constraints. This required innovative approaches to cost savings, automation, and IT efficiency while supporting a growing enterprise and SaaS ERP product line in a 24/7 environment with a 99.9% SLA. As DevOps practices began to emerge globally, I played a critical role in establishing foundational DevOps principles and processes, collaborating closely with IT leadership to deploy and scale these practices effectively.
 
-##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
+#### Strategic Contributions
 
-Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.  Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX 404 Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
+- Partnered with IT leadership daily to align emerging DevOps initiatives with organizational goals and business needs.  
+- Reduced server build times by 90% through automation, enabling faster deployment cycles and reducing operational overhead.  
+- Delivered ITSM solutions with CMDB integration and ITIL-compliant workflows to meet SOC2 compliance requirements.  
+- Designed and implemented critical DevOps projects, including supporting a JavaScript UI/UX overhaul for the product and a .NET ADAL extension to integrate authentication with Microsoft Active Directory.  
+- Improved deployment processes, enabling blue/green and midday production deployments to meet SLA requirements with minimal disruption.  
 
-- Automation Team Lead/DevOps Engineer
-  - Drastically increase deployment frequency to all Environments, including Blue/Green deployment and mid-day Production deployments
-  - .NET Application Support, AD and SQL Server .NET Extensibility
-  - Automate Server Build and Configuration: Windows Server, ESXi, SQL Server, IIS Server, App Servers
-  - Reduce VM build time by 90% with automation, additionally reducing SOX 404 audit burden
-  - Automate Backup Tape Management, including physical media lifecycle management
-- Data Center Management
-  - Rack/Stack/Manage all equipment in the Data Center, Document Best Practices
-  - Data Center Space and Power Planning, Data Center Expansion and Relocation Project execution
-- Enterprise Architecture
-  - Rationalize start-up business requirements to plan and implement Compute, Storage, and Network design for Data Center to support rapid business growth
-  - Develop, Implement, and Operate initial DevOps toolchain, git, CI/CD, Azure, ChatOps, Infrastructure-as-Code
-  - Maintenance Window Planning and Execution
-  - Planning and Implementation of Active Directory .NET extensibility to extend capabilities of Plex ERP SaaS
-  - Integrate Plex ERP to internal processes to implement ITIL practices
-  - Develop and Implement many developer tools to shift-left operations to .NET development teams
-  - Disaster Recovery and Business Continuity Planning and Execution
-- Infrastructure Engineer
-  - VMware vCenter Planning, Operation, Upgrades
-  - Microsoft Exchange, AD
-  - AD and O365 Migration Planning
-  - Production Support Lead Activities
-    - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology
+#### Key Projects & Metrics
+
+- Automated server build and configuration processes for Windows Server, SQL Server, and VMware ESXi, driving a 90% reduction in manual build times.  
+- Introduced the first DevOps toolchain at Plex, including CI/CD pipelines, Azure integration, and ChatOps functionality, in real-time to emerging projects and teams
+- Led data center space and power planning, including expansion and relocation projects to support enterprise growth.  
+- Designed and executed broad disaster recovery and business continuity plans, ensuring operational resilience during incidents.
 
 ### Brose North America  
 
-**System Administrator**  
-
+**System Administrator**
 *July 2008 – March 2012*
 
 At Brose NA, I led the evolution of IT capabilities at the North American Headquarters, aligning them with the region's growing business needs and global standards. Collaborating with IT and business leadership across the region and corporate headquarters, I spearheaded initiatives that enhanced autonomy, efficiency, and performance in a challenging economic climate.
