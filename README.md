@@ -193,41 +193,27 @@ Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environme
   - Production Support Lead Activities
     - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology
 
-### Brose North America
+### Brose North America  
 
-#### System Administrator
+**System Administrator**  
 
-> July 2008 - March 2012
+*July 2008 – March 2012*
 
-Led transformation of IT department within North American Headquarters and grew from local branch only to regional leadership and participation in Global IT Projects.
+At Brose NA, I led the evolution of IT capabilities at the North American Headquarters, aligning them with the region's growing business needs and global standards. Collaborating with IT and business leadership across the region and corporate headquarters, I spearheaded initiatives that enhanced autonomy, efficiency, and performance in a challenging economic climate.
 
-##### Significant Accomplishments
+## Strategic Contributions  
 
-Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
+- Partnered with NA and corporate leadership to align IT strategy with business growth, supporting critical functions like engineering, sales, and quality.  
+- Achieved 100% VirusScan compliance, setting a global benchmark adopted by corporate IT.  
+- Established NA HQ IT as a regional support hub under a "follow-the-sun" model, increasing efficiency across North America.  
+- Delivered a 20% IT headcount reduction at HQ through automation without compromising service quality.  
 
-- Increased Client PC VirusScan compliance to 99%+; only site in region to achieve, pattern was copied by Central IT for Global application
-- Telecommunications SME
-- Regional IT Trainer, including Microsoft Project
-- Automated Departmental Reporting and developed multiple KPIs that drove efficiencies
-- Implement a grass-roots cross-functional 'key user' community among engineering and administrative personnel in other departments to increase support effectiveness
+## Key Projects & Metrics  
 
-##### Major Projects Delivered
-
-- 3 Annual PC refresh programs for 450+ staff, including white glove Executive delivery
-- Implemented NA HQ WLAN: Planning, Install, Configuration
-- Led ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
-- Delivered 20% local staff IT headcount reduction via automation
-- Led North America PBX migration to Managed Services, including training at 6 North America facilities
-
-##### Tech Stack
-
-- Microsoft Enterprise Suite: Active Directory, Exchange, Windows Server and Client, End User Computing
-- Data Center Management: Rack and Stack, Install and Configure
-  - HPE Servers
-  - Cisco IOS switches
-  - VMware ESX
-- Telecommunications and Network Lead
-- Powershell and Windows Shell Scripting
+- Led three annual PC refresh programs for 450+ staff, including executive-level delivery.  
+- Implemented an ITIL-based ITSM tool, reducing response times and improving workflows across NA sites.  
+- Designed and deployed NA HQ WLAN infrastructure to improve connectivity for core business functions.  
+- Consistently exceeded service KPIs, elevating NA HQ IT's influence on global targets.
 
 ### Certifications
 
