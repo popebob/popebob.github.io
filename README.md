@@ -2,35 +2,35 @@
 
 ## Professional History
 
-### Hoylu, AB
+### Hoylu, AB  
+**Senior Platform Architect**  
+*August 2020 – Present*
 
-#### Senior DevOps Engineer
+At Hoylu, I have played a pivotal role in driving engineering, operational, and strategic initiatives within a small, dynamic SaaS start-up environment. Collaborating closely with the VP of Engineering and engaging directly with the CEO and board, I have contributed to high-level decision-making, including developing cost of goods sold (COGS) metrics and aligning platform costs with customer usage patterns. My work spans all departments, addressing the evolving needs of a fast-paced organization while ensuring operational scalability and efficiency.
 
-> August 2020 - Present
+#### Strategic Contributions
 
-First dedicated DevOps/Platform Engineering hire for growing SaaS start-up.  Lead design, implementation, and ongoing operations for zero-trust IaC for all Hoylu hosting.  Lead FedRAMP Moderate compliance activites, obtained ISO 27001-2013 certificaton in 2022.
+- Partnered with the VP of Engineering and product teams to develop customer usage-based cost metrics, enabling precise cloud cost predictions and board-level reporting.  
+- Managed cloud cost forecasting and optimization, driving efficiency gains while maintaining budgetary alignment for Hoylu’s scalable platform.  
+- Spearheaded ISO compliance efforts, securing and maintaining certifications critical to business operations and customer trust.  
+- Established a formal, public-facing SLA, leveraging a scalable, self-healing platform to meet performance guarantees without requiring engineering headcount growth.  
+- Worked cross-functionally across engineering, sales, and product teams to align technical capabilities with organizational goals.  
+- Played a key role in overhauling internal delivery processes to support a fully customized AWS GovCloud adaptation.  
 
-Focus on building the platform in a way that minimizes operational headcount.  Developer Self-Service and inherent compliance are central tenants.  Extrememly thin organizational structure, direct interation with senior leadership with strategic direction setting.  DevSecOps and Agile leadership.  Establish and scale process: release engineering, technical and customer support, IT financial planning and reporting, product engineering organizational structure.
+#### Key Projects & Metrics
 
-##### Technology Focus
+- Led a fully customized private deployment of Hoylu’s SaaS solution in AWS GovCloud, meeting stringent compliance and security requirements while tailoring the software supply chain to client needs.  
+- Designed, implemented, and maintained Hoylu’s scalable, cloud-native platform, leading a team of 4 DevOps engineers in collaboration with 4 backend API engineers.  
+- Achieved significant reductions in operational costs through efficient cloud cost management and resource optimization.  
+- Implemented automated, self-healing systems that reduced manual intervention, ensuring consistent SLA performance and reliability.  
+- Led efforts to upskill internal teams and improve collaboration across departments, enhancing organizational efficiency.  
+- Reduced operational dependencies and streamlined workflows, enabling faster delivery and customer satisfaction.
 
-- Azure Cloud Computing and Networking
-- elastic stack (efk, log aggregation and Wazuh SIEM)
-- Hashicorp Cloud Platform (Consul, Nomad, Terraform, Vault)
-- Azure RBAC, Policy, KeyVault
-- Azure DevOps/GitHub/git/GitOps
-- Azure DevOps Pipelines
-- Ansible/bash/az cli/REST API
-- vagrant/docker
-- nginx reverse proxy
-- automated mutual tls
-- Ubuntu VMs
-- Supporting app stack using Java kotlin, .NET
-- Consul service mesh primitives
-- DAST/SAST/Penetration Testing
+---
 
-### Coretek Services  
-**Cloud Architect**  
+### Coretek Services
+
+**Cloud Architect**
 *May 2019 – August 2020*
 
 At Coretek Services, I built and led the DevOps practice, driving projects from presales to post-delivery for multiple clients. I was responsible for scoping, pricing, scheduling, and defining training needs for all DevOps engagements, working directly with internal and client leadership at the highest levels, often including ownership. I developed and maintained the DevOps service catalog, delivered projects, and upskilled internal personnel in real-time. My work included implementing Azure-based solutions, modernizing applications, and enabling DevOps transformations.
@@ -56,7 +56,7 @@ At Coretek Services, I built and led the DevOps practice, driving projects from 
 
 ### Delta Dental of Michigan
 
-**DevOps Platform Manager**  
+**DevOps Platform Manager**
 *November 2018 – May 2019*
 
 At Delta Dental, I collaborated with IT leadership, vendor partners, and multiple Agile Release Trains (ARTs) to develop an advanced application hosting platform within a self-hosted data center. Working closely with the CTO on a daily basis, I led the creation of greenfield operating models, developer self-service platforms, and the integration of tools for observability and monitoring. Actively participating as a lead in ITSM processes—including Change, Incident, and Problem Management—I resolved complex challenges around resource aggregation and supply chain management to ensure scalability and efficiency.
