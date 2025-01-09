@@ -67,8 +67,8 @@ At Delta Dental, I collaborated with IT leadership, vendor partners, and multipl
 - Led the creation of greenfield operating models and developer self-service capabilities, empowering teams and reducing operational overhead.  
 - Acted as a bridge between traditional IT and DevOps, leading and reinventing ITSM processes, including Change, Incident, and Problem Management.  
 - Integrated application observability tools, such as ELK and AppDynamics, to enhance monitoring and performance analysis.  
-- Resolved supply chain and Infrastructure as Code challenges, streamlining deployment workflows and ensuring traceability.  
-- Addressed resource aggregation challenges, optimizing compute, storage, and power resources for improved platform performance.
+- Resolved software supply chain and Infrastructure as Code challenges, streamlining deployment workflows and ensuring traceability.  
+- Addressed cloud resource aggregation challenges, optimizing compute, storage, and network resources for improved platform performance.
 
 #### Key Projects & Metrics
 
@@ -77,7 +77,7 @@ At Delta Dental, I collaborated with IT leadership, vendor partners, and multipl
 - Developed ITSM DevOps integration frameworks to modernize Change, Incident, and Problem Management practices.  
 - Created developer self-service platforms, reducing deployment dependencies on central IT teams.  
 - Delivered automation tools and processes, reducing release cycle times and increasing team velocity.  
-- Optimized resource aggregation and abstraction, improving overall compute, storage, and power utilization efficiency.
+- Optimized resource aggregation and abstraction, improving overall compute, storage, and network utilization efficiency.
 
 ---
 
