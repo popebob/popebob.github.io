@@ -84,7 +84,6 @@ Work alongside management and engineering peers as a Player/Coach to drive a sim
 - Dynatrace/Zabbix
 - Bitbucket/Jenkins/GitOps
 
-
 ### Ford Motor Company  
 **Cloud and DevOps Consultant**  
 *September 2015 – November 2018*
