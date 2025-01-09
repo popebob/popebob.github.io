@@ -2,8 +2,8 @@
 
 ## Professional History
 
-### Hoylu, AB  
-**Senior Platform Architect**  
+### Hoylu
+**Senior DevOps Engineer**  
 *August 2020 – Present*
 
 At Hoylu, I have played a pivotal role in driving engineering, operational, and strategic initiatives within a small, dynamic SaaS start-up environment. Collaborating closely with the VP of Engineering and engaging directly with the CEO and board, I have contributed to high-level decision-making, including developing cost of goods sold (COGS) metrics and aligning platform costs with customer usage patterns. My work spans all departments, addressing the evolving needs of a fast-paced organization while ensuring operational scalability and efficiency.
