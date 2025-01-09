@@ -29,33 +29,30 @@ Focus on building the platform in a way that minimizes operational headcount.  D
 - Consul service mesh primitives
 - DAST/SAST/Penetration Testing
 
-### Coretek Services
+### Coretek Services  
+**Cloud Architect**  
+*May 2019 – August 2020*
 
-#### Cloud Architect
+At Coretek Services, I built and led the DevOps practice, driving projects from presales to post-delivery for multiple clients. I was responsible for scoping, pricing, scheduling, and defining training needs for all DevOps engagements, working directly with internal and client leadership at the highest levels, often including ownership. I developed and maintained the DevOps service catalog, delivered projects, and upskilled internal personnel in real-time. My work included implementing Azure-based solutions, modernizing applications, and enabling DevOps transformations.
 
-> May 2019 - August 2020
+#### Strategic Contributions
 
-Fully Billable Client-facing Consultant leading Agile, DevOps, and Cloud-Native implementation projects.  Excellent in leading projects as implementation lead as well as project and delivery management lead.
+- Built Coretek’s DevOps practice, defining service offerings and driving transformation projects for multiple clients.  
+- Collaborated with internal and client leadership, including ownership, to align project delivery with business goals.  
+- Delivered DevOps transformation services, including containerization, modernization, and the automation of documentation to improve consistency and efficiency.  
+- Designed and implemented cross-functional teams, integrating internal teams, vendors, clients, and client vendors to achieve project success.  
+- Conducted internal training and skills evaluations, upskilling Coretek personnel to meet delivery needs in real-time.
 
-Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automation, and Operational process development, Enterprise-Scaled Agile/DevOps Framework.
+#### Key Projects & Metrics
 
-Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  Proficient in Azure design, implementation, and operation.
+- Developed CI/CD pipelines and Infrastructure as Code solutions using Azure DevOps, AKS, LogicApps, and Terraform.  
+- Led DevOps transformations across multiple clients, enabling modernization and scalability through automation.  
+- Implemented automation for project documentation, reducing delivery time and improving standardization.  
+- Built containerization strategies for application modernization, leveraging Azure Kubernetes Service (AKS).  
+- Defined and managed DevOps service catalogs, improving client engagement and delivery alignment.  
+- Designed and delivered training programs to upskill internal teams, enabling faster project delivery and increased client satisfaction.
 
-##### Technology Focus
-
-- Azure Cloud
-- Azure Kubernetes Service
-- Azure Active Directory
-- Azure PaaS Serverless: Azure Functions, Azure Logic Apps
-- Azure RBAC, Policy, KeyVault
-- Azure DevOps/GitHub/git/GitOps
-- Azure DevOps Pipelines
-- PowerShell/Bash
-- ARM/YAML/JSON
-- vagrant/terraform
-- Azure Site Recovery
-- Microsoft Team Foundation Server (TFS)
-- Windows / Linux Servers
+---
 
 ### Delta Dental of Michigan
 
