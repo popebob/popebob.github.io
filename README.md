@@ -160,6 +160,8 @@ At Brose NA, I led the evolution of IT capabilities at the North American Headqu
 - Designed and deployed NA HQ WLAN infrastructure, enhancing connectivity for core business functions.  
 - Consistently exceeded service KPIs, elevating NA HQ IT's influence on global targets.
 
+---
+
 ### Certifications
 
 ### University of Michigan - Flint
