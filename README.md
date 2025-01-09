@@ -59,32 +59,33 @@ Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  P
 
 ### Delta Dental of Michigan
 
-#### DevOps Platform Manager
+**DevOps Platform Manager**  
+*November 2018 – May 2019*
 
-> November 2018 - May 2019
+At Delta Dental, I collaborated with IT leadership, vendor partners, and multiple Agile Release Trains (ARTs) to develop an advanced application hosting platform within a self-hosted data center. Working closely with the CTO on a daily basis, I led the creation of greenfield operating models, developer self-service platforms, and the integration of tools for observability and monitoring. Actively participating as a lead in ITSM processes—including Change, Incident, and Problem Management—I resolved complex challenges around resource aggregation and supply chain management to ensure scalability and efficiency.
 
-##### ***Participated in Partners in Leadership: Accountability Training***
+#### Strategic Contributions
 
-Work alongside management and engineering peers as a Player/Coach to drive a simultaneous Agile and Technology transformation: from long-cycle planning to 12-week SAFe Program Increments, from monolithic Java on web server Farms to Docker-based micro-services running in Kubernetes.
+- Partnered with internal teams, vendor partners, and the CTO to align platform development with enterprise objectives, driving scalability and reliability.  
+- Led the creation of greenfield operating models and developer self-service capabilities, empowering teams and reducing operational overhead.  
+- Acted as a bridge between traditional IT and DevOps, leading and reinventing ITSM processes, including Change, Incident, and Problem Management.  
+- Integrated application observability tools, such as ELK and AppDynamics, to enhance monitoring and performance analysis.  
+- Resolved supply chain and Infrastructure as Code challenges, streamlining deployment workflows and ensuring traceability.  
+- Addressed resource aggregation challenges, optimizing compute, storage, and power resources for improved platform performance.
 
-- Led Platform PI Planning and Execution activities through two PIs
-- Developed Infrastructure-as-Code local development environment and initial DevOps process for new DevOps Platform team
-- Developed multiple bash scripts and HEAT/CloudFormation Templates (IaC)
-- Kubernetes Architecture, including multiple integrations, Vault, Aqua, OpenStack
-- Served as Agile Product Owner and Agile Coach for Platform team
-- Platform Operational Incident Commander and Problem Report Owner
+#### Key Projects & Metrics
 
-##### Technology Focus
+- Designed and implemented a scalable Kubernetes application hosting platform, supporting high-availability and efficient application deployment.  
+- Deployed observability tools (ELK, AppDynamics) to improve monitoring, troubleshooting, and operational insights.  
+- Developed ITSM DevOps integration frameworks to modernize Change, Incident, and Problem Management practices.  
+- Created developer self-service platforms, reducing deployment dependencies on central IT teams.  
+- Delivered automation tools and processes, reducing release cycle times and increasing team velocity.  
+- Optimized resource aggregation and abstraction, improving overall compute, storage, and power utilization efficiency.
 
-- OpenStack Private Cloud
-- HEAT/CloudFormations
-- Canonical Kubernetes
-- Juju/Salt
-- PowerShell/bash
-- Dynatrace/Zabbix
-- Bitbucket/Jenkins/GitOps
+---
 
-### Ford Motor Company  
+### Ford Motor Company
+
 **Cloud and DevOps Consultant**  
 *September 2015 – November 2018*
 
@@ -105,7 +106,8 @@ I authored and published enterprise architecture guidelines for cloud and automa
 
 #### Key Projects & Metrics
 
-- Designed a greenfield prototype for Ford’s future data centers, including rack, power, cooling, OS delivery, virtualization, and automation.  
+- Designed a greenfield prototype for Ford’s future data centers, including rack, power, cooling, OS delivery, virtualization, and automation.
+- Developed and deployed Ford's "DevOps Framework", guiding all initial IT teams utilizing DevOps techniques, and starting Ford SRE's organization.
 - Led the implementation of Ford’s internal cloud platform, reducing deployment times and enabling on-demand scalability.  
 - Developed and launched governance frameworks for cloud and automation strategies, improving operational efficiency and compliance.  
 - Delivered measurable improvements in service delivery KPIs, including faster deployment cycles, reduced costs, and enhanced reliability.  
