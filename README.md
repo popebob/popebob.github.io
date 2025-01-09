@@ -3,6 +3,7 @@
 ## Professional History
 
 ### Hoylu
+
 **Senior DevOps Engineer**  
 *August 2020 – Present*
 
@@ -83,7 +84,7 @@ At Delta Dental, I collaborated with IT leadership, vendor partners, and multipl
 
 ### Ford Motor Company
 
-**Cloud and DevOps Consultant**  
+**DevOps Architect**  
 *September 2015 – November 2018*
 
 At Ford, I played a central role in delivering transformational IT initiatives, including the company’s first two purpose-built enterprise data centers, an internal cloud, and a modern service delivery model. Beginning with a greenfield prototype, I guided its growth into a fully realized product, overseeing its evolution from initial design to full-scale implementation during my tenure. I coordinated efforts across internal teams and vendor partners, working hands-on technically while collaborating with project managers, managers, and executives to meet aggressive timelines and deliver results.
@@ -134,28 +135,6 @@ At Plex Systems, I was a key contributor to addressing the challenge of meeting 
 - Introduced the first DevOps toolchain at Plex, including CI/CD pipelines, Azure integration, and ChatOps functionality.  
 - Planned and led data center space and power management projects, including expansions and relocations to support enterprise growth.  
 - Designed and implemented disaster recovery and business continuity plans, ensuring resilience during incidents.
-
----
-
-### Brose North America  
-**System Administrator**  
-*July 2008 – March 2012*
-
-At Brose NA, I led the evolution of IT capabilities at the North American Headquarters, aligning them with the region's growing business needs and global standards. Collaborating with IT and business leadership across the region and corporate headquarters, I spearheaded initiatives that enhanced autonomy, efficiency, and performance in a challenging economic climate.
-
-#### Strategic Contributions
-
-- Partnered with NA and corporate leadership to align IT strategy with business growth, supporting critical functions like engineering, sales, and quality.  
-- Achieved 100% VirusScan compliance, setting a global benchmark adopted by corporate IT.  
-- Established NA HQ IT as a regional support hub under a "follow-the-sun" model, increasing efficiency across North America.  
-- Delivered a 20% IT headcount reduction at HQ through automation without compromising service quality.  
-
-#### Key Projects & Metrics
-
-- Managed three annual PC refresh programs for 450+ staff, including executive-level delivery.  
-- Implemented an ITIL-based ITSM tool, improving response times and workflow efficiency across NA sites.  
-- Designed and deployed NA HQ WLAN infrastructure, enhancing connectivity for core business functions.  
-- Consistently exceeded service KPIs, elevating NA HQ IT's influence on global targets.
 
 ---
 
