@@ -84,84 +84,40 @@ Work alongside management and engineering peers as a Player/Coach to drive a sim
 - Dynatrace/Zabbix
 - Bitbucket/Jenkins/GitOps
 
-### Ford Motor Company
 
-#### Cloud and DevOps Consultant
+### Ford Motor Company  
+**Cloud and DevOps Consultant**  
+*September 2015 – November 2018*
 
-> September 2015 - November 2018
+At Ford, I played a central role in delivering transformational IT initiatives, including the company’s first two purpose-built enterprise data centers, an internal cloud, and a modern service delivery model. Beginning with a greenfield prototype, I guided its growth into a fully realized product, overseeing its evolution from initial design to full-scale implementation during my tenure. I coordinated efforts across internal teams and vendor partners, working hands-on technically while collaborating with project managers, managers, and executives to meet aggressive timelines and deliver results.
 
-##### ***Participated in Partners in Leadership: Accountability Training***
+I authored and published enterprise architecture guidelines for cloud and automation, launched IT governance processes, and led the implementation of the first deployments into the new data centers. These efforts drove substantial KPI improvements across core IT functions. My work embedded DevSecOps practices and Infrastructure as Code into Ford’s Agile and product-centric transformation, supported by training materials and documentation distributed organization-wide. I engaged with all levels of leadership, from direct CIO presentations to hands-on mentorship within newly formed teams.
 
-Drove Ford's internal IT Operations transformation department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
+#### Strategic Contributions
 
-##### Project-Driven Organization (2015-2017):
+- Partnered with project managers, managers, and executives to align IT initiatives with Ford’s strategic objectives.  
+- Guided the evolution of a greenfield prototype into a fully realized product, leading successful deployments into the new data centers.  
+- Authored enterprise architecture guidelines for cloud and automation, establishing scalable and efficient IT frameworks.  
+- Launched IT governance processes, enabling effective management of cloud and automation strategies.  
+- Achieved significant KPI improvements across financial, security, ITSM, and enterprise architecture functions.  
+- Embedded DevSecOps and Infrastructure as Code into Ford’s Agile and product-centric transformation, driving cultural and operational shifts.  
+- Delivered technical leadership for data center deployments, automation frameworks, and service delivery improvements.  
+- Presented directly to the CIO and created training materials for broad organizational adoption.
 
-- Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
-  - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
-  - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
-  - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
-    - Successfully delivered multiple projects, from proofs of concepts and pilots to final testing environment prior to data center deployment
-    - Responsible for all assets, service delivery, process creation, and coordination
-    - Successfully employed extensive and detail-oriented vendor management to establish new precedents for service delivery times and quality levels
-    - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precedents for project / feature delivery times and quality levels
-    - Leveraged grassroots approach to establish and sustain results-oriented "customer success" culture
-    - Scaled up and handed off multiple initiatives, eventually including the lab itself
-- Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
-  - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
-  - Manager - Project Delivery: responsible for requirements development across multiple workstreams
-- Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
-  - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
-  - Infrastructure Orchestration Design Lead - Work closely with vendor professional services
-  - Delivery Manager - Collected data for Agile transformation
-- DevOps Architect - Next Generation Release 2
-  - Lead Tools Team
-  - Lean Process Coaching
-  - Cloud Architect
-  - Agile Coaching
-  - DevOps: git-ops
+#### Key Projects & Metrics
 
-##### Product-Driven Organization (2017-2018):
+- Designed a greenfield prototype for Ford’s future data centers, including rack, power, cooling, OS delivery, virtualization, and automation.  
+- Led the implementation of Ford’s internal cloud platform, reducing deployment times and enabling on-demand scalability.  
+- Developed and launched governance frameworks for cloud and automation strategies, improving operational efficiency and compliance.  
+- Delivered measurable improvements in service delivery KPIs, including faster deployment cycles, reduced costs, and enhanced reliability.  
+- Spearheaded the adoption of DevSecOps and Infrastructure as Code practices, enabling Ford’s cultural and operational transformation.  
+- Authored enterprise architecture guidelines for cloud and automation to align IT functions.  
+- Led the first deployments into new data centers, establishing operational benchmarks for subsequent rollouts.
 
-- Product Owner, DevOps Architect - DevSecOps Enterprise Framework
-  - Docker-based pipeline-as-code to support DevSecOps Release Processes
-  - Using docker, grafana, vault, and other tools for fully automated delivery zero-trust CI/CD toolchains
-for development teams
-- Consulting Architect - Containers as a Services (Kubernetes Platform)
-  - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Microsoft SQL Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-- DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-- DevOps Architect - IBM API-Connect API Platform as a Service Release 1
-  - Product Owner Coach
-  - Vision Setting
-  - Team Incubation
-- Consulting Architect - F5 iWorkflow Network Orchestration Platform as a Service Release 1
-  - Consultant: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Next Generation Release 3
-  - Program-level Vision Setting
-- Agile Coach - Next Generation Release 3
-  - Lead Project Managers and Scrum Masters as new Agile organization rapidly scaled up
-- DevOps Architect - NetApp NAS Storage Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-  - Consulting Architect: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Infrastructure as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-  - Lead Architect
-- DevOps Architect - Next Generation Release Engineering
-  - Product Owner Coach
-  - Vision Setting
-  - Process Architect
-  - Established new Data Center infrastructure release process
-  - Intensive 1:1 pairing with new Team Lead to prepare for Release Manager role
+---
 
-### Plex Systems
-
-**Data Center Administrator**
+### Plex Systems  
+**Data Center Administrator**  
 *March 2012 – September 2015*
 
 At Plex Systems, I was a key contributor to addressing the challenge of meeting rapidly increasing business demands within tight budget constraints. This required innovative approaches to cost savings, automation, and IT efficiency while supporting a growing enterprise and SaaS ERP product line in a 24/7 environment with a 99.9% SLA. As DevOps practices began to emerge globally, I played a critical role in establishing foundational DevOps principles and processes, collaborating closely with IT leadership to deploy and scale these practices effectively.
@@ -177,29 +133,30 @@ At Plex Systems, I was a key contributor to addressing the challenge of meeting 
 #### Key Projects & Metrics
 
 - Automated server build and configuration processes for Windows Server, SQL Server, and VMware ESXi, driving a 90% reduction in manual build times.  
-- Introduced the first DevOps toolchain at Plex, including CI/CD pipelines, Azure integration, and ChatOps functionality, in real-time to emerging projects and teams
-- Led data center space and power planning, including expansion and relocation projects to support enterprise growth.  
-- Designed and executed broad disaster recovery and business continuity plans, ensuring operational resilience during incidents.
+- Introduced the first DevOps toolchain at Plex, including CI/CD pipelines, Azure integration, and ChatOps functionality.  
+- Planned and led data center space and power management projects, including expansions and relocations to support enterprise growth.  
+- Designed and implemented disaster recovery and business continuity plans, ensuring resilience during incidents.
+
+---
 
 ### Brose North America  
-
-**System Administrator**
+**System Administrator**  
 *July 2008 – March 2012*
 
 At Brose NA, I led the evolution of IT capabilities at the North American Headquarters, aligning them with the region's growing business needs and global standards. Collaborating with IT and business leadership across the region and corporate headquarters, I spearheaded initiatives that enhanced autonomy, efficiency, and performance in a challenging economic climate.
 
-#### Strategic Contributions  
+#### Strategic Contributions
 
 - Partnered with NA and corporate leadership to align IT strategy with business growth, supporting critical functions like engineering, sales, and quality.  
 - Achieved 100% VirusScan compliance, setting a global benchmark adopted by corporate IT.  
 - Established NA HQ IT as a regional support hub under a "follow-the-sun" model, increasing efficiency across North America.  
 - Delivered a 20% IT headcount reduction at HQ through automation without compromising service quality.  
 
-#### Key Projects & Metrics  
+#### Key Projects & Metrics
 
-- Led three annual PC refresh programs for 450+ staff, including executive-level delivery.  
-- Implemented an ITIL-based ITSM tool, reducing response times and improving workflows across NA sites.  
-- Designed and deployed NA HQ WLAN infrastructure to improve connectivity for core business functions.  
+- Managed three annual PC refresh programs for 450+ staff, including executive-level delivery.  
+- Implemented an ITIL-based ITSM tool, improving response times and workflow efficiency across NA sites.  
+- Designed and deployed NA HQ WLAN infrastructure, enhancing connectivity for core business functions.  
 - Consistently exceeded service KPIs, elevating NA HQ IT's influence on global targets.
 
 ### Certifications
