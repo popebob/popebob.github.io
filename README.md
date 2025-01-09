@@ -86,7 +86,7 @@ Work alongside management and engineering peers as a Player/Coach to drive a sim
 
 ### Ford Motor Company
 
-#### Cloud and DevOps Consultant
+#### DevOps Architect
 
 > September 2015 - November 2018
 
