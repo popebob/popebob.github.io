@@ -78,9 +78,14 @@
   var stackOn = false;
   var PEEK = 16;
 
+  function flatTheme() {
+    var t = root.getAttribute("data-theme");
+    return t === "editorial" || t === "ops";
+  }
+
   function layoutStack() {
     if (!casesWrap || slots.length < 2) return;
-    stackOn = window.matchMedia("(min-width: 900px)").matches;
+    stackOn = !flatTheme() && window.matchMedia("(min-width: 900px)").matches;
     casesWrap.classList.toggle("stack", stackOn);
     if (!stackOn) {
       slots.forEach(function (s) {
@@ -92,8 +97,7 @@
     }
     var vh = window.innerHeight;
     slots.forEach(function (s, i) {
-      var base = root.getAttribute("data-theme") === "ops" ? 58 : 22;
-      var ideal = base + i * PEEK;
+      var ideal = 22 + i * PEEK;
       var fit = vh - s.offsetHeight - 24;
       s.style.setProperty("--pin", Math.min(ideal, fit) + "px");
     });
@@ -101,9 +105,9 @@
 
   function recede() {
     if (!stackOn || slots.length < 2) return;
-    var editorial = root.getAttribute("data-theme") === "editorial";
+    var flat = flatTheme();
     for (var i = 0; i < slots.length - 1; i++) {
-      if (editorial || reduce) {
+      if (flat || reduce) {
         slots[i].style.transform = "";
         slots[i].style.filter = "";
         continue;
@@ -157,7 +161,7 @@
     document.querySelectorAll(".case").forEach(function (card) {
       var raf = null;
       card.addEventListener("mousemove", function (e) {
-        if (root.getAttribute("data-theme") === "editorial") return;
+        if (flatTheme()) return;
         if (raf) return;
         raf = requestAnimationFrame(function () {
           raf = null;

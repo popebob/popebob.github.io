@@ -1386,3 +1386,51 @@ html:not(.js) .theme-float {
   content: "▸ ";
   color: var(--accent);
 }
+
+/* ---- Ops: one continuous terminal buffer, not framed cards ---- */
+:root[data-theme="ops"] .cases-chrome {
+  margin-bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
+:root[data-theme="ops"] .cases {
+  background: #0d1624;
+  border: 1px solid var(--rule);
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+:root[data-theme="ops"] .case-slot + .case-slot {
+  margin-top: 0;
+  border-top: 1px solid var(--rule);
+}
+:root[data-theme="ops"] .case {
+  background: transparent;
+  border: 0;
+  border-left: 3px solid var(--accent);
+  border-radius: 0;
+  box-shadow: none;
+}
+:root[data-theme="ops"] .case-head {
+  border-radius: 0;
+  background: #101b2b;
+}
+/* Ops never stacks — entries flow past the pinned chrome bar like a log */
+:root[data-theme="ops"] .cases.stack .case-slot {
+  position: static;
+  transform: none !important;
+  filter: none !important;
+}
+:root[data-theme="ops"] .cases::after {
+  content: "▊";
+  display: block;
+  padding: 12px var(--case-pad) 16px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  animation: caret 1.15s steps(2, start) infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root[data-theme="ops"] .cases::after {
+    animation: none;
+    opacity: 0.55;
+  }
+}
