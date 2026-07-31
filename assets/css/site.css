@@ -1315,3 +1315,74 @@ html:not(.js) .theme-float {
   transform: none !important;
   filter: none !important;
 }
+
+/* ---- Ops: cases as a tailing log / terminal window ---- */
+.cases-chrome {
+  display: none;
+}
+:root[data-theme="ops"] .cases-chrome {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 11px 18px;
+  margin-bottom: 14px;
+  background: #0a121d;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--muted);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+:root[data-theme="ops"] .chrome-title {
+  color: var(--ink-soft);
+}
+:root[data-theme="ops"] .chrome-meta {
+  margin-left: auto;
+  color: var(--accent);
+}
+.chrome-dots {
+  display: inline-flex;
+  gap: 6px;
+}
+.chrome-dots i {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+:root[data-theme="ops"] .chrome-dots i:nth-child(1) { background: #d95f4d; }
+:root[data-theme="ops"] .chrome-dots i:nth-child(2) { background: #d9ae3f; }
+:root[data-theme="ops"] .chrome-dots i:nth-child(3) { background: #4cc893; }
+:root[data-theme="ops"] .case {
+  border-left: 3px solid var(--accent);
+}
+:root[data-theme="ops"] .case-title {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  letter-spacing: 0;
+}
+:root[data-theme="ops"] .case-meta {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+}
+:root[data-theme="ops"] .case-number {
+  border: 0;
+  background: transparent;
+  padding: 6px 0;
+}
+:root[data-theme="ops"] .case-number::before {
+  content: "[ ";
+  color: var(--muted);
+}
+:root[data-theme="ops"] .case-number::after {
+  content: " ]";
+  color: var(--muted);
+}
+:root[data-theme="ops"] .case-company::before {
+  content: "▸ ";
+  color: var(--accent);
+}
