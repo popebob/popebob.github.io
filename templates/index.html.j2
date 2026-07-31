@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ meta.title }}</title>
+<meta name="description" content="{{ meta.description }}">
+<link rel="canonical" href="{{ meta.url }}">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="{{ meta.title }}">
+<meta property="og:description" content="{{ meta.description }}">
+<meta property="og:url" content="{{ meta.url }}">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preload" href="assets/fonts/plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script>
+(function () {
+  document.documentElement.classList.add("js");
+  var themes = ["dossier", "editorial", "ops"];
+  var q = new URLSearchParams(location.search).get("theme");
+  var saved = null;
+  try { saved = localStorage.getItem("ca-theme"); } catch (e) {}
+  var t = themes.indexOf(q) >= 0 ? q : (themes.indexOf(saved) >= 0 ? saved : null);
+  if (t) document.documentElement.setAttribute("data-theme", t);
+})();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#work">Skip to content</a>
+
+<header class="masthead">
+  <div class="shell masthead-inner">
+    <div class="masthead-top">
+      <p class="eyebrow"><span class="eyebrow-label">Career dossier</span><span class="eyebrow-sep" aria-hidden="true">·</span>{{ profile.location }}</p>
+      <div class="theme-switch" role="group" aria-label="Page style">
+        <button type="button" data-set-theme="dossier">Dossier</button>
+        <button type="button" data-set-theme="editorial">Editorial</button>
+        <button type="button" data-set-theme="ops">Ops</button>
+      </div>
+    </div>
+    <h1 class="name">{{ profile.name }}</h1>
+    <p class="tagline">{{ profile.tagline }}</p>
+    <p class="summary">{{ profile.summary }}</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download résumé (PDF)</a>
+      <a class="btn" href="{{ profile.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a>
+      <a class="btn" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+    </div>
+    <ul class="stats">
+      {% for s in stats %}
+      <li class="stat">
+        <span class="stat-value">{{ s.value }}</span>
+        <span class="stat-label">{{ s.label }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <nav class="masthead-nav" aria-label="Sections">
+      <a href="#work">Selected work</a>
+      <a href="#career">Career</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#compliance">Compliance</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="work" class="section">
+    <div class="shell">
+      <header class="section-head reveal">
+        <p class="kicker">Selected work</p>
+        <h2>Track record</h2>
+        <p class="section-intro">{{ case_studies_intro }}</p>
+      </header>
+      <div class="cases">
+        {% for c in case_studies %}
+        <article class="case reveal">
+          <header class="case-head">
+            <span class="case-number" aria-hidden="true">{{ c.number }}</span>
+            <div class="case-id">
+              <h3 class="case-company">{{ c.company }}</h3>
+              <p class="case-title">{{ c.title }}</p>
+              <p class="case-meta">{{ c.role }} <span class="meta-sep" aria-hidden="true">·</span> {{ c.period }} <span class="meta-sep" aria-hidden="true">·</span> {{ c.location }}</p>
+            </div>
+          </header>
+          <div class="case-body">
+            <div class="case-metric">
+              <p class="metric-value">{{ c.metric }}</p>
+              <p class="metric-label">{{ c.metric_label }}</p>
+              <p class="ops-status"><span class="dot" aria-hidden="true"></span>status: {{ c.ops_status }}</p>
+            </div>
+            <div class="case-narrative">
+              <div class="sar">
+                <h4>Situation</h4>
+                <p>{{ c.situation }}</p>
+              </div>
+              <div class="sar">
+                <h4>Action</h4>
+                <p>{{ c.action }}</p>
+              </div>
+              <div class="sar">
+                <h4>Result</h4>
+                <p>{{ c.result }}</p>
+              </div>
+            </div>
+          </div>
+          {% if c.callout is defined %}
+          <aside class="case-callout">
+            <p>{{ c.callout }}</p>
+          </aside>
+          {% endif %}
+          <ul class="tags" aria-label="Context">
+            {% for t in c.tags %}
+            <li>{{ t }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="career" class="section section-alt">
+    <div class="shell">
+      <header class="section-head reveal">
+        <p class="kicker">Career</p>
+        <h2>{{ timeline.headline }}</h2>
+        <p class="section-intro">{{ timeline.intro }}</p>
+      </header>
+      <ol class="timeline">
+        {% for e in timeline.entries %}
+        <li class="tl-entry reveal">
+          <p class="tl-years">{{ e.years }}</p>
+          <div class="tl-body">
+            <h3 class="tl-company">{{ e.company }} <span class="tl-location">— {{ e.location }}</span></h3>
+            <p class="tl-roles">{{ e.roles }}{% if e.badge %} <span class="badge">{{ e.badge }}</span>{% endif %}</p>
+            <p class="tl-highlight">{{ e.highlight }}</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <section id="capabilities" class="section">
+    <div class="shell">
+      <header class="section-head reveal">
+        <p class="kicker">Capabilities</p>
+        <h2>Range, verified by use</h2>
+        <p class="section-intro">{{ capabilities_intro }}</p>
+      </header>
+      <div class="cap-grid">
+        {% for cap in capabilities %}
+        <div class="cap-card reveal">
+          <h3>{{ cap.name }}</h3>
+          <p class="cap-lead">{{ cap.lead }}</p>
+          <ul class="chips">
+            {% for chip in cap.chips %}
+            <li>{{ chip }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="languages reveal">
+        <h3>Languages &amp; scripting</h3>
+        <ul class="chips">
+          {% for l in languages %}
+          <li>{{ l }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="compliance" class="section section-alt">
+    <div class="shell">
+      <header class="section-head reveal">
+        <p class="kicker">Compliance</p>
+        <h2>The regulated-environment record</h2>
+        <p class="section-intro">{{ compliance.intro }}</p>
+      </header>
+      {% for group in [compliance.led, compliance.operated] %}
+      <div class="comp-group reveal">
+        <h3 class="comp-label">{{ group.label }}</h3>
+        <ul class="comp-tiles">
+          {% for item in group['items'] %}
+          <li class="comp-tile">
+            <span class="comp-name">{{ item.name }}</span>
+            <span class="comp-note">{{ item.note }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+      <p class="comp-audits reveal">{{ compliance.audits }}</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-main">
+        <h2 class="footer-title">The real document</h2>
+        <p class="footer-note">{{ profile.resume_note }}</p>
+        <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download résumé (PDF)</a>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
+          <li><a href="{{ profile.linkedin }}" rel="me noopener" target="_blank">linkedin.com/in/cody-adams-659a121a</a></li>
+          <li>{{ profile.phone }}</li>
+          <li>{{ profile.location }}</li>
+        </ul>
+      </div>
+      <div class="footer-credentials">
+        <h3>Credentials</h3>
+        <p>{{ credentials.certifications }}</p>
+        <p>{{ credentials.education }}</p>
+      </div>
+    </div>
+    <p class="colophon">{{ colophon }}</p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

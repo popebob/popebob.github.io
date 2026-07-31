@@ -1,0 +1,393 @@
+# ---------------------------------------------------------------------------
+# Single source of content for popebob.github.io.
+#
+# Every fact here must trace to the master resume (TheVatican/resume,
+# cody-adams-jul2026.md) or the Verified facts in that repo's CLAUDE.md.
+# Never add a tool, metric, or number that isn't in those sources.
+#
+# Edit this file + replace assets/cody-adams-resume.pdf when the resume
+# changes, push to main, and the site rebuilds and redeploys automatically.
+# ---------------------------------------------------------------------------
+
+meta:
+  title: "Cody Adams — Platform Engineering, DevOps & SRE Leader"
+  description: >-
+    15+ years building and operating cloud infrastructure across startups,
+    growth-stage SaaS, and Fortune 100 enterprises. Director-level platform
+    engineering leadership with deep compliance and hands-on technical range.
+  url: "https://popebob.github.io/"
+
+profile:
+  name: "Cody Adams"
+  tagline: "Platform Engineering · DevOps · SRE"
+  location: "Novi, MI — open to remote"
+  summary: >-
+    Platform engineering, DevOps, and SRE leader with 15+ years building and
+    operating cloud infrastructure across startups, growth-stage SaaS, and
+    Fortune 100 enterprises — equally at home as a hands-on technical owner
+    and as an engineering executive. Career-long owner of incident and change
+    management, BC/DR, and compliance-as-code, in 99.9%+ SLA environments
+    throughout.
+  email: "coadams@umich.edu"
+  phone: "248-420-0032"
+  linkedin: "https://www.linkedin.com/in/cody-adams-659a121a"
+  resume_pdf: "assets/cody-adams-resume.pdf"
+  resume_note: >-
+    This page is the visual companion to my résumé — the canonical document
+    is the PDF.
+
+stats:
+  - value: "15+"
+    label: "Years in platform, DevOps & SRE"
+  - value: "$5–7M"
+    label: "Annual budget owned"
+  - value: "2 → 150"
+    label: "Org scaled at Ford"
+  - value: "8"
+    label: "Compliance frameworks"
+  - value: "99.9%+"
+    label: "SLA environments throughout"
+
+case_studies_intro: >-
+  Four engagements that show the pattern: walk into a hard situation, take
+  ownership beyond the original mandate, leave behind an organization and a
+  platform that outlast the tenure.
+
+case_studies:
+  - number: "01"
+    company: "Opala"
+    title: "A platform organization turned around mid-flight"
+    role: "Director of Platform Engineering"
+    period: "2025 – present"
+    location: "Seattle, WA (remote)"
+    metric: "$1.8M → positive"
+    metric_label: "inherited budget deficit, closed within the first year"
+    ops_status: "budget positive"
+    situation: >-
+      Arrived in March 2025 to a Platform Engineering organization running a
+      $1.8M budget deficit — on a HIPAA-regulated healthcare data platform
+      subject to CMS interoperability mandates, where reliability and
+      compliance are not negotiable.
+    action: >-
+      Took ownership of a $5–7M annual budget and a 10-person
+      multi-disciplinary organization spanning cloud infrastructure, DevOps,
+      SRE, cybersecurity, audit/compliance, and corporate IT. Established SRE
+      practices, observability standards, and incident-response frameworks,
+      and drove multi-cloud (AWS/Azure) architecture decisions with security
+      and compliance as first-class design constraints.
+    result: >-
+      The deficit closed to positive within the first year — and the mandate
+      grew rather than shrank: the role expanded from Cloud DevOps and IT
+      Operations to also own Security Engineering and Security Operations,
+      with an org-chart redesign to match, and the SOC 2 program repositioned
+      as a business enabler rather than a checkbox exercise.
+    tags:
+      - "HIPAA"
+      - "SOC 2"
+      - "CMS Interoperability"
+      - "AWS · Azure"
+      - "FinOps"
+
+  - number: "02"
+    company: "Ford Motor Company"
+    title: "From two-person skunkworks to a 150-person organization"
+    role: "Cloud & DevOps Consultant → DevOps Principal Architect"
+    period: "2015 – 2018"
+    location: "Dearborn, MI"
+    metric: "2 → 150"
+    metric_label: "people — including Ford's first offshore production operations"
+    ops_status: "delivered at scale"
+    situation: >-
+      Ford's data center and hosting infrastructure needed a next-generation
+      vision. What existed was a two-person "skunkworks" lab — inside an
+      enterprise where compliance had never been a first-class design
+      requirement for infrastructure.
+    action: >-
+      Defined the Data Center of the Future architecture across compute,
+      storage, network, cloud, and hosting, and established the Next
+      Generation Lab as a production-grade proving ground with full asset,
+      service-delivery, and vendor-management ownership — progressing from
+      individual contributor to Director-level contractor. Delivered
+      platforms including Kubernetes (Containers as a Service), SQL Server
+      PaaS, VMware vRealize Operations, IBM API Connect, and F5 iWorkflow,
+      while serving as lead architect and agile coach across a concurrent
+      PaaS portfolio influencing hundreds of engineers.
+    result: >-
+      A 150-person organization — including Ford's first offshore production
+      operations — established as the enterprise's Next Generation Data
+      Center function. Foundational infrastructure of a live global operation
+      was replaced in real time with zero downtime. And when the new
+      platforms outperformed incumbents, they displaced them: most notably a
+      full replacement of Ford's enterprise Active Directory environment,
+      absorbing that team's scope into the platform organization.
+    callout: >-
+      Collaborated directly with Chef co-founder Adam Jacob and HashiCorp
+      co-founder Armon Dadgar on core Infrastructure-as-Code tooling and
+      DevOps workflow design as part of Ford's IaC and automation strategy.
+    tags:
+      - "Fortune 100"
+      - "Kubernetes CaaS"
+      - "Zero-downtime replacement"
+      - "Terraform · Ansible · Chef"
+
+  - number: "03"
+    company: "Hoylu"
+    title: "Promoted and retained through the layoff years"
+    role: "Senior DevOps Engineer → Director of DevOps"
+    period: "2020 – 2025"
+    location: "Kirkland, WA"
+    metric: "Senior → Director"
+    metric_label: "promoted and retained through multiple company-wide workforce reductions"
+    ops_status: "iso 27001 certified"
+    situation: >-
+      Joined Hoylu — a global SaaS collaboration platform serving enterprise
+      and government customers — as a Senior DevOps Engineer in 2020, into a
+      company that would go through multiple company-wide workforce
+      reductions in the years that followed.
+    action: >-
+      Owned the full platform engineering function with a team of eight
+      DevOps and backend engineers under unified DevSecOps/SRE ownership.
+      Reported directly to the VP of Engineering and CEO; designed customer
+      usage-based COGS metrics that gave the board real-time visibility into
+      cloud unit economics, and led cost-optimization initiatives that
+      materially reduced operational spend. Designed a cloud-native platform
+      on HashiCorp Nomad with self-healing, automated infrastructure.
+    result: >-
+      Promoted to Director of DevOps and retained through every workforce
+      reduction. Led ISO 27001 certification end-to-end — achieved in 2022 —
+      and architected a fully customized SaaS deployment in AWS GovCloud,
+      unlocking enterprise and government customer acquisition. The platform
+      supported a public SLA without headcount growth.
+    tags:
+      - "ISO 27001"
+      - "AWS GovCloud"
+      - "HashiCorp Nomad"
+      - "Cloud unit economics"
+
+  - number: "04"
+    company: "Plex Systems"
+    title: "Building the deploy muscle behind a 99.9% SLA"
+    role: "Data Center Administrator → DevOps Team Lead"
+    period: "2012 – 2015"
+    location: "Auburn Hills, MI"
+    metric: "90%"
+    metric_label: "VM build-time reduction through automation"
+    ops_status: "deploys continuous"
+    situation: >-
+      Plex ran a 24/7, SOX 404-compliant SaaS environment with a 99.9% SLA —
+      and deployment frequency was periodic, not continuous.
+    action: >-
+      Built the company's initial CI/CD, Infrastructure-as-Code, and ChatOps
+      toolchain — promoted from Data Center Administrator to DevOps Team
+      Lead along the way.
+    result: >-
+      Deployment frequency went from periodic to continuous, including
+      mid-day production deployments in a 99.9% SLA environment. VM build
+      time dropped 90% through automation, and the work was recognized with
+      the 2014 Q3 "Plex Impact" Innovation Award.
+    tags:
+      - "SOX 404"
+      - "CI/CD from zero"
+      - "ChatOps"
+      - "99.9% SLA"
+
+timeline:
+  headline: "Promoted or expanded in scope in every role held"
+  intro: >-
+    Eighteen years from regional systems administrator to Director of
+    Platform Engineering — the through-line is scope that grew in place:
+    promotions, mandates that expanded, and organizations that were larger
+    on exit than on arrival.
+  entries:
+    - years: "2008 – 2012"
+      company: "Brose North America"
+      location: "Auburn Hills, MI"
+      roles: "Systems Administrator"
+      badge: "Scope grown"
+      highlight: >-
+        Grew a regional IT role into North American leadership scope. 99%+
+        VirusScan compliance — the only site in the region to achieve it —
+        and a 20% local IT headcount reduction through automation.
+    - years: "2012 – 2015"
+      company: "Plex Systems"
+      location: "Auburn Hills, MI"
+      roles: "Data Center Administrator → DevOps Team Lead"
+      badge: "Promoted"
+      highlight: >-
+        First CI/CD, IaC, and ChatOps toolchain; 90% VM build-time cut;
+        2014 Q3 "Plex Impact" Innovation Award.
+    - years: "2015 – 2018"
+      company: "Ford Motor Company"
+      location: "Dearborn, MI"
+      roles: "Cloud & DevOps Consultant → DevOps Principal Architect"
+      badge: "IC → Director-level"
+      highlight: >-
+        Two-person skunkworks lab to 150-person organization; zero-downtime
+        live infrastructure replacement; IaC strategy shaped directly with
+        Chef and HashiCorp co-founders.
+    - years: "2018 – 2019"
+      company: "Delta Dental of Michigan"
+      location: "Okemos, MI"
+      roles: "DevOps Platform Manager"
+      badge: ""
+      highlight: >-
+        Kubernetes-based, metal-up application hosting platform; platform-level
+        BC/DR that application teams inherited by default; ITSM modernization
+        with ELK and AppDynamics.
+    - years: "2019 – 2020"
+      company: "Coretek Services"
+      location: "Farmington, MI"
+      roles: "DevOps Practice Manager / Cloud Architect"
+      badge: "Practice built from zero"
+      highlight: >-
+        Built the DevOps consulting practice from scratch: dozens of cloud
+        economic assessments, Azure Well-Architected migrations, and a
+        DevOps service catalog on Azure DevOps, AKS, and Terraform.
+    - years: "2020 – 2025"
+      company: "Hoylu"
+      location: "Kirkland, WA"
+      roles: "Senior DevOps Engineer → Director of DevOps"
+      badge: "Promoted"
+      highlight: >-
+        Retained through multiple company-wide workforce reductions; ISO
+        27001 achieved 2022; AWS GovCloud deployment; board-level COGS and
+        cloud unit-economics reporting.
+    - years: "2025 – present"
+      company: "Opala"
+      location: "Seattle, WA (remote)"
+      roles: "Director of Platform Engineering"
+      badge: "Mandate expanded"
+      highlight: >-
+        $1.8M budget deficit closed to positive in year one; mandate expanded
+        to own Security Engineering & Operations; $5–7M budget, 10-person
+        organization.
+
+capabilities_intro: >-
+  Breadth is the point: platform leadership backed by carrier-grade
+  networking, expert-level systems administration, and a full-stack language
+  range — the depth to debug anything the platform runs.
+
+capabilities:
+  - name: "Cloud & infrastructure"
+    lead: "Bare metal to multi-cloud, with IaC as the default."
+    chips:
+      - "AWS (incl. GovCloud)"
+      - "Azure"
+      - "Kubernetes / AKS"
+      - "HashiCorp Nomad"
+      - "Terraform"
+      - "VMware"
+      - "Bare-metal & private DC"
+      - "Landing zone architecture"
+      - "HA & low-latency design"
+  - name: "Network & security engineering"
+    lead: "Networking depth most platform leaders don't carry."
+    chips:
+      - "DNS & core infrastructure"
+      - "BGP · VPN · CDN"
+      - "Cross-cloud networking (peering, transit gateways, interconnects)"
+      - "WAN/LAN incl. PBX"
+      - "Production firewall management"
+      - "Blue & red team operations"
+      - "Network & application security"
+      - "Microsoft Entra ID"
+      - "OIDC · SSO federation"
+  - name: "CI/CD & automation"
+    lead: "From first toolchain builds to self-healing infrastructure."
+    chips:
+      - "Azure DevOps"
+      - "GitHub Actions"
+      - "Jenkins"
+      - "TeamCity"
+      - "Bamboo"
+      - "Octopus Deploy"
+      - "Docker"
+      - "Ansible"
+      - "Chef"
+      - "GitOps · ChatOps"
+      - "Self-healing infrastructure"
+  - name: "Systems & release engineering"
+    lead: "Expert-level administration on both sides of the fence."
+    chips:
+      - "Windows (expert)"
+      - "Linux (expert)"
+      - "OS clustering"
+      - "Filesystems engineering"
+      - "Linux kernel development (personal projects)"
+      - "TFVC/SVN → Git migrations"
+      - "Branching & release strategy"
+  - name: "Observability & SRE"
+    lead: "SLA adherence and MTTR driven down, every team, every platform."
+    chips:
+      - "ELK Stack"
+      - "Grafana"
+      - "Prometheus"
+      - "AppDynamics"
+      - "Incident response"
+      - "On-call frameworks"
+      - "Change & incident management"
+      - "BC/DR"
+  - name: "Leadership & delivery"
+    lead: "Org design, budget ownership, and board-level reporting."
+    chips:
+      - "Multi-million $ budget ownership"
+      - "Cloud unit economics (FinOps)"
+      - "Org design & hiring"
+      - "Board & executive reporting"
+      - "Vendor & program management"
+      - "ITIL / ITSM"
+      - "Agile coaching (PSM I)"
+      - "Program planning (6-week to 6-year)"
+
+languages:
+  - "C"
+  - "C++"
+  - "C# / .NET"
+  - "Java"
+  - "Kotlin"
+  - "TypeScript"
+  - "Go"
+  - "Python"
+  - "Bash"
+  - "PowerShell"
+  - "Custom DSLs"
+  - "YAML / JSON"
+
+compliance:
+  intro: >-
+    Compliance treated as an engineering discipline — programs led
+    end-to-end, platforms operated under regulation, and customer-facing
+    audits handled in both pre- and post-sales cycles.
+  led:
+    label: "Programs led"
+    items:
+      - name: "SOC 2"
+        note: "Program owner — Opala"
+      - name: "ISO 27001"
+        note: "Led certification — achieved 2022"
+      - name: "FedRAMP"
+        note: "Compliance program leadership"
+      - name: "NIST 800-53"
+        note: "Compliance program leadership"
+  operated:
+    label: "Regulated platforms operated"
+    items:
+      - name: "HIPAA"
+        note: "Healthcare data platform — Opala"
+      - name: "SOX 404"
+        note: "24/7 SaaS environment — Plex"
+      - name: "GDPR"
+        note: "Global SaaS platform"
+      - name: "CMS Interoperability"
+        note: "Mandated healthcare platform"
+  audits: >-
+    Plus CSA CAIQ and customer-facing technical & compliance audits,
+    pre- and post-sales.
+
+credentials:
+  certifications: "Professional Scrum Master I (Scrum.org, 2017) · Microsoft Certified: Azure Fundamentals AZ-900 (2019)"
+  education: "B.S. Computer Science — Systems/Network Design, University of Michigan–Flint"
+
+colophon: >-
+  Plain HTML and CSS — no frameworks, no trackers. Rendered from a YAML fact
+  sheet and rebuilt automatically on every update.
