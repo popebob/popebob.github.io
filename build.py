@@ -12,6 +12,7 @@ Parsing is strict: if the CV's structure changes in a way this parser can't
 read, the build fails loudly (CI goes red) rather than deploying a broken page.
 """
 
+import hashlib
 import re
 import shutil
 from pathlib import Path
@@ -241,8 +242,14 @@ def main() -> None:
         for e in experience
     ]
 
+    asset_v = hashlib.sha1(
+        (ROOT / "assets" / "css" / "site.css").read_bytes()
+        + (ROOT / "assets" / "js" / "site.js").read_bytes()
+    ).hexdigest()[:10]
+
     profile = dict(header, summary=summary, **cur["profile_extras"])
     context = dict(
+        asset_v=asset_v,
         meta=cur["meta"],
         profile=profile,
         stats=cur["stats"],

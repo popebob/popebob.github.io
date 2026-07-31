@@ -1430,6 +1430,21 @@ html.js:root[data-theme="ops"] .cases .case-callout:not(.logged),
 html.js:root[data-theme="ops"] .cases .tags:not(.logged) {
   visibility: hidden;
 }
+:root[data-theme="ops"] .cases .logged.printing {
+  animation-name: log-print;
+  animation-fill-mode: both;
+  /* duration, steps() timing, and delay are set per block by site.js */
+  animation-duration: 0.18s;
+  animation-timing-function: steps(2, end);
+}
+@keyframes log-print {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
 :root[data-theme="ops"] .frontier::after {
   content: "▊";
   margin-left: 8px;
