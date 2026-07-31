@@ -33,17 +33,25 @@
   <div class="shell masthead-inner">
     <div class="masthead-top">
       <p class="eyebrow"><span class="eyebrow-label">Career dossier</span><span class="eyebrow-sep" aria-hidden="true">·</span>{{ profile.location }}</p>
-      <div class="theme-switch" role="group" aria-label="Page style">
-        <button type="button" data-set-theme="dossier">Dossier</button>
-        <button type="button" data-set-theme="editorial">Editorial</button>
-        <button type="button" data-set-theme="ops">Ops</button>
+      <p class="eyebrow-ops" aria-hidden="true">cody@platform:~$ open career.dossier — novi-mi · remote-ok</p>
+      <div class="theme-switch-wrap">
+        <span class="switch-label" id="style-label">Page style</span>
+        <div class="theme-switch" role="group" aria-labelledby="style-label">
+          <button type="button" data-set-theme="dossier"><span class="swatch swatch-dossier" aria-hidden="true"></span>Dossier</button>
+          <button type="button" data-set-theme="editorial"><span class="swatch swatch-editorial" aria-hidden="true"></span>Editorial</button>
+          <button type="button" data-set-theme="ops"><span class="swatch swatch-ops" aria-hidden="true"></span>Ops</button>
+        </div>
       </div>
+    </div>
+    <div class="wireframe" aria-hidden="true">
+      <div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="cube cube-inner"><i></i><i></i><i></i><i></i><i></i><i></i></div>
     </div>
     <h1 class="name">{{ profile.name }}</h1>
     <p class="tagline">{{ profile.tagline }}</p>
     <p class="summary">{{ profile.summary }}</p>
     <div class="actions">
-      <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download résumé (PDF)</a>
+      <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download CV (PDF)</a>
       <a class="btn" href="{{ profile.linkedin }}" rel="me noopener" target="_blank">LinkedIn</a>
       <a class="btn" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
     </div>
@@ -204,7 +212,7 @@
       <div class="footer-main">
         <h2 class="footer-title">The real document</h2>
         <p class="footer-note">{{ profile.resume_note }}</p>
-        <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download résumé (PDF)</a>
+        <a class="btn btn-primary" href="{{ profile.resume_pdf }}" download>Download CV (PDF)</a>
       </div>
       <div class="footer-contact">
         <h3>Contact</h3>
@@ -224,6 +232,12 @@
     <p class="colophon">{{ colophon }}</p>
   </div>
 </footer>
+
+<div class="theme-float" role="group" aria-label="Page style">
+  <button type="button" data-set-theme="dossier" aria-label="Dossier style" title="Dossier"><span class="swatch swatch-dossier" aria-hidden="true"></span></button>
+  <button type="button" data-set-theme="editorial" aria-label="Editorial style" title="Editorial"><span class="swatch swatch-editorial" aria-hidden="true"></span></button>
+  <button type="button" data-set-theme="ops" aria-label="Ops style" title="Ops"><span class="swatch swatch-ops" aria-hidden="true"></span></button>
+</div>
 
 <script src="assets/js/site.js" defer></script>
 </body>

@@ -2,14 +2,14 @@
 
 Visual companion site for my job search — a designed, human-only presentation of my career at
 **[popebob.github.io](https://popebob.github.io/)**. It complements (does not replace) my
-ATS-facing résumé; the canonical document is the PDF the site links to.
+ATS-facing CV; the canonical document is the PDF the site links to.
 
 ## How it works
 
 ```
 content/career.yml          ← single source of content (edit this)
 templates/index.html.j2     ← Jinja2 page template
-assets/                     ← CSS, JS, self-hosted IBM Plex fonts, favicon, résumé PDF
+assets/                     ← CSS, JS, self-hosted IBM Plex fonts, favicon, CV PDF
 build.py                    ← renders content + template → dist/
 .github/workflows/deploy.yml← builds and deploys to GitHub Pages on every push to main
 ```
@@ -18,16 +18,16 @@ The page ships three switchable visual themes (Dossier / Editorial / Ops) — a 
 masthead, persisted in `localStorage`, deep-linkable with `?theme=editorial` etc. Plain HTML
 and CSS, no frameworks, no trackers.
 
-## Updating when the résumé changes
+## Updating when the CV changes
 
-The résumé source of truth lives in a separate private repo. When it changes:
+The CV source of truth lives in a separate private repo. When it changes:
 
 1. Update the affected facts in `content/career.yml`.
-2. Replace `assets/cody-adams-resume.pdf` with the newly built PDF.
+2. Replace `assets/cody-adams-cv.pdf` with the newly built CV PDF.
 3. Push to `main` — the workflow rebuilds and redeploys the site automatically.
 
 Every fact in `content/career.yml` must trace back to the verified fact sheet in the private
-résumé repo. Never add a tool, metric, or number that isn't verified there.
+CV repo. Never add a tool, metric, or number that isn't verified there.
 
 ## Local preview
 
