@@ -31,17 +31,17 @@
 
 <header class="masthead">
   <div class="shell masthead-inner">
+    <div class="switch-bar">
+      <span class="switch-label" id="style-label">Page style</span>
+      <div class="theme-switch" role="group" aria-labelledby="style-label">
+        <button type="button" data-set-theme="dossier"><span class="swatch swatch-dossier" aria-hidden="true"></span>Dossier</button>
+        <button type="button" data-set-theme="editorial"><span class="swatch swatch-editorial" aria-hidden="true"></span>Editorial</button>
+        <button type="button" data-set-theme="ops"><span class="swatch swatch-ops" aria-hidden="true"></span>Ops</button>
+      </div>
+    </div>
     <div class="masthead-top">
       <p class="eyebrow"><span class="eyebrow-label">Career dossier</span><span class="eyebrow-sep" aria-hidden="true">·</span>{{ profile.location }}</p>
       <p class="eyebrow-ops" aria-hidden="true">cody@platform:~$ open career.dossier — novi-mi · remote-ok</p>
-      <div class="theme-switch-wrap">
-        <span class="switch-label" id="style-label">Page style</span>
-        <div class="theme-switch" role="group" aria-labelledby="style-label">
-          <button type="button" data-set-theme="dossier"><span class="swatch swatch-dossier" aria-hidden="true"></span>Dossier</button>
-          <button type="button" data-set-theme="editorial"><span class="swatch swatch-editorial" aria-hidden="true"></span>Editorial</button>
-          <button type="button" data-set-theme="ops"><span class="swatch swatch-ops" aria-hidden="true"></span>Ops</button>
-        </div>
-      </div>
     </div>
     <div class="wireframe" aria-hidden="true">
       <div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -82,6 +82,7 @@
       </header>
       <div class="cases">
         {% for c in case_studies %}
+        <div class="case-slot">
         <article class="case reveal">
           <header class="case-head">
             <span class="case-number" aria-hidden="true">{{ c.number }}</span>
@@ -123,6 +124,7 @@
             {% endfor %}
           </ul>
         </article>
+        </div>
         {% endfor %}
       </div>
     </div>
