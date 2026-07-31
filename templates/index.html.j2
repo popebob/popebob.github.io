@@ -85,6 +85,11 @@
         <span class="chrome-title">cody@platform:~$ tail -f career.log</span>
         <span class="chrome-meta">{{ case_studies | length }} events · streaming</span>
       </div>
+      <div class="log-query" aria-hidden="true">
+        <span class="lq-icon">⌕</span>
+        <span class="lq-text">event.module:career AND level:info</span>
+        <span class="lq-hits">{{ case_studies | length }} hits</span>
+      </div>
       <div class="cases">
         {% for c in case_studies %}
         <div class="case-slot">

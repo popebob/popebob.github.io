@@ -27,6 +27,7 @@
     }
     layoutStack();
     recede();
+    streamLog();
   }
 
   buttons.forEach(function (b) {
@@ -126,6 +127,36 @@
     }
   }
 
+  /* ---- Ops log streaming: blocks "print" as they cross the reveal line;
+     the caret rides the last printed block. Monotonic, like real output. */
+  var units = Array.prototype.slice.call(
+    document.querySelectorAll(
+      ".cases .case-head, .cases .case-metric, .cases .sar, .cases .case-callout, .cases .tags"
+    )
+  );
+  var frontierEl = null;
+
+  function streamLog() {
+    if (!units.length) return;
+    if (root.getAttribute("data-theme") !== "ops" || reduce) return;
+    var line = window.innerHeight - 110;
+    units.forEach(function (u) {
+      if (!u.classList.contains("logged") && u.getBoundingClientRect().top < line) {
+        u.classList.add("logged");
+      }
+    });
+    var frontier = null;
+    for (var i = units.length - 1; i >= 0; i--) {
+      if (units[i].classList.contains("logged")) {
+        frontier = units[i];
+        break;
+      }
+    }
+    if (frontierEl && frontierEl !== frontier) frontierEl.classList.remove("frontier");
+    if (frontier) frontier.classList.add("frontier");
+    frontierEl = frontier;
+  }
+
   var scrollRaf = null;
   window.addEventListener(
     "scroll",
@@ -134,6 +165,7 @@
       scrollRaf = requestAnimationFrame(function () {
         scrollRaf = null;
         recede();
+        streamLog();
       });
     },
     { passive: true }
@@ -141,19 +173,23 @@
   window.addEventListener("resize", function () {
     layoutStack();
     recede();
+    streamLog();
   });
   if (document.fonts && document.fonts.ready) {
     document.fonts.ready.then(function () {
       layoutStack();
       recede();
+      streamLog();
     });
   }
   window.addEventListener("load", function () {
     layoutStack();
     recede();
+    streamLog();
   });
   layoutStack();
   recede();
+  streamLog();
 
   /* Case-card tilt: ≤2°, pointer devices only, never in the flat Editorial theme */
   var fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
