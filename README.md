@@ -1,256 +1,112 @@
 # Cody Adams
 
-## Professional History
+**Platform Engineering, DevOps & SRE Leader**
 
-### Hoylu, AB
+Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | linkedin.com/in/cody-adams-659a121a
 
-#### Senior DevOps Engineer
+---
 
-> August 2020 - Present
+## Summary
 
-First dedicated DevOps/Platform Engineering hire for growing SaaS start-up.  Lead design, implementation, and ongoing operations for zero-trust IaC for all Hoylu hosting.  Lead FedRAMP Moderate compliance activites, obtained ISO 27001-2013 certificaton in 2022.
+Platform engineering, DevOps, and SRE leader with 15+ years building and operating cloud infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Career-long owner of incident and change management, BC/DR, data protection, and compliance-as-code practices, with a consistent record of SLA adherence and continuously driving down mean time to resolution (MTTR) across every team and platform led, in 99.9%+ SLA environments throughout. Deep expertise across AWS, Azure, Kubernetes, and Infrastructure-as-Code, with a track record of leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance programs, operating HIPAA-, SOX-, and GDPR-regulated platforms, and executing zero-downtime infrastructure transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
 
-Focus on building the platform in a way that minimizes operational headcount.  Developer Self-Service and inherent compliance are central tenants.  Extrememly thin organizational structure, direct interation with senior leadership with strategic direction setting.  DevSecOps and Agile leadership.  Establish and scale process: release engineering, technical and customer support, IT financial planning and reporting, product engineering organizational structure.
+## Career Highlights
 
-##### Technology Focus
+- Inherited a $1.8M budget deficit as Director of Platform Engineering at Opala (March 2025) and closed it to positive within the first year, while owning a $5–7M annual budget and a 10-person organization.
+- Grew Ford's 2-person "skunkworks" lab into a 150-person organization — including Ford's first offshore production operations — establishing the enterprise's Next Generation Data Center function.
+- Promoted or expanded in scope in every role held: Data Center Administrator to DevOps Team Lead at Plex; individual contributor to Director-level contractor at Ford; Senior DevOps Engineer to Director of DevOps at Hoylu, retained through multiple company-wide workforce reductions; Cloud DevOps/IT Operations expanded to also own Security Engineering & Operations at Opala.
+- Deep compliance bench spanning HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, and GDPR.
+- Full lifecycle, full-stack technical ownership at every role — from architecture through hands-on incident response, including debugging across unfamiliar languages and systems when needed.
+- Regularly leads large-scale demos and training presentations; owns skills-matrix design, target skills/behavior frameworks, and tooling/integration architecture across every organization led.
+- Systems depth few platform leaders bring to the table: expert-level Windows and Linux administration including OS clustering and filesystems engineering, plus Linux kernel development in personal projects.
 
-- Azure Cloud Computing and Networking
-- elastic stack (efk, log aggregation and Wazuh SIEM)
-- Hashicorp Cloud Platform (Consul, Nomad, Terraform, Vault)
-- Azure RBAC, Policy, KeyVault
-- Azure DevOps/GitHub/git/GitOps
-- Azure DevOps Pipelines
-- Ansible/bash/az cli/REST API
-- vagrant/docker
-- nginx reverse proxy
-- automated mutual tls
-- Ubuntu VMs
-- Supporting app stack using Java kotlin, .NET
-- Consul service mesh primitives
-- DAST/SAST/Penetration Testing
+## Core Skills
 
-### Coretek Services
+- **Cloud & Infrastructure:** Bare-Metal & Private Data Center, VMware/Traditional VM Hosting, Hybrid & Multi-Cloud (AWS incl. GovCloud, Azure), Cloud-Native (Kubernetes/AKS, HashiCorp Nomad), Landing Zone Architecture (DC & Cloud), Infrastructure as Code (Terraform, incl. COTS/Vendor Platforms), High-Availability & Low-Latency Design, Secure-by-Default Architecture (Edge to Enterprise Fleet Scale)
+- **Network & Security Engineering:** DNS & Core Infrastructure Services, WAN/LAN Planning & Operations (incl. PBX/Telephony), Cross-Cloud & Multi-Cloud Networking (Peering, Transit Gateways, Interconnects), BGP, VPN, CDN Architecture, Production Firewall Management, Blue & Red Team Security Operations, Network & Application Security Engineering
+- **Identity & Access Management:** Microsoft Entra ID (Workforce & B2C/External ID), OIDC, SSO/Federation
+- **Systems Engineering:** Windows & Linux (Expert-Level Administration), OS Clustering, Filesystems Engineering, Linux Kernel Development (Personal Projects)
+- **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Ansible, Chef, GitOps, ChatOps, Automated/Self-Healing Infrastructure
+- **Release Engineering & Version Control:** Centralized-to-Distributed VCS Migration (TFVC/SVN → Git), Branching/Merging/Release/Deployment Strategy Design, End-to-End Productionization
+- **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, DevSecOps
+- **Governance & Resilience:** Change & Incident Management, BC/DR, Compliance-as-Code, GRC Engineering, Immutable & Secure Infrastructure, Shift-Left DevOps, Customer-Facing Technical & Compliance Audits (Pre- & Post-Sales)
+- **Observability & SRE:** ELK Stack, Grafana, Prometheus, AppDynamics, Incident Response, SRE Practices & On-Call Frameworks
+- **Leadership & Delivery:** Multi-Million $ Budget Ownership, Org Design & Hiring, Agile/Scrum Coaching (PSM I), ITIL/ITSM, Vendor & Program Management, Board/Executive Reporting, End-to-End Support Model Design (L0 Automation → L1 Helpdesk → Incident/Problem Management → Roadmap), Program Planning (6-Week to 6-Year Horizons)
+- **Languages & Scripting:** C, C++, C#, .NET/.NET Core, Java, Kotlin, TypeScript, Go, Python, Bash, PowerShell, custom DSLs, YAML/JSON
+- **Application & Data Layer:** Reverse Proxies & Web Servers, SQL & NoSQL Databases, Message Bus/Queuing, Caching Systems
 
-#### Cloud Architect
+## Professional Experience
 
-> May 2019 - August 2020
+### Director of Platform Engineering
+**Opala** — Seattle, WA (Remote) | March 2025 – Present
 
-Fully Billable Client-facing Consultant leading Agile, DevOps, and Cloud-Native implementation projects.  Excellent in leading projects as implementation lead as well as project and delivery management lead.
+- Inherited a $1.8M budget deficit and closed it to positive within the first year, while owning a $5–7M annual budget and a 10-person Platform Engineering organization.
+- Expanded role from Cloud DevOps and IT Operations to also own Security Engineering and Security Operations, redesigning the org chart to match the broadened mandate.
+- Lead a multi-disciplinary organization spanning cloud infrastructure, DevOps, SRE, cybersecurity, audit/compliance, and corporate IT.
+- Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform.
+- Drive multi-cloud (AWS/Azure) architecture decisions with security and compliance as first-class design constraints.
+- Own cybersecurity posture, audit readiness, and the SOC 2 compliance program, positioning it as a business enabler rather than a checkbox exercise.
 
-Hands-on CI/CD Pipeline Engineering, Azure Kubernetes Service Deployment, Automation, and Operational process development, Enterprise-Scaled Agile/DevOps Framework.
+### Director of DevOps *(promoted from Senior DevOps Engineer)*
+**Hoylu** — Kirkland, WA | September 2020 – February 2025
 
-Additionally performed Cloud Economic Assessments and Azure Cloud Migrations.  Proficient in Azure design, implementation, and operation.
+- Promoted from Senior DevOps Engineer to Director of DevOps; retained and continued expanding scope through multiple company-wide workforce reductions.
+- Owned the full platform engineering function for a global SaaS collaboration platform serving enterprise and government customers; managed a team of 8 (DevOps and backend engineers) with unified DevSecOps/SRE ownership.
+- Reported directly to the VP of Engineering and CEO; designed customer usage-based COGS metrics that gave the board real-time visibility into cloud unit economics.
+- Led cloud cost optimization initiatives that materially reduced operational spend while maintaining platform reliability and growth capacity.
+- Led ISO 27001 certification end-to-end (achieved 2022) and architected a fully customized SaaS deployment in AWS GovCloud, unlocking enterprise and government customer acquisition.
+- Designed a cloud-native platform on HashiCorp Nomad and built self-healing, automated infrastructure that supported a public SLA without headcount growth.
 
-##### Technology Focus
+### DevOps Practice Manager / Cloud Architect
+**Coretek Services** — Farmington, MI | May 2019 – August 2020
 
-- Azure Cloud
-- Azure Kubernetes Service
-- Azure Active Directory
-- Azure PaaS Serverless: Azure Functions, Azure Logic Apps
-- Azure RBAC, Policy, KeyVault
-- Azure DevOps/GitHub/git/GitOps
-- Azure DevOps Pipelines
-- PowerShell/Bash
-- ARM/YAML/JSON
-- vagrant/terraform
-- Azure Site Recovery
-- Microsoft Team Foundation Server (TFS)
-- Windows / Linux Servers
+- Built Coretek's DevOps consulting practice from zero, delivering engagements for a broad, cross-industry portfolio of enterprise and mid-market clients from initial economic assessment through production delivery.
+- Delivered dozens of cloud economic assessments that gave clients a data-driven basis for migration and modernization investment decisions.
+- Led cloud migrations and Azure foundation deployments aligned to the Azure Well-Architected Framework, plus Azure Serverless and Azure DevOps migration engagements.
+- Defined and launched the DevOps service catalog (containerization, CI/CD, IaC) using Azure DevOps, AKS, and Terraform; built and trained cross-functional delivery teams across internal staff, clients, and vendors.
 
-### Delta Dental of Michigan
+### DevOps Platform Manager
+**Delta Dental of Michigan** — Okemos, MI | November 2018 – May 2019
 
-#### DevOps Platform Manager
+- Led development of an enterprise application hosting platform in a private data center, reporting to the Director of Infrastructure with direct CTO-level engagement.
+- Designed and implemented a Kubernetes-based, metal-up application hosting platform for high availability with no cloud abstraction layer.
+- Architected platform-level BC/DR so application teams inherited business continuity and disaster recovery posture by default; maintained federal compliance requirements across the platform.
+- Modernized ITSM processes (Change, Incident, Problem Management) and integrated observability tooling (ELK, AppDynamics), reducing central IT dependency through developer self-service.
 
-> November 2018 - May 2019
+### Ford Motor Company — Dearborn, MI (3 years 3 months)
 
-##### ***Participated in Partners in Leadership: Accountability Training***
+Scaled a 2-person "skunkworks" lab into a 150-person organization — including Ford's first offshore production operations — establishing the enterprise's Next Generation Data Center function focused on big data infrastructure, while progressing from individual contributor to Director-level contractor over the engagement.
 
-Work alongside management and engineering peers as a Player/Coach to drive a simultaneous Agile and Technology transformation: from long-cycle planning to 12-week SAFe Program Increments, from monolithic Java on web server Farms to Docker-based micro-services running in Kubernetes.
+**DevOps Principal Architect – Data Center of the Future** | March 2017 – November 2018
 
-- Led Platform PI Planning and Execution activities through two PIs
-- Developed Infrastructure-as-Code local development environment and initial DevOps process for new DevOps Platform team
-- Developed multiple bash scripts and HEAT/CloudFormation Templates (IaC)
-- Kubernetes Architecture, including multiple integrations, Vault, Aqua, OpenStack
-- Served as Agile Product Owner and Agile Coach for Platform team
-- Platform Operational Incident Commander and Problem Report Owner
+- Served as lead architect and agile coach across a concurrent portfolio of Platform-as-a-Service initiatives, influencing hundreds of engineers across multiple product teams.
+- Replaced foundational infrastructure of a live global operation in real time with zero downtime, embedding compliance and security controls that had not previously existed.
+- Delivered platforms including Kubernetes (Containers as a Service), SQL Server PaaS, VMware vRealize Operations, IBM API Connect, and F5 iWorkflow network orchestration.
+- Established new release engineering practices for IT Operations and trained the Release Manager role into existence.
+- Regularly displaced incumbent teams and legacy platforms when the solutions being delivered outperformed them — most notably a full replacement of Ford's enterprise Active Directory environment, absorbing that team's scope into the platform organization.
 
-##### Technology Focus
+**Cloud and DevOps Consultant** | September 2015 – March 2017
 
-- OpenStack Private Cloud
-- HEAT/CloudFormations
-- Canonical Kubernetes
-- Juju/Salt
-- PowerShell/bash
-- Dynatrace/Zabbix
-- Bitbucket/Jenkins/GitOps
+- Defined Ford's Data Center of the Future architecture vision across compute, storage, network, cloud, and hosting, with compliance as a first-class design requirement where none had previously existed.
+- Established and operated the Next Generation Lab, a production-grade proving ground for new platform capabilities, with full asset, service delivery, and vendor management ownership.
+- Executed zero-downtime live replacement of foundational infrastructure at enterprise scale, setting new organizational precedents for vendor management and delivery timelines.
+- Collaborated directly with Chef co-founder Adam Jacob and HashiCorp co-founder Armon Dadgar on core Infrastructure-as-Code tooling and DevOps workflow design as part of Ford's IaC and automation strategy.
 
-### Ford Motor Company
+### DevOps Team Lead *(promoted from Data Center Administrator)*
+**Plex Systems, Inc.** — Auburn Hills, MI | March 2012 – September 2015
 
-#### DevOps Architect
+- Promoted from Data Center Administrator to DevOps Team Lead in a 24/7, SOX 404-compliant, 99.9% SLA SaaS environment.
+- Built the company's initial CI/CD, IaC, and ChatOps toolchain, driving deployment frequency from periodic to continuous, including mid-day production deployments.
+- Reduced VM build time by 90% through automation.
+- Received the 2014 Q3 "Plex Impact" Innovation Award.
 
-> September 2015 - November 2018
+### Systems Administrator
+**Brose North America** — Auburn Hills, MI | July 2008 – April 2012
 
-##### ***Participated in Partners in Leadership: Accountability Training***
+- Grew a regional IT role into North American leadership scope, participating in global IT projects.
+- Established data-driven ITIL practices and achieved 99%+ VirusScan compliance, the only site in the region to do so.
+- Delivered a 20% local IT headcount reduction through automation.
 
-Drove Ford's internal IT Operations transformation department from heavily siloed, waterfall-based project structure to a Product-based organization with shorter feedback loops via more rapid project deliveries and less rigid organizational structure
+## Certifications & Education
 
-##### Project-Driven Organization (2015-2017):
-
-- Data Center, Cloud, and DevOps Consultant: Next Generation Hosting Vision Project: Responsible to define vision for future Data Center and Hosting environments
-  - Manager - Project Delivery: responsible for requirements development, coordination of multiple project workstreams' output for executive presentation
-  - Consultant - Compute, Hosting, Cloud, DevOps, Network, Data Center: responsible for developing vision across multiple disciplines
-  - Architect - Next Generation Lab: responsible for design, deployment, and operation of VMware SDDC Private Cloud, proving viability of new technology and approach
-    - Successfully delivered multiple projects, from proofs of concepts and pilots to final testing environment prior to data center deployment
-    - Responsible for all assets, service delivery, process creation, and coordination
-    - Successfully employed extensive and detail-oriented vendor management to establish new precedents for service delivery times and quality levels
-    - Self-organized Agile approach within very highly visible organizational strategic initiatives to establish new precedents for project / feature delivery times and quality levels
-    - Leveraged grassroots approach to establish and sustain results-oriented "customer success" culture
-    - Scaled up and handed off multiple initiatives, eventually including the lab itself
-- Cloud and Delivery Consultant - Pivotal Cloud Foundry Platform Release 2
-  - Cloud Consultant - Cloud: Hosted PCF Platform in Next Generation Lab, defining Cloud Hosting requirements for Production environments
-  - Manager - Project Delivery: responsible for requirements development across multiple workstreams
-- Cloud, DevOps, and Delivery Consultant - Next Generation Release 1
-  - Cloud Consultant - Cloud: VMware, ACI, HPE, HCI, NetApp
-  - Infrastructure Orchestration Design Lead - Work closely with vendor professional services
-  - Delivery Manager - Collected data for Agile transformation
-- DevOps Architect - Next Generation Release 2
-  - Lead Tools Team
-  - Lean Process Coaching
-  - Cloud Architect
-  - Agile Coaching
-  - DevOps: git-ops
-
-##### Product-Driven Organization (2017-2018):
-
-- Product Owner, DevOps Architect - DevSecOps Enterprise Framework
-  - Docker-based pipeline-as-code to support DevSecOps Release Processes
-  - Using docker, grafana, vault, and other tools for fully automated delivery zero-trust CI/CD toolchains
-for development teams
-- Consulting Architect - Containers as a Services (Kubernetes Platform)
-  - Consultant: Cloud, ITSM, Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Microsoft SQL Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-- DevOps Architect - VMware vRealize Operations Manager Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-- DevOps Architect - IBM API-Connect API Platform as a Service Release 1
-  - Product Owner Coach
-  - Vision Setting
-  - Team Incubation
-- Consulting Architect - F5 iWorkflow Network Orchestration Platform as a Service Release 1
-  - Consultant: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Next Generation Release 3
-  - Program-level Vision Setting
-- Agile Coach - Next Generation Release 3
-  - Lead Project Managers and Scrum Masters as new Agile organization rapidly scaled up
-- DevOps Architect - NetApp NAS Storage Platform as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-  - Consulting Architect: Release Management, Infrastructure-as-Code, Platform-as-a-Service Design
-- DevOps Architect - Infrastructure as a Service Release 1
-  - Product Owner Coach
-  - Team Incubation
-  - Lead Architect
-- DevOps Architect - Next Generation Release Engineering
-  - Product Owner Coach
-  - Vision Setting
-  - Process Architect
-  - Established new Data Center infrastructure release process
-  - Intensive 1:1 pairing with new Team Lead to prepare for Release Manager role
-
-### Plex Systems
-
-#### Data Center Administrator
-
-> March 2012 – September 2015
-
-##### Quarterly "Impact Award" winner for server provisioning automation and process improvement to reduce time to delivery by 90%
-
-Supported Enterprise and SaaS ERP product line in 24/7 99.9% SLA-bound environment.  Full lifecycle and complete ownership of any system.  Planning, Acquisition, Installation, Architecture, Configuration, Deployment, SOX 404 Compliance, Operations, Maintenance, and Decommissioning required for all responsibilities.
-
-- Automation Team Lead/DevOps Engineer
-  - Drastically increase deployment frequency to all Environments, including Blue/Green deployment and mid-day Production deployments
-  - .NET Application Support, AD and SQL Server .NET Extensibility
-  - Automate Server Build and Configuration: Windows Server, ESXi, SQL Server, IIS Server, App Servers
-  - Reduce VM build time by 90% with automation, additionally reducing SOX 404 audit burden
-  - Automate Backup Tape Management, including physical media lifecycle management
-- Data Center Management
-  - Rack/Stack/Manage all equipment in the Data Center, Document Best Practices
-  - Data Center Space and Power Planning, Data Center Expansion and Relocation Project execution
-- Enterprise Architecture
-  - Rationalize start-up business requirements to plan and implement Compute, Storage, and Network design for Data Center to support rapid business growth
-  - Develop, Implement, and Operate initial DevOps toolchain, git, CI/CD, Azure, ChatOps, Infrastructure-as-Code
-  - Maintenance Window Planning and Execution
-  - Planning and Implementation of Active Directory .NET extensibility to extend capabilities of Plex ERP SaaS
-  - Integrate Plex ERP to internal processes to implement ITIL practices
-  - Develop and Implement many developer tools to shift-left operations to .NET development teams
-  - Disaster Recovery and Business Continuity Planning and Execution
-- Infrastructure Engineer
-  - VMware vCenter Planning, Operation, Upgrades
-  - Microsoft Exchange, AD
-  - AD and O365 Migration Planning
-  - Production Support Lead Activities
-    - In these activities, I was primary on-call 24/7/365 and responsible for rapid response, incident commander, and problem report owner leveraging 8D methodology
-
-### Brose North America
-
-#### System Administrator
-
-> July 2008 - March 2012
-
-Led transformation of IT department within North American Headquarters and grew from local branch only to regional leadership and participation in Global IT Projects.
-
-##### Significant Accomplishments
-
-Immediately delivered value; dramatically increasing the success rate of helpdesk tickets, significantly reducing call-backs, and affecting profound change in the business perception of the IT department using data-driven KPIs and ITIL v3 practices.
-
-- Increased Client PC VirusScan compliance to 99%+; only site in region to achieve, pattern was copied by Central IT for Global application
-- Telecommunications SME
-- Regional IT Trainer, including Microsoft Project
-- Automated Departmental Reporting and developed multiple KPIs that drove efficiencies
-- Implement a grass-roots cross-functional 'key user' community among engineering and administrative personnel in other departments to increase support effectiveness
-
-##### Major Projects Delivered
-
-- 3 Annual PC refresh programs for 450+ staff, including white glove Executive delivery
-- Implemented NA HQ WLAN: Planning, Install, Configuration
-- Led ITIL-based ITSM tool roll-out, training, CMDB data architecture and operation, workflow automation
-- Delivered 20% local staff IT headcount reduction via automation
-- Led North America PBX migration to Managed Services, including training at 6 North America facilities
-
-##### Tech Stack
-
-- Microsoft Enterprise Suite: Active Directory, Exchange, Windows Server and Client, End User Computing
-- Data Center Management: Rack and Stack, Install and Configure
-  - HPE Servers
-  - Cisco IOS switches
-  - VMware ESX
-- Telecommunications and Network Lead
-- Powershell and Windows Shell Scripting
-
-### Certifications
-
-### University of Michigan - Flint
-
-#### Bachelor's of Science: Computer Science
-
-> December 2010
-
-C++/C# Programming, Operating Systems, Networks, Computer Hardware, Software Project Management, Database
-
-### Scrum.org
-
-#### Professional Scrum Master 1
-
-> March 2017
-
-I believe in Scrum and KanBan, I have seen them accelerate value, increase quality, and improve clarity of dialogue
-
-### Microsoft
-
-#### AZ-900 Azure Fundamentals
-
-> July 2019
-
-Obtained Industry Certification to support Vendor Accreditation Level
+**Certifications:** Professional Scrum Master I (PSM I) – Scrum.org, 2017 | Microsoft Certified: Azure Fundamentals (AZ-900) – 2019 | Scrum Fundamentals Certified. **Education:** B.S., Computer Science — Systems/Network Design, University of Michigan–Flint (2003–2010).
