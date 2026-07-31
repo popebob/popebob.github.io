@@ -494,7 +494,7 @@ html:not(.js) .theme-switch {
     box-shadow: var(--shadow-card-hover);
   }
 }
-.case + .case {
+.case-slot + .case-slot {
   margin-top: 28px;
 }
 :root[data-theme="editorial"] .case {
@@ -967,10 +967,12 @@ html:not(.js) .theme-switch {
 }
 
 /* ---- Switcher: labeled, swatched, obvious ---- */
-.theme-switch-wrap {
+.switch-bar {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 7px;
+  margin-bottom: clamp(26px, 4vw, 40px);
 }
 .switch-label {
   font-family: var(--font-mono);
@@ -988,13 +990,13 @@ html:not(.js) .theme-switch {
 .theme-switch button {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 15px;
-  font-size: 12.5px;
+  gap: 9px;
+  padding: 10px 19px;
+  font-size: 13.5px;
 }
 .swatch {
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 1px solid rgba(127, 140, 155, 0.55);
   flex: none;
@@ -1086,9 +1088,6 @@ html:not(.js) .theme-float {
   gap: 18px;
   border-bottom: 4px double var(--ink);
   padding-bottom: 20px;
-}
-:root[data-theme="editorial"] .theme-switch-wrap {
-  order: -1;
 }
 :root[data-theme="editorial"] .name {
   font-size: clamp(3rem, 8vw, 4.6rem);
@@ -1299,4 +1298,20 @@ html:not(.js) .theme-float {
   .wireframe {
     display: none;
   }
+}
+
+/* ---- Case stack: scroll-through deck (JS-gated, ≥900px, never Editorial) ---- */
+.cases.stack .case-slot {
+  position: sticky;
+  top: var(--pin, 24px);
+  transform-origin: 50% 0;
+}
+.cases.stack .case-slot:nth-child(1) { z-index: 1; }
+.cases.stack .case-slot:nth-child(2) { z-index: 2; }
+.cases.stack .case-slot:nth-child(3) { z-index: 3; }
+.cases.stack .case-slot:nth-child(4) { z-index: 4; }
+:root[data-theme="editorial"] .cases.stack .case-slot {
+  position: static;
+  transform: none !important;
+  filter: none !important;
 }
