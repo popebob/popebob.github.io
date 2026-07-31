@@ -80,6 +80,11 @@
         <h2>Track record</h2>
         <p class="section-intro">{{ case_studies_intro }}</p>
       </header>
+      <div class="cases-chrome" aria-hidden="true">
+        <span class="chrome-dots"><i></i><i></i><i></i></span>
+        <span class="chrome-title">cody@platform:~$ tail -f career.log</span>
+        <span class="chrome-meta">{{ case_studies | length }} events · streaming</span>
+      </div>
       <div class="cases">
         {% for c in case_studies %}
         <div class="case-slot">
@@ -163,7 +168,9 @@
         {% for cap in capabilities %}
         <div class="cap-card reveal">
           <h3>{{ cap.name }}</h3>
+          {% if cap.lead is defined %}
           <p class="cap-lead">{{ cap.lead }}</p>
+          {% endif %}
           <ul class="chips">
             {% for chip in cap.chips %}
             <li>{{ chip }}</li>
@@ -220,7 +227,7 @@
         <h3>Contact</h3>
         <ul>
           <li><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
-          <li><a href="{{ profile.linkedin }}" rel="me noopener" target="_blank">linkedin.com/in/cody-adams-659a121a</a></li>
+          <li><a href="{{ profile.linkedin }}" rel="me noopener" target="_blank">{{ profile.linkedin_label }}</a></li>
           <li>{{ profile.phone }}</li>
           <li>{{ profile.location }}</li>
         </ul>

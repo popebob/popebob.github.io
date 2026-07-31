@@ -92,7 +92,8 @@
     }
     var vh = window.innerHeight;
     slots.forEach(function (s, i) {
-      var ideal = 22 + i * PEEK;
+      var base = root.getAttribute("data-theme") === "ops" ? 58 : 22;
+      var ideal = base + i * PEEK;
       var fit = vh - s.offsetHeight - 24;
       s.style.setProperty("--pin", Math.min(ideal, fit) + "px");
     });
