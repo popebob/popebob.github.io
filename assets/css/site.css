@@ -1420,17 +1420,63 @@ html:not(.js) .theme-float {
   transform: none !important;
   filter: none !important;
 }
-:root[data-theme="ops"] .cases::after {
+/* Scroll-streamed log: blocks print as they cross the reveal line; the
+   caret rides the frontier; space below stays blank like unwritten screen.
+   Gated to js+ops from first paint; reduced motion shows everything. */
+html.js:root[data-theme="ops"] .cases .case-head:not(.logged),
+html.js:root[data-theme="ops"] .cases .case-metric:not(.logged),
+html.js:root[data-theme="ops"] .cases .sar:not(.logged),
+html.js:root[data-theme="ops"] .cases .case-callout:not(.logged),
+html.js:root[data-theme="ops"] .cases .tags:not(.logged) {
+  visibility: hidden;
+}
+:root[data-theme="ops"] .frontier::after {
   content: "▊";
-  display: block;
-  padding: 12px var(--case-pad) 16px;
+  margin-left: 8px;
   color: var(--accent);
   font-family: var(--font-mono);
   animation: caret 1.15s steps(2, start) infinite;
 }
 @media (prefers-reduced-motion: reduce) {
-  :root[data-theme="ops"] .cases::after {
+  html.js:root[data-theme="ops"] .cases .case-head:not(.logged),
+  html.js:root[data-theme="ops"] .cases .case-metric:not(.logged),
+  html.js:root[data-theme="ops"] .cases .sar:not(.logged),
+  html.js:root[data-theme="ops"] .cases .case-callout:not(.logged),
+  html.js:root[data-theme="ops"] .cases .tags:not(.logged) {
+    visibility: visible;
+  }
+  :root[data-theme="ops"] .frontier::after {
     animation: none;
     opacity: 0.55;
   }
+}
+/* In ops the buffer streams; the generic fade-up reveal stays out of its way */
+:root[data-theme="ops"] .cases .case.reveal {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* ---- Ops: Elastic-style query bar under the window chrome ---- */
+.log-query {
+  display: none;
+}
+:root[data-theme="ops"] .log-query {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 18px;
+  background: #0b1420;
+  border: 1px solid var(--rule);
+  border-top: 0;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+:root[data-theme="ops"] .lq-icon {
+  color: var(--muted);
+}
+:root[data-theme="ops"] .lq-hits {
+  margin-left: auto;
+  color: var(--accent);
 }
