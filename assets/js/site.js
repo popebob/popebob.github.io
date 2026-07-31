@@ -139,10 +139,21 @@
   function streamLog() {
     if (!units.length) return;
     if (root.getAttribute("data-theme") !== "ops" || reduce) return;
-    var line = window.innerHeight - 110;
+    /* Reveal line sits at 62% of the viewport so the lower third reads as
+       unwritten screen. Each block prints line-by-line (stepped clip in
+       line-height slices, ~75ms/line, tail -f style); bursts queue. */
+    var LINE_MS = 75;
+    var line = window.innerHeight * 0.62;
+    var delay = 0;
     units.forEach(function (u) {
       if (!u.classList.contains("logged") && u.getBoundingClientRect().top < line) {
-        u.classList.add("logged");
+        var lh = parseFloat(getComputedStyle(u).lineHeight) || 24;
+        var lines = Math.max(1, Math.round(u.offsetHeight / lh));
+        u.classList.add("logged", "printing");
+        u.style.animationDuration = Math.min(lines * LINE_MS, 900) + "ms";
+        u.style.animationTimingFunction = "steps(" + lines + ", end)";
+        u.style.animationDelay = delay + "ms";
+        delay = Math.min(delay + lines * LINE_MS, 1100);
       }
     });
     var frontier = null;
