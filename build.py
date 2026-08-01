@@ -94,25 +94,47 @@ def base_title(s):
 
 
 def parse_header(name, body):
+    """Read the tagline and contact block.
+
+    The contact block may be split across lines with markdown hard breaks
+    (a trailing backslash or two spaces), so continuation lines are joined
+    before parsing — a split block must not silently drop a field.
+    """
+    lines = [l.strip() for l in body.splitlines()]
     tagline = None
-    contact = None
-    for line in body.splitlines():
-        line = line.strip()
+    contact_parts = []
+    collecting = False
+    for line in lines:
         if tagline is None and re.fullmatch(r"\*\*(.+)\*\*", line):
             tagline = clean_md(line)
-        if contact is None and "|" in line and "@" in line:
-            contact = line
-    if not tagline or not contact:
+            continue
+        hard_break = line.endswith("\\")
+        stripped = line.rstrip("\\").strip()
+        if not collecting and "|" in stripped and "@" in stripped:
+            collecting = True
+            contact_parts.append(stripped)
+        elif collecting and stripped and "|" in stripped:
+            contact_parts.append(stripped)
+        elif collecting and not hard_break:
+            break
+        if collecting and not hard_break and contact_parts:
+            break
+    if not tagline or not contact_parts:
         raise ParseError("header tagline or contact line not found")
-    parts = [p.strip() for p in contact.split("|")]
+    parts = [p.strip() for p in " | ".join(contact_parts).split("|") if p.strip()]
     email = next((p for p in parts if "@" in p), None)
     phone = next((p for p in parts if re.search(r"\d{3}[-.]\d{4}", p)), "")
     linkedin = next((p for p in parts if "linkedin" in p.lower()), "")
     location = next(
-        (p for p in parts if p not in (email, phone, linkedin)), ""
+        (p for p in parts if p not in (email, phone, linkedin) and "." not in p), ""
     )
     if not email:
         raise ParseError("email not found in contact line")
+    if not linkedin:
+        raise ParseError(
+            "LinkedIn URL not found in contact block — "
+            f"parsed fields: {parts}"
+        )
     url = linkedin if linkedin.startswith("http") else "https://www." + linkedin
     return dict(
         name=name, tagline=tagline, email=email, phone=phone,
