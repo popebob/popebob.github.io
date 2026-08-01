@@ -2,7 +2,7 @@
 
 **Platform Engineering, DevOps & SRE Leader**
 
-Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | linkedin.com/in/cody-adams-659a121a
+Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | popebob.github.io | linkedin.com/in/cody-adams-659a121a
 
 ---
 
