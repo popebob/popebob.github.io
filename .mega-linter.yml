@@ -1,0 +1,38 @@
+# MegaLinter configuration — https://megalinter.io/configuration/
+# Flavor: cupcake (Python, JS, CSS, YAML, Markdown, JSON, Bash, spell)
+
+APPLY_FIXES: none
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+PRINT_ALPACA: false
+
+# Fail the build on any linter error. The first run is being greened
+# deliberately, so blockers are wanted rather than tolerated.
+DISABLE_ERRORS: false
+
+EXCLUDED_DIRECTORIES:
+  - .git
+  - .venv
+  - __pycache__
+  - dist
+  - node_modules
+  - assets/fonts
+
+FILTER_REGEX_EXCLUDE: '(assets/fonts/|assets/cody-adams-cv\.pdf|\.min\.(js|css)$)'
+
+DISABLE:
+  # Copy-paste detection flags the three deliberately divergent themes
+  # in the template and CSS; that duplication is a design decision.
+  - COPYPASTE
+  # Repository-level scanners (secrets, licence, dependency policy) are
+  # out of scope for a static CV site and add minutes to every run.
+  - REPOSITORY
+
+DISABLE_LINTERS:
+  # README.md is a verbatim copy of the master CV from ../resume.
+  # Formatting it here would fight sync.sh on every update.
+  - MARKDOWN_MARKDOWNLINT
+  - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+  # Jinja2 templates are not valid standalone HTML, so HTML linters
+  # report false positives across templates/index.html.j2.
+  - HTML_DJLINT
