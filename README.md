@@ -8,7 +8,7 @@ Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | popebob.github.io
 
 ## Summary
 
-Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, with a consistent record of SLA adherence and continuously driving down mean time to resolution (MTTR), in 99.9%+ SLA environments throughout. Deep expertise across AWS, Azure, Kubernetes, and Infrastructure as Code (IaC), with a track record of leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance programs, operating HIPAA-, SOX-, and GDPR-regulated platforms, and executing zero-downtime infrastructure transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
+Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, defining public-facing SLAs, the SLOs beneath them, and the error budgets that govern change velocity, while driving down mean time to resolution (MTTR) in 99.9%+ SLA environments throughout. Deep expertise across AWS, Azure, Kubernetes, and Infrastructure as Code (IaC), with a track record of leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance programs, operating HIPAA-, SOX-, and GDPR-regulated platforms, and executing zero-downtime infrastructure transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
 
 ## Career Highlights
 
@@ -31,7 +31,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - **Developer Experience (DX):** Self-Service Platforms, Developer Tooling & Enablement, Shift-Left Operations — since 2012
 - **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps
 - **Governance & Resilience:** Change & Incident Management, BC/DR, Compliance-as-Code, GRC Engineering, Immutable & Secure Infrastructure, Shift-Left DevOps, Customer-Facing Technical & Compliance Audits (Pre- & Post-Sales)
-- **Observability & SRE:** ELK Stack, Wazuh SIEM, Grafana, Prometheus, AppDynamics, CloudWatch, CloudTrail, Azure Application Insights, Incident Response, SRE Practices & On-Call Frameworks
+- **Observability & SRE:** ELK Stack, Wazuh SIEM, Grafana, Prometheus, AppDynamics, CloudWatch, CloudTrail, Azure Application Insights, Public-Facing SLA & SLO Definition, Error Budget Management, MTTR Reduction, Incident Response, SRE Practices & On-Call Frameworks
 - **AI Enablement:** AI Adoption & Governance (SOC 2/HIPAA-Ready), Databricks Genie AI Workflow Integration, Healthcare AI Applications, CHAI Participation
 - **Leadership & Delivery:** Multi-Million $ Budget Ownership, FinOps & Cloud Unit Economics (COGS Metrics), Org Design & Hiring, Agile/Scrum Coaching (PSM I), ITIL/ITSM, Vendor & Program Management, Board/Executive Reporting, End-to-End Support Model Design (L0 Automation → L1 Helpdesk → Incident/Problem Management → Roadmap), Program Planning (6-Week to 6-Year Horizons)
 - **Languages & Scripting:** C, C++, C#, .NET/.NET Core, Java, Kotlin, TypeScript, Go, Python, Bash, PowerShell, custom DSLs, YAML/JSON
@@ -44,7 +44,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 - Inherited a $1.8M budget deficit and closed it to positive within the first year, while owning a $5–7M annual budget and a 10-person Platform Engineering organization.
 - Expanded role from Cloud DevOps and IT Operations to also own Security Engineering and Security Operations — redesigning the org chart to lead a multi-disciplinary organization spanning cloud infrastructure, DevOps, SRE, cybersecurity, audit/compliance, and corporate IT.
-- Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform.
+- Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform; define the public-facing SLA and the SLOs beneath it, and lead change decisions weighed against remaining error budget.
 - Drive multi-cloud (AWS/Azure) architecture decisions with security and compliance as first-class design constraints.
 - Deploy to production daily via IaC and GitHub Actions; built GitHub OIDC federation and centralized DevSecOps policy enforcement across all environments.
 - Built Infrastructure-as-Code for Databricks and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
@@ -59,7 +59,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Owned the full platform engineering function for a global SaaS collaboration platform serving enterprise and government customers; managed a team of 8 (DevOps and backend engineers) with unified DevSecOps/SRE ownership.
 - Reported directly to the VP of Engineering and CEO; designed customer usage-based COGS metrics that gave the board real-time visibility into cloud unit economics.
 - Led cloud cost optimization initiatives that materially reduced operational spend while maintaining platform reliability and growth capacity.
-- Led ISO 27001 certification end-to-end (achieved 2022) and architected a fully customized SaaS deployment in AWS GovCloud — leading FedRAMP Moderate compliance activities — unlocking enterprise and government customer acquisition.
+- Led ISO/IEC 27001 certification end-to-end (certified to :2013 in 2021, transitioned to :2022 in 2024) and architected a fully customized SaaS deployment in AWS GovCloud — leading FedRAMP Moderate compliance activities — unlocking enterprise and government customer acquisition.
 - Designed a zero-trust, cloud-native platform on the HashiCorp stack (Consul, Nomad, Terraform, Vault) with an automated mutual-TLS service mesh and Wazuh SIEM; self-healing, automated infrastructure supported a public SLA without headcount growth.
 - Built 25+ reusable Infrastructure-as-Code modules (primarily Bash and Azure CLI), embedded DAST/SAST and penetration testing into the SDLC, and led Hoylu's initial AI rollout (2024).
 
@@ -98,12 +98,10 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 ### DevOps Team Lead *(promoted from Data Center Administrator)*
 **Plex Systems, Inc.** — Auburn Hills, MI | March 2012 – September 2015
 
-- Full-lifecycle infrastructure ownership in a 24/7, SOX 404-compliant, 99.9% SLA SaaS environment.
+- Full-lifecycle infrastructure ownership in a 24/7, SOX 404-compliant, 99.9% public-SLA SaaS environment — managing change against the ~43-minute monthly error budget it allows.
 - Built the company's initial CI/CD, IaC, and ChatOps toolchain, driving deployment frequency from periodic to continuous, including blue/green and mid-day production deployments.
 - Reduced VM build time by 90% through automation, cutting SOX 404 audit burden in the process — earning the 2014 Q3 "Plex Impact" Innovation Award.
 - Primary on-call 24/7/365 for production: rapid response, incident commander, and problem report owner using the 8D methodology.
-
-&nbsp;
 
 ### Earlier Career
 
@@ -114,10 +112,6 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 *Prior: ~3 years of self-employed IT work and PC technician roles (2005–2008).*
 
-&nbsp;
-
 ## Certifications & Education
 
-**Certifications:** Professional Scrum Master I (PSM I) — Scrum.org, 2017 | Microsoft Certified: Azure Fundamentals (AZ-900) — 2019 | Scrum Fundamentals Certified
-
-**Education:** B.S., Computer Science — Systems/Network Design, University of Michigan–Flint (2003–2010).
+**Certifications:** Professional Scrum Master I (PSM I) — Scrum.org, 2017 | Microsoft Certified: Azure Fundamentals (AZ-900) — 2019 | Scrum Fundamentals Certified. **Education:** B.S., Computer Science — Systems/Network Design, University of Michigan–Flint (2003–2010).
