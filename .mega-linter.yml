@@ -1,4 +1,4 @@
-# MegaLinter configuration — https://megalinter.io/configuration/
+# MegaLinter configuration — https://megalinter.io/latest/configuration/
 # Flavor: cupcake (Python, JS, CSS, YAML, Markdown, JSON, Bash, spell)
 
 # Let MegaLinter apply the mechanical formatters (stylelint, standard, black,
@@ -15,7 +15,6 @@ FILEIO_REPORTER: false
 PRINT_ALPACA: false
 
 # Surface results in the Actions job summary as well as the PR comment.
-JOB_SUMMARY_REPORTER: true
 GITHUB_COMMENT_REPORTER: true
 MARKDOWN_SUMMARY_REPORTER: true
 
@@ -39,6 +38,11 @@ DISABLE:
   # Repository-level scanners (secrets, license, dependency policy) are out of
   # scope for a static CV site and add minutes to every run.
   - REPOSITORY
+
+# no-descending-specificity and no-duplicate-selectors assume a single-layer
+# stylesheet. This one layers three themes by redeclaring selectors under
+# :root[data-theme=...], so both rules are disabled in .stylelintrc.json —
+# auto-fixing them would reorder selectors and change the cascade.
 
 DISABLE_LINTERS:
   # README.md is a verbatim copy of the master CV from ../resume via sync.sh.

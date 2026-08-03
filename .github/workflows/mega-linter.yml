@@ -43,10 +43,11 @@ jobs:
       - name: Commit formatter fixes
         id: fixes
         if: github.event_name == 'pull_request'
+        env:
+          HEAD_REF: ${{ github.head_ref }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          rm -rf megalinter-reports mega-linter.log
           if git diff --quiet && git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No formatter changes to commit."
@@ -58,7 +59,7 @@ jobs:
 
           Automated: stylelint, standard, black, isort and shfmt fixes applied
           by the MegaLinter workflow."
-            git push origin HEAD:"${{ github.head_ref }}"
+            git push origin "HEAD:$HEAD_REF"
           fi
 
       - name: Publish results to job summary
