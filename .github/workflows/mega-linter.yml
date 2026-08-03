@@ -31,32 +31,30 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APPLY_FIXES_EVENT: pull_request
+          APPLY_FIXES_MODE: commit
 
       - name: Publish results to job summary
         if: always()
         run: |
+          REPORT=megalinter-reports/megalinter-report.md
           {
             echo "## MegaLinter results"
             echo
-            if [ -f megalinter-reports/megalinter.log ]; then
-              # The run summary table sits between the SUMMARY banner and the
-              # trailing rule; fall back to the whole tail if the shape changes.
-              awk '/----SUMMARY----/,0' megalinter-reports/megalinter.log \
-                | sed 's/\x1b\[[0-9;]*m//g' > /tmp/ml-summary.txt || true
-              if [ -s /tmp/ml-summary.txt ]; then
-                echo '```text'
-                cat /tmp/ml-summary.txt
-                echo '```'
-              else
-                echo "_Summary table not found in the log._"
-              fi
+            if [ -s "$REPORT" ]; then
+              cat "$REPORT"
+            elif [ -f megalinter-reports/megalinter.log ]; then
+              echo "_Markdown report missing; falling back to the run log summary._"
+              echo
+              echo '```text'
+              sed 's/\x1b\[[0-9;]*m//g' megalinter-reports/megalinter.log \
+                | awk '/----SUMMARY----/,0'
+              echo '```'
             else
-              echo "_No MegaLinter log produced._"
+              echo "_No MegaLinter report produced._"
             fi
             echo
-            echo "Outcome: **${{ steps.ml.outcome }}**"
-            echo
-            echo "Full reports are attached to this run as the \`megalinter-reports\` artifact."
+            echo "Outcome: **${{ steps.ml.outcome }}** — full reports are attached as the \`megalinter-reports\` artifact."
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload MegaLinter reports

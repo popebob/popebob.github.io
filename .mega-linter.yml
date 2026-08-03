@@ -2,12 +2,13 @@
 # Flavor: cupcake (Python, JS, CSS, YAML, Markdown, JSON, Bash, spell)
 
 # Let MegaLinter apply the mechanical formatters (stylelint, standard, black,
-# isort, shfmt) and commit the result back to the pull request branch. This is
+# import-sorting and shell formatters) and commit the result back to the pull
+# request branch. This is
 # the deliberate "adopt the defaults" choice: the fixers own house style so the
-# remaining red is real problems rather than taste.
+# remaining red is real problems rather than taste. APPLY_FIXES_EVENT and
+# APPLY_FIXES_MODE are workflow env vars, not config keys, and live in the
+# workflow file.
 APPLY_FIXES: all
-APPLY_FIXES_EVENT: pull_request
-APPLY_FIXES_MODE: commit
 
 SHOW_ELAPSED_TIME: true
 FILEIO_REPORTER: false
@@ -16,6 +17,7 @@ PRINT_ALPACA: false
 # Surface results in the Actions job summary as well as the PR comment.
 JOB_SUMMARY_REPORTER: true
 GITHUB_COMMENT_REPORTER: true
+MARKDOWN_SUMMARY_REPORTER: true
 
 # Errors block. The first run is being greened deliberately.
 DISABLE_ERRORS: false
