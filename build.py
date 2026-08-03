@@ -100,7 +100,7 @@ def parse_header(name, body):
     (a trailing backslash or two spaces), so continuation lines are joined
     before parsing — a split block must not silently drop a field.
     """
-    lines = [l.strip() for l in body.splitlines()]
+    lines = [ln.strip() for ln in body.splitlines()]
     tagline = None
     contact_parts = []
     collecting = False
@@ -165,7 +165,8 @@ def parse_role_block(head, rest):
         ordered = sorted(subroles, key=lambda t: years_span(t[1])[0])
         start, years = years_span(*[t[1] for t in subroles])
         para = rest.strip().split("\n\n")[0]
-        fallback = clean_md(para) if not para.lstrip().startswith(("**", "-")) else first_bullet(rest)
+        is_prose = not para.lstrip().startswith(("**", "-"))
+        fallback = clean_md(para) if is_prose else first_bullet(rest)
         return dict(
             company=clean_md(company), location=location,
             roles=" → ".join(base_title(t[0]) for t in ordered),

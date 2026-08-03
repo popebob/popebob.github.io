@@ -7,7 +7,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  issues: write
+  pull-requests: write
 
 concurrency:
   group: megalinter-${{ github.ref }}
@@ -21,6 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: MegaLinter
         id: ml
@@ -28,6 +31,33 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish results to job summary
+        if: always()
+        run: |
+          {
+            echo "## MegaLinter results"
+            echo
+            if [ -f megalinter-reports/megalinter.log ]; then
+              # The run summary table sits between the SUMMARY banner and the
+              # trailing rule; fall back to the whole tail if the shape changes.
+              awk '/----SUMMARY----/,0' megalinter-reports/megalinter.log \
+                | sed 's/\x1b\[[0-9;]*m//g' > /tmp/ml-summary.txt || true
+              if [ -s /tmp/ml-summary.txt ]; then
+                echo '```text'
+                cat /tmp/ml-summary.txt
+                echo '```'
+              else
+                echo "_Summary table not found in the log._"
+              fi
+            else
+              echo "_No MegaLinter log produced._"
+            fi
+            echo
+            echo "Outcome: **${{ steps.ml.outcome }}**"
+            echo
+            echo "Full reports are attached to this run as the \`megalinter-reports\` artifact."
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload MegaLinter reports
         if: always()
