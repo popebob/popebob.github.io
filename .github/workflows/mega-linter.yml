@@ -20,19 +20,46 @@ jobs:
     name: MegaLinter
     runs-on: ubuntu-latest
     steps:
+      # On pull_request the default checkout lands on the merge ref in detached
+      # HEAD, so there is no branch for the formatters' fixes to be pushed back
+      # to. Check out the head branch itself instead.
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: MegaLinter
         id: ml
+        continue-on-error: true
         uses: oxsecurity/megalinter/flavors/cupcake@v8
         env:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          APPLY_FIXES_EVENT: pull_request
-          APPLY_FIXES_MODE: commit
+
+      # MegaLinter fixes in place, so anything the formatters changed is sitting
+      # in the working tree. Commit it back; the push retriggers this workflow,
+      # which then has nothing left to fix and goes green.
+      - name: Commit formatter fixes
+        id: fixes
+        if: github.event_name == 'pull_request'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf megalinter-reports mega-linter.log
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No formatter changes to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git add -A
+            git status --short
+            git commit -m "Apply MegaLinter formatter fixes
+
+          Automated: stylelint, standard, black, isort and shfmt fixes applied
+          by the MegaLinter workflow."
+            git push origin HEAD:"${{ github.head_ref }}"
+          fi
 
       - name: Publish results to job summary
         if: always()
@@ -44,17 +71,19 @@ jobs:
             if [ -s "$REPORT" ]; then
               cat "$REPORT"
             elif [ -f megalinter-reports/megalinter.log ]; then
-              echo "_Markdown report missing; falling back to the run log summary._"
-              echo
               echo '```text'
-              sed 's/\x1b\[[0-9;]*m//g' megalinter-reports/megalinter.log \
-                | awk '/----SUMMARY----/,0'
+              sed 's/\x1b\[[0-9;]*m//g' megalinter-reports/megalinter.log | awk '/----SUMMARY----/,0'
               echo '```'
             else
               echo "_No MegaLinter report produced._"
             fi
             echo
-            echo "Outcome: **${{ steps.ml.outcome }}** — full reports are attached as the \`megalinter-reports\` artifact."
+            echo "| | |"
+            echo "|---|---|"
+            echo "| Lint outcome | **${{ steps.ml.outcome }}** |"
+            echo "| Formatter fixes committed | **${{ steps.fixes.outputs.changed || 'n/a' }}** |"
+            echo
+            echo "Full reports are attached as the \`megalinter-reports\` artifact."
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload MegaLinter reports
@@ -66,3 +95,12 @@ jobs:
             megalinter-reports
             mega-linter.log
           retention-days: 14
+          if-no-files-found: ignore
+
+      # Fail the job if linting failed and nothing was auto-fixed. When fixes
+      # were committed the follow-up run is the one that decides green or red.
+      - name: Enforce lint result
+        if: always() && steps.ml.outcome == 'failure' && steps.fixes.outputs.changed != 'true'
+        run: |
+          echo "MegaLinter reported errors that the formatters could not fix." >&2
+          exit 1
