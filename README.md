@@ -14,10 +14,10 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 - Inherited a $1.8M budget deficit as Director of Platform Engineering at Opala (March 2025) and closed it to positive within the first year, while owning a $5–7M annual budget and a 10-person organization.
 - Grew Ford's 2-person "skunkworks" lab into a 150-person organization — including Ford's first offshore production operations — establishing the enterprise's Next Generation Data Center function.
-- Promoted or expanded in scope in every role held: Plex (Data Center Administrator → DevOps Team Lead), Ford (individual contributor → Director-level contractor), Hoylu (Senior DevOps Engineer → Director of DevOps), Opala (expanded to own Security Engineering & Operations).
-- Full lifecycle, full-stack technical ownership at every role — from architecture through hands-on incident response, including debugging across unfamiliar languages and systems when needed.
-- Regularly leads large-scale demos and training presentations; owns skills-matrix design, target skills/behavior frameworks, and tooling/integration architecture across every organization led.
-- Systems depth few platform leaders bring to the table: expert-level Windows and Linux administration including OS clustering and filesystems engineering, plus Linux kernel development in personal projects.
+- Promoted or expanded in scope in every role held, from Data Center Administrator at Plex to Director of Platform Engineering today.
+- Full lifecycle, full-stack technical ownership at every role — from architecture through hands-on incident response, including debugging across unfamiliar languages and systems when needed. The IaC libraries, DevOps frameworks, and change and incident processes established at each company have stayed in use after moving on.
+- Regularly leads large-scale demos and training presentations; owns skills-matrix design, target behavior frameworks, and tooling/integration architecture across every organization led.
+- Systems depth few platform leaders bring to the table: expert-level Windows and Linux administration, including OS clustering and filesystems engineering.
 - Early AI adopter: led Hoylu's initial AI rollout (2024); at Opala — a Coalition for Health AI (CHAI) participant — drives SOC 2/HIPAA-ready AI practices and helped implement a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
 
 ## Core Skills
@@ -25,7 +25,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - **Cloud & Infrastructure:** Bare-Metal & Private Data Center, VMware/Traditional VM Hosting, Hybrid & Multi-Cloud (AWS incl. GovCloud, Azure), Cloud-Native (Kubernetes/AKS, HashiCorp Nomad), Landing Zone Architecture (DC & Cloud), Infrastructure as Code (Terraform, incl. COTS/Vendor Platforms), High-Availability & Low-Latency Design, Secure-by-Default Architecture (Edge to Enterprise Fleet Scale)
 - **Network & Security Engineering:** DNS & Core Infrastructure Services, WAN/LAN Planning & Operations (incl. PBX/Telephony), Cross-Cloud & Multi-Cloud Networking (Peering, Transit Gateways, Interconnects), BGP, VPN, CDN Architecture, Production Firewall Management, Zscaler (Zero-Trust Access), PKI & Encryption, Blue & Red Team Security Operations, Network & Application Security Engineering
 - **Identity & Access Management:** Microsoft Entra ID (Workforce & B2C/External ID), OIDC, SAML, SCIM, SSO/Federation, Zero-Trust IAM
-- **Systems Engineering:** Windows & Linux (Expert-Level Administration), OS Clustering, Filesystems Engineering, Linux Kernel Development (Personal Projects)
+- **Systems Engineering:** Windows & Linux (Expert-Level Administration), OS Clustering, Filesystems Engineering
 - **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Packer, Ansible, Chef, GitOps, ChatOps, Automated/Self-Healing Infrastructure
 - **Release Engineering & Version Control:** Centralized-to-Distributed VCS Migration (TFVC/SVN → Git), Branching/Merging/Release/Deployment Strategy Design, End-to-End Productionization
 - **Developer Experience (DX):** Self-Service Platforms, Developer Tooling & Enablement, Shift-Left Operations — since 2012
@@ -42,12 +42,11 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 ### Director of Platform Engineering
 **Opala** — Seattle, WA (Remote) | March 2025 – Present
 
-- Inherited a $1.8M budget deficit and closed it to positive within the first year, while owning a $5–7M annual budget and a 10-person Platform Engineering organization.
 - Expanded role from Cloud DevOps and IT Operations to also own Security Engineering and Security Operations — redesigning the org chart to lead a multi-disciplinary organization spanning cloud infrastructure, DevOps, SRE, cybersecurity, audit/compliance, and corporate IT.
 - Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform; define the public-facing SLA and the SLOs beneath it, and lead change decisions weighed against remaining error budget.
 - Drive multi-cloud (AWS/Azure) architecture decisions with security and compliance as first-class design constraints.
 - Deploy to production daily via IaC and GitHub Actions; built GitHub OIDC federation and centralized DevSecOps policy enforcement across all environments.
-- Built Infrastructure-as-Code for Databricks and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
+- Delivered 30+ reusable Infrastructure-as-Code modules including Databricks IaC and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
 - Own cybersecurity posture, audit readiness, and the SOC 2 compliance program — including Drata compliance automation with Azure and AWS integrations — positioning compliance as a business enabler rather than a checkbox exercise.
 - Hands-on owner of enterprise DNS, firewalls, VPNs, Zscaler zero-trust access, identity lifecycle, endpoint security, developer tooling, and day-to-day IT operations including direct client support.
 - Drive Opala's AI adoption — SOC 2/HIPAA-ready practices, Coalition for Health AI (CHAI) participation, and key implementation of a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
@@ -85,14 +84,13 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Replaced foundational infrastructure of a live global operation in real time with zero downtime, embedding compliance and security controls that had not previously existed.
 - Delivered platforms including Kubernetes (Containers as a Service), Pivotal Cloud Foundry, SQL Server PaaS, VMware vRealize Operations, IBM API Connect, and F5 iWorkflow network orchestration.
 - Established new release engineering practices for IT Operations and trained the Release Manager role into existence.
-- Regularly displaced incumbent teams and legacy platforms when the solutions being delivered outperformed them — most notably a full replacement of Ford's enterprise Active Directory environment, absorbing that team's scope into the platform organization.
+- Displaced incumbent teams and legacy platforms when the solutions delivered outperformed them, most notably replacing Ford's enterprise Active Directory environment.
 
 **Cloud and DevOps Consultant** | September 2015 – March 2017
 
 - Defined Ford's Data Center of the Future architecture vision across compute, storage, network, cloud, big data, and hosting, with compliance as a first-class design requirement where none had previously existed.
 - Designed Ford's first two purpose-built enterprise data centers — from the rack, power, and cooling level up — and presented the strategy directly to the CIO.
 - Established and operated the Next Generation Lab, a production-grade VMware SDDC private cloud proving ground for new platform capabilities, with full asset, service delivery, and vendor management ownership.
-- Executed zero-downtime live replacement of foundational infrastructure at enterprise scale, setting new organizational precedents for vendor management and delivery timelines.
 - Collaborated directly with Chef co-founder Adam Jacob, HashiCorp co-founder Armon Dadgar, and HashiCorp's Seth Vargo on core Infrastructure-as-Code tooling and DevOps workflow design as part of Ford's IaC and automation strategy.
 
 ### DevOps Team Lead *(promoted from Data Center Administrator)*
@@ -114,4 +112,4 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 ## Certifications & Education
 
-**Certifications:** Professional Scrum Master I (PSM I) — Scrum.org, 2017 | Microsoft Certified: Azure Fundamentals (AZ-900) — 2019 | Scrum Fundamentals Certified. **Education:** B.S., Computer Science — Systems/Network Design, University of Michigan–Flint (2003–2010).
+**Certifications:** Professional Scrum Master I (PSM I), 2017 | Microsoft Certified: Azure Fundamentals (AZ-900), 2019 | Scrum Fundamentals Certified. **Education:** B.S., Computer Science, University of Michigan–Flint.

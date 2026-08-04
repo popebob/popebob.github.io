@@ -1,5 +1,17 @@
 [MESSAGES CONTROL]
-# The linter container has no project dependencies installed, so yaml and
-# jinja2 are unresolvable there. mypy runs with dependencies present and
-# already covers import correctness.
-disable=import-error
+# This file REPLACES MegaLinter's bundled pylintrc rather than extending it, so
+# anything its default disabled has to be disabled again here or it comes back.
+#
+# import-error: the linter container has no project dependencies, so yaml and
+# jinja2 are unresolvable there. mypy runs with dependencies present and covers
+# import correctness properly.
+#
+# The rest are conventions MegaLinter's default config also disabled. build.py
+# is a single-purpose ~300-line render script; docstrings on every helper and
+# dict-literal style are not defects worth failing a build over.
+disable=import-error,
+        missing-module-docstring,
+        missing-class-docstring,
+        missing-function-docstring,
+        use-dict-literal,
+        too-many-locals
