@@ -46,7 +46,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform; define the public-facing SLA and the SLOs beneath it, and lead change decisions weighed against remaining error budget.
 - Drive multi-cloud (Azure/AWS) architecture decisions with security and compliance as first-class design constraints.
 - Deploy to production daily via IaC and GitHub Actions; built GitHub OIDC federation and centralized DevSecOps policy enforcement across all environments.
-- Delivered 30+ reusable Infrastructure-as-Code modules including Databricks IaC and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
+- Delivered 30+ reusable Infrastructure-as-Code modules in Azure CLI, including Databricks IaC and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
 - Own cybersecurity posture, audit readiness, and the HIPAA and SOC 2 compliance programs — including Drata compliance automation with Azure and AWS integrations — positioning compliance as a business enabler rather than a checkbox exercise.
 - Hands-on owner of enterprise DNS, firewalls, VPNs, Zscaler zero-trust access, identity lifecycle, endpoint security, developer tooling, and day-to-day IT operations including direct client support.
 - Drive Opala's AI adoption — SOC 2/HIPAA-ready practices, Coalition for Health AI (CHAI) participation, and key implementation of a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
@@ -60,14 +60,14 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Led cloud cost optimization initiatives that materially reduced operational spend while maintaining platform reliability and growth capacity.
 - Led ISO/IEC 27001 certification end-to-end (certified to :2013 in 2021, transitioned to :2022 in 2024) and architected a fully customized SaaS deployment in AWS GovCloud — leading FedRAMP Moderate compliance activities — unlocking enterprise and government customer acquisition.
 - Designed a zero-trust, cloud-native platform on the HashiCorp stack (Consul, Nomad, Terraform, Vault) with an automated mutual-TLS service mesh and Wazuh SIEM; self-healing, automated infrastructure supported a public SLA without headcount growth.
-- Built 25+ reusable Infrastructure-as-Code modules (primarily Bash and Azure CLI), embedded DAST/SAST and penetration testing into the SDLC, and led Hoylu's initial AI rollout (2024).
+- Built 25+ reusable Terraform modules, embedded DAST/SAST and penetration testing into the SDLC, and led Hoylu's initial AI rollout (2024).
 
 ### DevOps Practice Manager / Cloud Architect
 **Coretek Services** — Farmington, MI | May 2019 – August 2020
 
 - Built Coretek's DevOps consulting practice from zero, delivering cross-industry enterprise and mid-market engagements from initial economic assessment (dozens delivered) through production delivery.
 - Led cloud migrations and Azure foundation deployments aligned to the Azure Well-Architected Framework, plus Azure Serverless and Azure DevOps migration engagements.
-- Defined and launched the DevOps service catalog (containerization, CI/CD, IaC) using Azure DevOps, AKS, and Terraform; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
+- Defined and launched the DevOps service catalog (containerization, CI/CD, IaC) using Azure DevOps, AKS, Azure CLI, and Terraform; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
 
 ### DevOps Platform Manager
 **Delta Dental of Michigan** — Okemos, MI | November 2018 – May 2019
