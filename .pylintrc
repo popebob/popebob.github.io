@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+# The linter container has no project dependencies installed, so yaml and
+# jinja2 are unresolvable there. mypy runs with dependencies present and
+# already covers import correctness.
+disable=import-error

@@ -100,7 +100,7 @@ def parse_header(name, body):
     (a trailing backslash or two spaces), so continuation lines are joined
     before parsing — a split block must not silently drop a field.
     """
-    lines = [l.strip() for l in body.splitlines()]
+    lines = [ln.strip() for ln in body.splitlines()]
     tagline = None
     contact_parts = []
     collecting = False
@@ -132,13 +132,16 @@ def parse_header(name, body):
         raise ParseError("email not found in contact line")
     if not linkedin:
         raise ParseError(
-            "LinkedIn URL not found in contact block — "
-            f"parsed fields: {parts}"
+            "LinkedIn URL not found in contact block — " f"parsed fields: {parts}"
         )
     url = linkedin if linkedin.startswith("http") else "https://www." + linkedin
     return dict(
-        name=name, tagline=tagline, email=email, phone=phone,
-        linkedin=url, linkedin_label=re.sub(r"^https?://(www\.)?", "", url),
+        name=name,
+        tagline=tagline,
+        email=email,
+        phone=phone,
+        linkedin=url,
+        linkedin_label=re.sub(r"^https?://(www\.)?", "", url),
         location=location,
     )
 
@@ -165,11 +168,16 @@ def parse_role_block(head, rest):
         ordered = sorted(subroles, key=lambda t: years_span(t[1])[0])
         start, years = years_span(*[t[1] for t in subroles])
         para = rest.strip().split("\n\n")[0]
-        fallback = clean_md(para) if not para.lstrip().startswith(("**", "-")) else first_bullet(rest)
+        is_prose = not para.lstrip().startswith(("**", "-"))
+        fallback = clean_md(para) if is_prose else first_bullet(rest)
         return dict(
-            company=clean_md(company), location=location,
+            company=clean_md(company),
+            location=location,
             roles=" → ".join(base_title(t[0]) for t in ordered),
-            badge="", start=start, years=years, fallback=fallback,
+            badge="",
+            start=start,
+            years=years,
+            fallback=fallback,
         )
     title = head
     promoted = re.search(r"\*\((?:promoted|expanded) from (.+?)\)\*", title)
@@ -192,9 +200,13 @@ def parse_role_block(head, rest):
     else:
         roles, badge = title_clean, ""
     return dict(
-        company=clean_md(m.group(1)), location=location,
-        roles=roles, badge=badge,
-        start=start, years=years, fallback=first_bullet(rest),
+        company=clean_md(m.group(1)),
+        location=location,
+        roles=roles,
+        badge=badge,
+        start=start,
+        years=years,
+        fallback=first_bullet(rest),
     )
 
 
@@ -214,9 +226,7 @@ def parse_credentials(body):
     )
     if not m:
         raise ParseError("Certifications/Education line not parsed")
-    certs = " · ".join(
-        p.strip() for p in clean_md(m.group(1)).rstrip(". ").split("|")
-    )
+    certs = " · ".join(p.strip() for p in clean_md(m.group(1)).rstrip(". ").split("|"))
     return dict(certifications=certs, education=clean_md(m.group(2)))
 
 
@@ -256,10 +266,14 @@ def main() -> None:
     overrides = cur.get("timeline", {}).get("overrides", [])
     entries = [
         dict(
-            years=e["years"], company=e["company"], location=e["location"],
+            years=e["years"],
+            company=e["company"],
+            location=e["location"],
             roles=overlay_for(e["company"], overrides).get("roles", e["roles"]),
             badge=overlay_for(e["company"], overrides).get("badge", e["badge"]),
-            highlight=overlay_for(e["company"], overrides).get("highlight", e["fallback"]),
+            highlight=overlay_for(e["company"], overrides).get(
+                "highlight", e["fallback"]
+            ),
         )
         for e in experience
     ]
@@ -306,8 +320,10 @@ def main() -> None:
     (dist / "index.html").write_text(html)
     shutil.copytree(ROOT / "assets", dist / "assets")
     print(f"built dist/index.html ({len(html):,} bytes) + assets/")
-    print(f"  parsed: {len(entries)} roles, {len(caps)} skill groups, "
-          f"{len(langs)} languages")
+    print(
+        f"  parsed: {len(entries)} roles, {len(caps)} skill groups, "
+        f"{len(langs)} languages"
+    )
 
 
 if __name__ == "__main__":

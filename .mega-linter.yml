@@ -1,0 +1,58 @@
+# MegaLinter configuration — https://megalinter.io/latest/configuration/
+# Flavor: cupcake (Python, JS, CSS, YAML, Markdown, JSON, Bash, spell)
+
+# Let MegaLinter apply the mechanical formatters (stylelint, standard, black,
+# import-sorting and shell formatters) and commit the result back to the pull
+# request branch. This is
+# the deliberate "adopt the defaults" choice: the fixers own house style so the
+# remaining red is real problems rather than taste. APPLY_FIXES_EVENT and
+# APPLY_FIXES_MODE are workflow env vars, not config keys, and live in the
+# workflow file.
+APPLY_FIXES: all
+
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+PRINT_ALPACA: false
+
+# Surface results in the Actions job summary as well as the PR comment.
+GITHUB_COMMENT_REPORTER: true
+MARKDOWN_SUMMARY_REPORTER: true
+
+# Errors block. The first run is being greened deliberately.
+DISABLE_ERRORS: false
+
+EXCLUDED_DIRECTORIES:
+  - .git
+  - .venv
+  - __pycache__
+  - dist
+  - node_modules
+  - assets/fonts
+
+FILTER_REGEX_EXCLUDE: '(assets/fonts/|assets/cody-adams-cv\.pdf|\.min\.(js|css)$)'
+
+DISABLE:
+  # Copy-paste detection flags the three deliberately divergent themes in the
+  # template and CSS; that duplication is a design decision.
+  - COPYPASTE
+  # Repository-level scanners (secrets, license, dependency policy) are out of
+  # scope for a static CV site and add minutes to every run.
+  - REPOSITORY
+
+# no-descending-specificity and no-duplicate-selectors assume a single-layer
+# stylesheet. This one layers three themes by redeclaring selectors under
+# :root[data-theme=...], so both rules are disabled in .stylelintrc.json —
+# auto-fixing them would reorder selectors and change the cascade.
+
+DISABLE_LINTERS:
+  # README.md is a verbatim copy of the master CV from ../resume via sync.sh.
+  # Formatting it here would fight every future sync.
+  - MARKDOWN_MARKDOWNLINT
+  - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+  # templates/index.html.j2 is Jinja2, not standalone HTML — linting it as HTML
+  # produces false positives on every template expression.
+  - HTML_DJLINT
+  # pyright's only finding is an unresolvable jinja2 import inside the linter
+  # container, which says nothing about this codebase. mypy already passes and
+  # covers the same ground with the dependencies present.
+  - PYTHON_PYRIGHT
