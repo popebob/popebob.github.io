@@ -8,7 +8,7 @@ Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | popebob.github.io
 
 ## Summary
 
-Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, defining public-facing SLAs, the SLOs beneath them, and the error budgets that govern change velocity, while driving down mean time to resolution (MTTR) in 99.9%+ SLA environments throughout. Deep expertise across AWS, Azure, Kubernetes, and Infrastructure as Code (IaC), with a track record of leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance programs, operating HIPAA-, SOX-, and GDPR-regulated platforms, and executing zero-downtime infrastructure transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
+Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, defining public-facing SLAs, the SLOs beneath them, and the error budgets that govern change velocity, while driving down mean time to resolution (MTTR) in 99.9%+ SLA environments throughout. Deep expertise across Azure, AWS, Kubernetes, and Infrastructure as Code (IaC), with a track record of leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance programs, operating HIPAA-, SOX-, and GDPR-regulated platforms, and executing zero-downtime infrastructure transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
 
 ## Career Highlights
 
@@ -22,11 +22,11 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 ## Core Skills
 
-- **Cloud & Infrastructure:** Bare-Metal & Private Data Center, VMware/Traditional VM Hosting, Hybrid & Multi-Cloud (AWS incl. GovCloud, Azure), Cloud-Native (Kubernetes/AKS, HashiCorp Nomad), Landing Zone Architecture (DC & Cloud), Infrastructure as Code (Terraform, incl. COTS/Vendor Platforms), High-Availability & Low-Latency Design, Secure-by-Default Architecture (Edge to Enterprise Fleet Scale)
+- **Cloud & Infrastructure:** Bare-Metal & Private Data Center, VMware/Traditional VM Hosting, Hybrid & Multi-Cloud (Azure, AWS incl. GovCloud), Container Orchestration (HashiCorp Nomad, Kubernetes/AKS), Landing Zone Architecture (DC & Cloud), Infrastructure as Code (Terraform, incl. COTS/Vendor Platforms), High-Availability & Low-Latency Design, Secure-by-Default Architecture (Edge to Enterprise Fleet Scale)
 - **Network & Security Engineering:** DNS & Core Infrastructure Services, WAN/LAN Planning & Operations (incl. PBX/Telephony), Cross-Cloud & Multi-Cloud Networking (Peering, Transit Gateways, Interconnects), BGP, VPN, CDN Architecture, Production Firewall Management, Zscaler (Zero-Trust Access), PKI & Encryption, Blue & Red Team Security Operations, Network & Application Security Engineering
 - **Identity & Access Management:** Microsoft Entra ID (Workforce & B2C/External ID), OIDC, SAML, SCIM, SSO/Federation, Zero-Trust IAM
 - **Systems Engineering:** Windows & Linux (Expert-Level Administration), OS Clustering, Filesystems Engineering
-- **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Packer, Ansible, Chef, GitOps, ChatOps, Automated/Self-Healing Infrastructure
+- **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Packer, Ansible, Chef, ARM/Azure CLI, GitOps, ChatOps, Automated/Self-Healing Infrastructure
 - **Release Engineering & Version Control:** Centralized-to-Distributed VCS Migration (TFVC/SVN → Git), Branching/Merging/Release/Deployment Strategy Design, End-to-End Productionization
 - **Developer Experience (DX):** Self-Service Platforms, Developer Tooling & Enablement, Shift-Left Operations — since 2012
 - **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps
@@ -44,10 +44,10 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 - Expanded role from Cloud DevOps and IT Operations to also own Security Engineering and Security Operations — redesigning the org chart to lead a multi-disciplinary organization spanning cloud infrastructure, DevOps, SRE, cybersecurity, audit/compliance, and corporate IT.
 - Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform; define the public-facing SLA and the SLOs beneath it, and lead change decisions weighed against remaining error budget.
-- Drive multi-cloud (AWS/Azure) architecture decisions with security and compliance as first-class design constraints.
+- Drive multi-cloud (Azure/AWS) architecture decisions with security and compliance as first-class design constraints.
 - Deploy to production daily via IaC and GitHub Actions; built GitHub OIDC federation and centralized DevSecOps policy enforcement across all environments.
 - Delivered 30+ reusable Infrastructure-as-Code modules including Databricks IaC and extensive Python-based access audits; created DevSecOps pipelines and the platform's initial Docker build pipelines.
-- Own cybersecurity posture, audit readiness, and the SOC 2 compliance program — including Drata compliance automation with Azure and AWS integrations — positioning compliance as a business enabler rather than a checkbox exercise.
+- Own cybersecurity posture, audit readiness, and the HIPAA and SOC 2 compliance programs — including Drata compliance automation with Azure and AWS integrations — positioning compliance as a business enabler rather than a checkbox exercise.
 - Hands-on owner of enterprise DNS, firewalls, VPNs, Zscaler zero-trust access, identity lifecycle, endpoint security, developer tooling, and day-to-day IT operations including direct client support.
 - Drive Opala's AI adoption — SOC 2/HIPAA-ready practices, Coalition for Health AI (CHAI) participation, and key implementation of a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
 
