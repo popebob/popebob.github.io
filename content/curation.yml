@@ -31,7 +31,7 @@ stats:
   - value: "20+"
     label: "Years in platform, DevOps & SRE"
   - value: "$5–7M"
-    label: "Annual budget owned"
+    label: "Budget owned — ~60% of company operating spend"
   - value: "2 → 150"
     label: "Org scaled at Ford"
   - value: "8"
@@ -226,15 +226,17 @@ timeline:
     - company: "Hoylu"
       badge: "Promoted"
       highlight: >-
-        Retained through multiple company-wide workforce reductions; ISO
-        27001 achieved 2022; AWS GovCloud deployment; board-level COGS and
-        cloud unit-economics reporting.
+        Retained through multiple company-wide workforce reductions; ISO/IEC
+        27001 certified to :2013 in 2021 and transitioned to :2022 in 2024;
+        air-gapped AWS GovCloud delivery to IL4 that closed a U.S. Navy
+        contract; board-level COGS and cloud unit-economics reporting.
     - company: "Opala"
       badge: "Mandate expanded"
       highlight: >-
-        $1.8M budget deficit closed to positive in year one; mandate expanded
-        to own Security Engineering & Operations; $5–7M budget, 10-person
-        organization.
+        Owns the entire infrastructure, security, and IT function on a
+        $5–7M budget — roughly 60% of company operating spend — with a
+        10-person organization; $1.8M budget deficit closed to positive in
+        year one.
 
 capabilities_intro: >-
   Breadth is the point: platform leadership backed by carrier-grade
@@ -248,7 +250,8 @@ capability_leads:
   "Cloud & Infrastructure": "Bare metal to multi-cloud, with IaC as the default."
   "Network & Security Engineering": "Networking depth most platform leaders don't carry."
   "CI/CD & Automation": "From first toolchain builds to self-healing infrastructure."
-  "Systems Engineering": "Expert-level administration on both sides of the fence."
+  "Systems, Data Center & Storage Engineering": "Expert-level administration on both sides of the fence."
+  "Distributed Systems & Multi-Tenancy": "Tenant designs led end to end — app, data, and infrastructure — since 2012."
   "Observability & SRE": "SLA adherence and MTTR driven down, every team, every platform."
   "Leadership & Delivery": "Org design, budget ownership, and board-level reporting."
 
@@ -263,7 +266,7 @@ compliance:
       - name: "SOC 2"
         note: "Program owner — Opala"
       - name: "ISO 27001"
-        note: "Led certification — achieved 2022"
+        note: "Certified :2013 in 2021; led :2022 transition in 2024"
       - name: "FedRAMP"
         note: "Compliance program leadership"
       - name: "NIST 800-53"
