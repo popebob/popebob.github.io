@@ -120,4 +120,5 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 ## Certifications & Education
 
-**Certifications:** Professional Scrum Master I (PSM I), 2017 | Microsoft Certified: Azure Fundamentals (AZ-900), 2019 | Scrum Fundamentals Certified. **Education:** B.S., Computer Science, University of Michigan–Flint.
+**Certifications:** Professional Scrum Master I (PSM I), 2017 | Microsoft Certified: Azure Fundamentals (AZ-900), 2019 | Scrum Fundamentals Certified.\
+**Education:** B.S., Computer Science — Systems/Network Design, University of Michigan–Flint (2003–2010).
