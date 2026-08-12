@@ -100,7 +100,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Served as compute architect across three distinct domains — mainframe/batch, HPC, and Big Data — evaluating a single x86 platform against the justifications for special-purpose compute, and defining the IaaS, capacity, and hardware refresh model.
 - Engineered Microsoft and Linux clustering spanning physical data centers to meet defined latency requirements, designed so writes committed into both data center SANs before acknowledgment.
 - Established and operated the Next Generation Lab, a production-grade VMware SDDC private cloud proving ground for new platform capabilities, with full asset, service delivery, and vendor management ownership.
-- Collaborated directly with Chef co-founder Adam Jacob, HashiCorp co-founder Armon Dadgar, and HashiCorp's Seth Vargo on core Infrastructure-as-Code tooling and DevOps workflow design for Ford's automation strategy.
+- Collaborated directly with Chef's and HashiCorp's engineering teams on core Infrastructure-as-Code tooling and DevOps workflow design for Ford's automation strategy.
 
 ### DevOps Team Lead *(promoted from Data Center Administrator)*
 **Plex Systems, Inc.** — Auburn Hills, MI | March 2012 – September 2015
