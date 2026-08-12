@@ -40,7 +40,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - **Observability & SRE:** ELK Stack, Wazuh SIEM, Grafana, Prometheus, AppDynamics, CloudWatch, CloudTrail, Azure Application Insights, Public-Facing SLA & SLO Definition, Error Budget Management, MTTR Reduction, Incident Response, SRE Practices & On-Call Frameworks
 - **AI Enablement:** AI Adoption & Governance (SOC 2/HIPAA-Ready), Databricks Genie AI Workflow Integration, Healthcare AI Applications, CHAI Participation
 - **Leadership & Delivery:** Multi-Million $ Budget Ownership, Managing Managers & Team Leads, FinOps & Cloud Unit Economics (COGS Metrics), Org Design & Hiring, RFP/RFX Response & Statement of Work Authoring, Managed-Service Provider Strategy & Sourcing (IT Operations, SOC/MDR, Internal Audit), Agile/Scrum Coaching (PSM I), ITIL/ITSM, Vendor & Program Management, Board/Executive Reporting, End-to-End Support Model Design (L0 Automation → L1 Helpdesk → Incident/Problem Management → Roadmap), Program Planning (6-Week to 6-Year Horizons)
-- **Application & Data Layer:** Reverse Proxies & Web Servers, SQL & NoSQL Databases, Databricks (Data Architecture, Tenancy & Governance, Security & Compliance, AI Data Architecture), Caching Systems
+- **Application & Data Layer:** Reverse Proxies & Web Servers, Database Infrastructure Operations (Provisioning, Backup/Failover, Patching — SQL & NoSQL), Databricks (Data Architecture, Tenancy & Governance, Security & Compliance, AI Data Architecture), Caching Systems
 
 ## Professional Experience
 
