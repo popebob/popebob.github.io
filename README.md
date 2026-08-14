@@ -83,9 +83,8 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Architected platform-level BC/DR so application teams inherited business continuity and disaster recovery posture by default; maintained federal compliance requirements and tenant isolation across the platform.
 - Modernized ITSM processes (Change, Incident, Problem Management) and integrated observability tooling (ELK, AppDynamics), reducing central IT dependency through developer self-service.
 
-### Ford Motor Company — Dearborn, MI (3 years 3 months)
-
-**DevOps Principal Architect – Data Center of the Future** | March 2017 – November 2018
+### DevOps Principal Architect – Data Center of the Future
+**Ford Motor Company** — Dearborn, MI | March 2017 – November 2018
 
 - Lead architect and agile coach across a concurrent Platform-as-a-Service portfolio delivered as infrastructure-as-microservices, influencing hundreds of engineers with developer experience as a first-class design concern; managed and coached managers as the organization scaled.
 - Replaced foundational infrastructure of a live global operation in real time with zero downtime, embedding compliance and security controls that had not previously existed.
@@ -93,7 +92,8 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Established new release engineering practices for IT Operations and trained the Release Manager role into existence; productized internal service delivery, cutting VM provisioning from 55 days to 5 minutes.
 - Displaced incumbent teams and legacy platforms when the solutions delivered outperformed them, most notably replacing Ford's enterprise Active Directory environment.
 
-**Cloud and DevOps Consultant** | September 2015 – March 2017
+### Cloud and DevOps Consultant
+**Ford Motor Company** — Dearborn, MI | September 2015 – March 2017
 
 - Defined Ford's Data Center of the Future architecture vision across compute, storage, network, cloud, big data, and hosting, with compliance as a first-class design requirement where none had previously existed.
 - Designed Ford's first two purpose-built enterprise data centers — from the rack, power, and cooling level up, on a spine-and-leaf fabric — and presented the strategy directly to the CIO.
