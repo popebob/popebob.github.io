@@ -115,10 +115,9 @@ case_studies:
       full replacement of Ford's enterprise Active Directory environment,
       absorbing that team's scope into the platform organization.
     callout: >-
-      Collaborated directly with Chef co-founder Adam Jacob, HashiCorp
-      co-founder Armon Dadgar, and HashiCorp's Seth Vargo on core
-      Infrastructure-as-Code tooling and DevOps workflow design as part of
-      Ford's IaC and automation strategy.
+      Collaborated directly with Chef's and HashiCorp's engineering teams on
+      core Infrastructure-as-Code tooling and DevOps workflow design for
+      Ford's automation strategy.
     tags:
       - "Fortune 100"
       - "Kubernetes CaaS"
