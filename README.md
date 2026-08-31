@@ -32,7 +32,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - **Systems, Data Center & Storage Engineering:** Windows & Linux (Expert-Level Administration), Filesystems Engineering, Purpose-Built Data Center Design (Rack/Power/Cooling Up), Spine-and-Leaf Network Fabric, SAN & NAS Storage Architecture, Synchronous Dual-Site Write Acknowledgment, Geo-Spanning Microsoft & Linux OS Clustering, Special-Purpose Compute Architecture (Mainframe/Batch, HPC, Big Data), Capacity & Hardware Refresh Modeling
 - **Network & Security Engineering:** DNS & Core Infrastructure Services, WAN/LAN Planning & Operations (incl. PBX/Telephony), Cross-Cloud & Multi-Cloud Networking (Peering, Transit Gateways, Interconnects), BGP, VPN, CDN Architecture, Production Firewall Management, Zscaler (Zero-Trust Access), PKI & Encryption, Blue & Red Team Security Operations, Network & Application Security Engineering
 - **Identity & Access Management:** Microsoft Entra ID (Workforce & B2C/External ID), OIDC, SAML, SCIM, SSO/Federation, Zero-Trust IAM
-- **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps
+- **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps (SAST/DAST, Pen Testing — Since 2012)
 - **Governance & Resilience:** Change & Incident Management, BC/DR, Compliance-as-Code, GRC Engineering, Immutable & Secure Infrastructure, Shift-Left DevOps, Customer-Facing Technical & Compliance Audits (Pre- & Post-Sales)
 - **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Packer, Ansible, Chef, ARM/Azure CLI, GitOps, ChatOps, Automated/Self-Healing Infrastructure
 - **Release Engineering & Version Control:** Centralized-to-Distributed VCS Migration (TFVC/SVN → Git), Branching/Merging/Release/Deployment Strategy Design, End-to-End Productionization
@@ -67,14 +67,14 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Wrote and sold the statement of work that closed the Navy contract, then led that engagement end to end; owned RFP responses and security audits, building an RFP/audit FAQ handed to Customer Success for faster, consistent answers.
 - Ran the core platform on Azure Virtual Machine Scale Sets with immutable infrastructure (Packer, cloud-init) and a zero-trust HashiCorp stack (Consul, Nomad, Terraform, Vault) layered on top — automated mutual-TLS service mesh, Azure Service Bus and RabbitMQ messaging, self-hosted ELK observability, and Wazuh SIEM.
 - Worked hands-on in the application codebase (Kotlin, TypeScript, C#) alongside the backend team — partnering on design review and architecture, and identifying and implementing the changes required to ship air-gapped.
-- Built 25+ reusable Terraform modules, embedded DAST/SAST and penetration testing into the SDLC, and led Hoylu's initial AI rollout (2024).
+- Built 25+ reusable Terraform modules and led Hoylu's initial AI rollout (2024).
 
 ### DevOps Practice Manager / Cloud Architect
 **Coretek Services** — Farmington, MI | May 2019 – August 2020
 
 - Built Coretek's DevOps consulting practice from zero, delivering cross-industry enterprise and mid-market engagements from initial economic assessment (dozens delivered) through production delivery.
 - Led cloud migrations and Azure foundation deployments aligned to the Azure Well-Architected Framework, plus Azure Serverless, Azure Service Bus event-driven integration, and Azure DevOps migration engagements.
-- Defined and launched the DevOps service catalog (containerization, CI/CD, IaC) using Azure DevOps, AKS, Azure CLI, and Terraform — turning bespoke client engagements into repeatable offerings; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
+- Defined and launched the DevOps service catalog (containerization, CI/CD, testing, IaC) using Azure DevOps, AKS, Azure CLI, and Terraform — turning bespoke client engagements into repeatable offerings; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
 
 ### DevOps Platform Manager
 **Delta Dental of Michigan** — Okemos, MI | November 2018 – May 2019
@@ -89,7 +89,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 - Lead architect and agile coach across a concurrent Platform-as-a-Service portfolio delivered as infrastructure-as-microservices, influencing hundreds of engineers with developer experience as a first-class design concern; mentored engineers and managers as the organization scaled.
 - Replaced foundational infrastructure of a live global operation in real time with zero downtime, embedding compliance and security controls that had not previously existed.
 - Delivered platforms including Kubernetes (Containers as a Service), Pivotal Cloud Foundry, SQL Server PaaS, VMware vRealize Operations, IBM API Connect, and F5 iWorkflow network orchestration, with event-driven orchestration inside Ford's proprietary internal cloud orchestrator.
-- Established new release engineering practices for IT Operations and trained the Release Manager role into existence; productized internal service delivery, cutting VM provisioning from 55 days to 5 minutes.
+- Established new release engineering and testing practices for IT Operations and trained the Release Manager role into existence; productized internal service delivery, cutting VM provisioning from 55 days to 5 minutes.
 - Displaced incumbent teams and legacy platforms when the solutions delivered outperformed them, most notably replacing Ford's enterprise Active Directory environment.
 
 ### Cloud and DevOps Consultant
@@ -107,7 +107,7 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 - Full-lifecycle infrastructure ownership in a 24/7, SOX 404-compliant, 99.9% public-SLA SaaS environment — managing change against the ~43-minute monthly error budget it allows.
 - Originated the platform's service decomposition and multi-tenancy work — tenant isolation and data partitioning across application, data, and infrastructure layers — with publish/subscribe messaging patterns in production from 2012.
-- Built the company's initial CI/CD, IaC, and ChatOps toolchain, driving deployment frequency from periodic to continuous, including blue/green and mid-day production deployments.
+- Built the company's initial CI/CD, testing, IaC, and ChatOps toolchain, driving deployment frequency from periodic to continuous, including blue/green and mid-day production deployments.
 - Reduced VM build time by 90% through automation, cutting SOX 404 audit burden in the process — earning the 2014 Q3 "Plex Impact" Innovation Award.
 - Owned spine-and-leaf data center networking and SAN/NAS storage architecture for the production SaaS estate.
 - Primary on-call 24/7/365 for production: rapid response, incident commander, and problem report owner using the 8D methodology.
