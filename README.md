@@ -10,63 +10,63 @@ Novi, MI (Open to Remote) | 248-420-0032 | coadams@umich.edu | popebob.github.io
 
 ## Summary
 
-Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises — equally effective as a hands-on, full-stack technical owner and as an engineering executive. Currently own the entire infrastructure, security, and IT function for a HIPAA-regulated healthcare data platform — cloud, DevOps, SRE, security engineering and operations, corporate IT, and the HIPAA and SOC 2 compliance programs — on a $5–7M budget, roughly 60% of company operating spend. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, defining public-facing SLAs, the SLOs beneath them, and the error budgets that govern change velocity, while driving down mean time to resolution (MTTR) in 99.9%+ SLA environments throughout. Deep cloud expertise regardless of hosting model — bare-metal, private data centers, Azure, and AWS — plus container orchestration and IaC, with end-to-end multi-tenant design (application, data, infrastructure) at every company since 2012, a track record leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance, and zero-downtime transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
+Platform engineering, DevOps, and site reliability engineering (SRE) leader with 20+ years building and operating infrastructure across startups, growth-stage SaaS, and Fortune 100 enterprises, working equally as a hands-on, full-stack technical owner and as an engineering executive. Currently own the entire infrastructure, security, and IT function for a HIPAA-regulated healthcare data platform: cloud, DevOps, SRE, security engineering and operations, corporate IT, and the HIPAA and SOC 2 compliance programs, on a $5–7M budget representing roughly 60% of company operating spend. Career-long owner of incident and change management, BC/DR, data protection, compliance-as-code, and FinOps/cloud unit-economics practices, defining public-facing SLAs, the SLOs beneath them, and the error budgets that govern change velocity, while driving down mean time to resolution (MTTR) in 99.9%+ SLA environments throughout. Deep cloud expertise regardless of hosting model, spanning bare-metal, private data centers, Azure, and AWS, plus container orchestration and IaC. End-to-end multi-tenant design (application, data, infrastructure) at every company since 2012, a track record leading SOC 2, ISO 27001, FedRAMP, and NIST 800-53 compliance, and zero-downtime transformations at enterprise scale. Consistently recognized by peers and direct reports for pairing that technical range with genuine, individually-invested leadership.
 
 ## Career Highlights
 
-- Own the entire infrastructure, security, and IT function at Opala on a **$5–7M budget — roughly 60% of company operating spend** — with a 10-person organization; inherited a $1.8M budget deficit in March 2025 and closed it to positive within the first year.
-- **Multi-tenancy end to end for fourteen years:** led and implemented tenant designs top to bottom — application, data, and infrastructure — at Plex, Ford, Delta Dental, Hoylu, and Opala, including the customer-specific and regulatory compliance requirements that shape isolation on regulated platforms.
-- Grew Ford's 2-person "skunkworks" lab into a 150-person organization — including Ford's first offshore production operations — establishing the enterprise's Next Generation Data Center function and cutting internal VM delivery from 55 days to 5 minutes.
-- Promoted or expanded in scope in every role held, from Data Center Administrator at Plex to Director of Platform Engineering today; manages a 10-person organization at Opala, including the cross-org dotted-line reporting structures he designed and implemented.
-- Full lifecycle, full-stack technical ownership at every role — architecture through hands-on incident response, including debugging across unfamiliar languages and systems. The IaC libraries, DevOps frameworks, and change and incident processes left at each company stayed in use after moving on.
-- Owns RFP responses and statements of work today, as at Hoylu — where the statement of work written and sold there closed a U.S. Navy contract, delivered end to end.
+- Own the entire infrastructure, security, and IT function at Opala on a **$5–7M budget, roughly 60% of company operating spend**, with a 10-person organization; inherited a $1.8M budget deficit in March 2025 and closed it to positive within the first year.
+- Built Hoylu's entire infrastructure and operations function from greenfield as its first dedicated DevOps hire. No cloud infrastructure, ITIL practice, BC/DR, audit function, IT operations management, or support processes existed beforehand. Ran all of it for four and a half years behind a public SLA.
+- **Multi-tenancy end to end for fourteen years:** led and implemented tenant designs top to bottom, spanning the application, data, and infrastructure layers, at Plex, Ford, Delta Dental, Hoylu, and Opala, including the customer-specific and regulatory compliance requirements that shape isolation on regulated platforms.
+- Grew Ford's 2-person "skunkworks" lab into a 150-person organization, including Ford's first offshore production operations, establishing the enterprise's Next Generation Data Center function and cutting internal VM delivery from 55 days to 5 minutes.
+- Promoted or expanded in scope in every role held, from Data Center Administrator at Plex to Director of Platform Engineering today.
+- Full lifecycle, full-stack technical ownership at every role, from architecture through hands-on incident response, including debugging across unfamiliar languages and systems. The IaC libraries, DevOps frameworks, and change and incident processes left at each company stayed in use after moving on.
+- Owns RFP responses and statements of work today, as at Hoylu, where the one written and sold closed a U.S. Navy contract.
 - Leads large-scale demos and training; owns skills-matrix design, target behavior frameworks, and tooling/integration architecture in every organization led.
-- Systems depth few platform leaders bring to the table: expert-level Windows and Linux administration, OS clustering spanning physical data centers, and filesystems engineering.
-- Early AI adopter: led Hoylu's initial AI rollout (2024); at Opala — a Coalition for Health AI (CHAI) participant — drives SOC 2/HIPAA-ready AI practices and helped implement a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
+- Early AI adopter: led Hoylu's initial AI rollout in 2024 and drives SOC 2/HIPAA-ready AI practices at Opala today.
 
 ## Core Skills
 
 - **Cloud & Infrastructure:** Bare-Metal & Private Data Center, VMware/Traditional VM Hosting, Hybrid & Multi-Cloud (Azure, AWS incl. GovCloud), Container Orchestration (HashiCorp Nomad, Kubernetes/AKS), Landing Zone Architecture (DC & Cloud), Infrastructure as Code (Terraform, incl. COTS/Vendor Platforms), High-Availability & Low-Latency Design, Secure-by-Default Architecture (Edge to Enterprise Fleet Scale)
-- **Distributed Systems & Multi-Tenancy:** End-to-End Multi-Tenant Design (Application, Data & Infrastructure Layers), Tenant Isolation, Data Partitioning & Scalability Patterns, Microservices & Service Decomposition, Inter-Service Contracts & API Platform Strategy, Event-Driven Architecture (RabbitMQ, Azure Service Bus, Publish/Subscribe — since 2012)
+- **Distributed Systems & Multi-Tenancy:** End-to-End Multi-Tenant Design (Application, Data & Infrastructure Layers), Tenant Isolation, Data Partitioning & Scalability Patterns, Microservices & Service Decomposition, Inter-Service Contracts & API Platform Strategy, Event-Driven Architecture (RabbitMQ, Azure Service Bus, Publish/Subscribe, since 2012)
 - **Languages & Scripting:** C, C++, C#, .NET/.NET Core, Java, Kotlin, TypeScript, Go, Python, Bash, PowerShell, custom DSLs, YAML/JSON
 - **Systems, Data Center & Storage Engineering:** Windows & Linux (Expert-Level Administration), Filesystems Engineering, Purpose-Built Data Center Design (Rack/Power/Cooling Up), Spine-and-Leaf Network Fabric, SAN & NAS Storage Architecture, Synchronous Dual-Site Write Acknowledgment, Geo-Spanning Microsoft & Linux OS Clustering, Special-Purpose Compute Architecture (Mainframe/Batch, HPC, Big Data), Capacity & Hardware Refresh Modeling
 - **Network & Security Engineering:** DNS & Core Infrastructure Services, WAN/LAN Planning & Operations (incl. PBX/Telephony), Cross-Cloud & Multi-Cloud Networking (Peering, Transit Gateways, Interconnects), BGP, VPN, CDN Architecture, Production Firewall Management, Zscaler (Zero-Trust Access), PKI & Encryption, Blue & Red Team Security Operations, Network & Application Security Engineering
 - **Identity & Access Management:** Microsoft Entra ID (Workforce & B2C/External ID), OIDC, SAML, SCIM, SSO/Federation, Zero-Trust IAM
-- **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps (SAST/DAST, Pen Testing — Since 2012)
+- **Security & Compliance:** HIPAA, SOC 2, ISO 27001, SOX 404, FedRAMP, NIST 800-53, CSA CAIQ, GDPR, CMS Interoperability, Compliance Automation (Drata), DevSecOps (SAST/DAST, Pen Testing, since 2012)
 - **Governance & Resilience:** Change & Incident Management, BC/DR, Compliance-as-Code, GRC Engineering, Immutable & Secure Infrastructure, Shift-Left DevOps, Customer-Facing Technical & Compliance Audits (Pre- & Post-Sales)
 - **CI/CD & Automation:** Azure DevOps, GitHub Actions, Jenkins, TeamCity, Bamboo, Octopus Deploy, TFS, Docker, Packer, Ansible, Chef, ARM/Azure CLI, GitOps, ChatOps, Automated/Self-Healing Infrastructure
 - **Release Engineering & Version Control:** Centralized-to-Distributed VCS Migration (TFVC/SVN → Git), Branching/Merging/Release/Deployment Strategy Design, End-to-End Productionization
-- **Developer Experience (DX):** Self-Service Platforms, Developer Tooling & Enablement, Shift-Left Operations — since 2012
+- **Developer Experience (DX):** Self-Service Platforms, Developer Tooling & Enablement, Shift-Left Operations, since 2012
 - **Observability & SRE:** ELK Stack, Wazuh SIEM, Grafana, Prometheus, AppDynamics, CloudWatch, CloudTrail, Azure Application Insights, Public-Facing SLA & SLO Definition, Error Budget Management, MTTR Reduction, Incident Response, SRE Practices & On-Call Frameworks
 - **AI Enablement:** AI Adoption & Governance (SOC 2/HIPAA-Ready), Databricks Genie AI Workflow Integration, Healthcare AI Applications, CHAI Participation
 - **Leadership & Delivery:** Multi-Million $ Budget Ownership, Managing Managers & Team Leads, FinOps & Cloud Unit Economics (COGS Metrics), Org Design & Hiring, RFP/RFX Response & Statement of Work Authoring, Managed-Service Provider Strategy & Sourcing (IT Operations, SOC/MDR, Internal Audit), Agile/Scrum Coaching (PSM I), ITIL/ITSM, Vendor & Program Management, Board/Executive Reporting, End-to-End Support Model Design (L0 Automation → L1 Helpdesk → Incident/Problem Management → Roadmap), Program Planning (6-Week to 6-Year Horizons)
-- **Application & Data Layer:** Reverse Proxies & Web Servers, Database Infrastructure Operations (Provisioning, Backup/Failover, Patching — SQL & NoSQL), Databricks (Data Architecture, Tenancy & Governance, Security & Compliance, AI Data Architecture), Caching Systems
+- **Application & Data Layer:** Reverse Proxies & Web Servers, Database Infrastructure Operations (Provisioning, Backup/Failover, Patching), Databricks (Data Architecture, Tenancy & Governance, Security & Compliance, AI Data Architecture), Caching Systems
 
 ## Professional Experience
 
 ### Director of Platform Engineering
 **Opala** — Seattle, WA (Remote) | March 2025 – Present
 
-- Own the entire infrastructure, security, and IT function — cloud infrastructure, DevOps, SRE, security engineering and operations, corporate IT, and the HIPAA and SOC 2 compliance programs — on a $5–7M budget representing roughly 60% of company operating spend; expanded the role from Cloud DevOps and IT Operations, redesigned the org chart around it — including designing and implementing the cross-org dotted-line reporting structures — and directly manage a 10-person organization.
+- Own the entire infrastructure, security, and IT function: cloud infrastructure, DevOps, SRE, security engineering and operations, corporate IT, and the HIPAA and SOC 2 compliance programs. Run it on a $5–7M budget representing roughly 60% of company operating spend, having expanded the role from Cloud DevOps and IT Operations and redesigned the org chart around it, including designing and implementing the cross-org dotted-line reporting structures. Directly manage a 10-person organization.
 - Established SRE practices, observability standards, and incident response frameworks for a HIPAA-regulated, CMS interoperability-mandated healthcare platform; define the public-facing SLA and the SLOs beneath it, and lead change decisions weighed against remaining error budget.
 - Led and implemented the platform's multi-tenancy model across the application, data, and infrastructure layers, including the customer-specific and regulatory compliance requirements that shape tenant isolation in healthcare.
-- Own Databricks data architecture — tenancy design and governance in production, security and compliance posture within the platform, and the AI data architecture beneath its AI workloads.
+- Own Databricks data architecture, covering tenancy design and governance in production, security and compliance posture within the platform, and the AI data architecture beneath its AI workloads.
 - Drive multi-cloud (Azure/AWS) architecture decisions with security and compliance as first-class design constraints; deploy to production daily via IaC and GitHub Actions, and built GitHub OIDC federation with centralized DevSecOps policy enforcement across all environments.
 - Delivered 30+ reusable Infrastructure-as-Code modules in Azure CLI, extensive Python-based access audits, DevSecOps pipelines, and the platform's initial Docker build pipelines.
-- Own cybersecurity posture, audit readiness, and compliance evidence automation (Drata, with Azure and AWS integrations) — positioning compliance as a business enabler rather than a checkbox exercise.
+- Own cybersecurity posture, audit readiness, and compliance evidence automation (Drata, with Azure and AWS integrations).
 - Own RFP responses and statements of work; designed the long-term IT operations and SOC/MDR managed-service strategy, deployed the IT Operations MSP, and added internal audit MSPs.
 - Hands-on owner of enterprise DNS, firewalls, VPNs, Zscaler zero-trust access, identity lifecycle, endpoint security, developer tooling, and day-to-day IT operations including direct client support.
-- Drive Opala's AI adoption — SOC 2/HIPAA-ready practices, Coalition for Health AI (CHAI) participation, and key implementation of a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
+- Drive Opala's AI adoption: SOC 2/HIPAA-ready practices, Coalition for Health AI (CHAI) participation, and key implementation of a Databricks Genie AI workflow integration and a healthcare AI chatbot application.
 
 ### Director of DevOps *(promoted from Senior DevOps Engineer)*
 **Hoylu** — Kirkland, WA | August 2020 – February 2025
 
-- Hoylu's first dedicated DevOps/Platform Engineering hire; owned the full platform engineering function — including Entra ID/IAM, M365 administration, and Azure DevOps/Boards/Pipelines — for a global SaaS collaboration platform, managing a team of 8 and expanding scope through multiple company-wide workforce reductions.
+- Hoylu's first dedicated DevOps/Platform Engineering hire, joining a global SaaS collaboration platform with no cloud infrastructure, ITIL practice, business continuity, disaster recovery, audit function, IT operations management, or support processes in place. Built all of it and then operated it for four and a half years, including Entra ID/IAM, M365 administration, and Azure DevOps/Boards/Pipelines, managing a team of 8 and expanding scope through multiple company-wide workforce reductions.
 - Reported directly to the VP of Engineering and CEO; designed customer usage-based COGS metrics that gave the board real-time visibility into cloud unit economics, and led cost optimization that materially reduced operational spend while maintaining reliability and growth capacity.
-- Led ISO/IEC 27001 certification end-to-end (certified to :2013 in 2021, transitioned to :2022 in 2024) across two ISO-scoped production environments — U.S. and EU (GDPR); adapted the platform's Azure architecture into a run-it-yourself, air-gapped AWS GovCloud deployment for a U.S. Navy contract built to IL4 requirements, leading FedRAMP Moderate compliance activities.
+- Led ISO/IEC 27001 certification end-to-end (certified to :2013 in 2021, transitioned to :2022 in 2024) across two ISO-scoped production environments, U.S. and EU (GDPR); adapted the platform's Azure architecture into a run-it-yourself, air-gapped AWS GovCloud deployment for a U.S. Navy contract built to IL4 requirements, leading FedRAMP Moderate compliance activities.
 - Wrote and sold the statement of work that closed the Navy contract, then led that engagement end to end; owned RFP responses and security audits, building an RFP/audit FAQ handed to Customer Success for faster, consistent answers.
-- Ran the core platform on Azure Virtual Machine Scale Sets with immutable infrastructure (Packer, cloud-init) and a zero-trust HashiCorp stack (Consul, Nomad, Terraform, Vault) layered on top — automated mutual-TLS service mesh, Azure Service Bus and RabbitMQ messaging, self-hosted ELK observability, and Wazuh SIEM.
-- Worked hands-on in the application codebase (Kotlin, TypeScript, C#) alongside the backend team — partnering on design review and architecture, and identifying and implementing the changes required to ship air-gapped.
+- Ran the core platform on Azure Virtual Machine Scale Sets with immutable infrastructure (Packer, cloud-init) and a zero-trust HashiCorp stack (Consul, Nomad, Terraform, Vault) layered on top, adding an automated mutual-TLS service mesh, Azure Service Bus and RabbitMQ messaging, self-hosted ELK observability, and Wazuh SIEM.
+- Worked hands-on in the application codebase (Kotlin, TypeScript, C#) alongside the backend team, partnering on design review and architecture, and identifying and implementing the changes required to ship air-gapped.
 - Built 25+ reusable Terraform modules and led Hoylu's initial AI rollout (2024).
 
 ### DevOps Practice Manager / Cloud Architect
@@ -74,12 +74,12 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 
 - Built Coretek's DevOps consulting practice from zero, delivering cross-industry enterprise and mid-market engagements from initial economic assessment (dozens delivered) through production delivery.
 - Led cloud migrations and Azure foundation deployments aligned to the Azure Well-Architected Framework, plus Azure Serverless, Azure Service Bus event-driven integration, and Azure DevOps migration engagements.
-- Defined and launched the DevOps service catalog (containerization, CI/CD, testing, IaC) using Azure DevOps, AKS, Azure CLI, and Terraform — turning bespoke client engagements into repeatable offerings; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
+- Defined and launched the DevOps service catalog (containerization, CI/CD, testing, IaC) using Azure DevOps, AKS, Azure CLI, and Terraform, turning bespoke client engagements into repeatable offerings; built and trained cross-functional delivery teams spanning staff, clients, and vendors.
 
 ### DevOps Platform Manager
 **Delta Dental of Michigan** — Okemos, MI | November 2018 – May 2019
 
-- Led development of a Kubernetes-based, metal-up enterprise application hosting platform in a spine-and-leaf private data center — high availability with no cloud abstraction layer — with direct CTO-level engagement.
+- Led development of a Kubernetes-based, metal-up enterprise application hosting platform in a spine-and-leaf private data center, delivering high availability with no cloud abstraction layer under direct CTO-level engagement.
 - Architected platform-level BC/DR so application teams inherited business continuity and disaster recovery posture by default; maintained federal compliance requirements and tenant isolation across the platform.
 - Modernized ITSM processes (Change, Incident, Problem Management) and integrated observability tooling (ELK, AppDynamics), reducing central IT dependency through developer self-service.
 
@@ -96,8 +96,8 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 **Ford Motor Company** — Dearborn, MI | September 2015 – March 2017
 
 - Defined Ford's Data Center of the Future architecture vision across compute, storage, network, cloud, big data, and hosting, with compliance as a first-class design requirement where none had previously existed.
-- Designed Ford's first two purpose-built enterprise data centers — from the rack, power, and cooling level up, on a spine-and-leaf fabric — and presented the strategy directly to the CIO.
-- Served as compute architect across three distinct domains — mainframe/batch, HPC, and Big Data — evaluating a single x86 platform against the justifications for special-purpose compute, and defining the IaaS, capacity, and hardware refresh model.
+- Designed Ford's first two purpose-built enterprise data centers from the rack, power, and cooling level up on a spine-and-leaf fabric, and presented the strategy directly to the CIO.
+- Served as compute architect across three distinct domains (mainframe/batch, HPC, and Big Data), evaluating a single x86 platform against the justifications for special-purpose compute, and defining the IaaS, capacity, and hardware refresh model.
 - Engineered Microsoft and Linux clustering spanning physical data centers to meet defined latency requirements, designed so writes committed into both data center SANs before acknowledgment.
 - Established and operated the Next Generation Lab, a production-grade VMware SDDC private cloud proving ground for new platform capabilities, with full asset, service delivery, and vendor management ownership.
 - Collaborated directly with Chef's and HashiCorp's engineering teams on core Infrastructure-as-Code tooling and DevOps workflow design for Ford's automation strategy.
@@ -105,10 +105,10 @@ Platform engineering, DevOps, and site reliability engineering (SRE) leader with
 ### DevOps Team Lead *(promoted from Data Center Administrator)*
 **Plex Systems, Inc.** — Auburn Hills, MI | March 2012 – September 2015
 
-- Full-lifecycle infrastructure ownership in a 24/7, SOX 404-compliant, 99.9% public-SLA SaaS environment — managing change against the ~43-minute monthly error budget it allows.
-- Originated the platform's service decomposition and multi-tenancy work — tenant isolation and data partitioning across application, data, and infrastructure layers — with publish/subscribe messaging patterns in production from 2012.
+- Full-lifecycle infrastructure ownership in a 24/7, SOX 404-compliant, 99.9% public-SLA SaaS environment, managing change against the ~43-minute monthly error budget it allows.
+- Originated the platform's service decomposition and multi-tenancy work, covering tenant isolation and data partitioning across application, data, and infrastructure layers, with publish/subscribe messaging patterns in production from 2012.
 - Built the company's initial CI/CD, testing, IaC, and ChatOps toolchain, driving deployment frequency from periodic to continuous, including blue/green and mid-day production deployments.
-- Reduced VM build time by 90% through automation, cutting SOX 404 audit burden in the process — earning the 2014 Q3 "Plex Impact" Innovation Award.
+- Reduced VM build time by 90% through automation, cutting SOX 404 audit burden in the process. Won the 2014 Q3 "Plex Impact" Innovation Award for the work.
 - Owned spine-and-leaf data center networking and SAN/NAS storage architecture for the production SaaS estate.
 - Primary on-call 24/7/365 for production: rapid response, incident commander, and problem report owner using the 8D methodology.
 
